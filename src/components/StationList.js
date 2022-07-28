@@ -15,7 +15,7 @@ const Dot = styled.div`
 
 function StationList({ stations }) {
   return (
-    <table>
+    <Table>
       <tbody>
         {stations.map((d,i) => (
           <tr key={`station${i}`}>
@@ -25,7 +25,7 @@ function StationList({ stations }) {
           </tr>
         ))}
       </tbody>
-    </table>
+    </Table>
   );
 }
 

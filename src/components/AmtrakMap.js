@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import RouteUI from "./RouteUI";
 import VectorMap from "./VectorMap";

@@ -114,6 +114,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
 
     console.log(stationsOnRoute)
 
+  // eslint-disable-next-line
   }, [selectedRoute]);
 
   return (
