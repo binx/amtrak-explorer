@@ -14,6 +14,11 @@ const Tagline = styled.div`
   margin: 20px 0;
   font-size: 12px;
 `;
+const Footer = styled.div`
+  margin-top: 40px;
+  font-family: monospace;
+  a { color: white; }
+`;
 
 function AmtrakMap() {
   const [selectedRoute, setSelectedRoute] = useState();
@@ -27,6 +32,7 @@ function AmtrakMap() {
         selectedRoute={selectedRoute}
         setSelectedRoute={setSelectedRoute}
       />
+      <Footer>site by <a href="https://rachelbinx.com">rachel binx</a></Footer>
     </Wrapper>
   );
 }
