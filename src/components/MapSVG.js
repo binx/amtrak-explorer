@@ -20,7 +20,7 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
   return (
     <svg
       width={width} height={height} 
-      style={{ border: "1px solid white", marginRight: "40px" }}
+      style={{ border: "1px solid white", marginRight: "40px", flexShrink: 0 }}
     >
       <g transform={`translate(${margin},${margin})`}>
         <g>

@@ -70,7 +70,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
       object = { "type": "FeatureCollection", "features": routeData };
     }
 
-    const projection = d3.geoAlbers().fitExtent([[0, 0], [width - margin*2, height - margin*2]], object);
+    const projection = d3.geoAlbers().fitExtent([[margin, margin], [width - margin*2, height - margin*2]], object);
     const path = d3.geoPath(projection);
 
     const newRoutes = routeData.map(r => ({

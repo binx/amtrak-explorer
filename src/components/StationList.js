@@ -21,7 +21,7 @@ function StationList({ stations }) {
         <tr>
           <th>City</th>
           <th>State</th>
-          <th>Transfer?</th>
+          <th>Transfer Available?</th>
         </tr>
       </thead>
       <tbody>

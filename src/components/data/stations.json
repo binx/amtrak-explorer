@@ -647,7 +647,7 @@
             "Cardinal",
             "City of New Orleans",
             "Empire Builder",
-            "Hiawatha Service",
+            "Hiawatha",
             "Saluki",
             "Illinois Zephyr",
             "Lake Shore Limited",
@@ -1447,7 +1447,7 @@
         "routes":
         [
             "Empire Builder",
-            "Hiawatha Service"
+            "Hiawatha"
         ]
     },
     {
@@ -2458,7 +2458,7 @@
         "routes":
         [
             "Empire Builder",
-            "Hiawatha Service"
+            "Hiawatha"
         ]
     },
     {
@@ -2466,7 +2466,7 @@
         "station_code": "MKA",
         "routes":
         [
-            "Hiawatha Service"
+            "Hiawatha"
         ]
     },
     {
@@ -3948,7 +3948,7 @@
         "station_code": "SVT",
         "routes":
         [
-            "Hiawatha Service"
+            "Hiawatha"
         ]
     },
     {
