@@ -518,7 +518,7 @@
         "routes":
         [
             "City of New Orleans",
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -562,7 +562,7 @@
         "routes":
         [
             "City of New Orleans",
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -580,7 +580,7 @@
         "routes":
         [
             "City of New Orleans",
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -648,8 +648,8 @@
             "City of New Orleans",
             "Empire Builder",
             "Hiawatha Service",
-            "IlliniandSaluki",
-            "Illinois ZephyrandCarl Sandburg",
+            "Saluki",
+            "Illinois Zephyr",
             "Lake Shore Limited",
             "Lincoln Service",
             "Pere Marquette",
@@ -999,7 +999,7 @@
         "station_code": "DQN",
         "routes":
         [
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -1082,7 +1082,7 @@
         "routes":
         [
             "City of New Orleans",
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -1389,7 +1389,7 @@
         "routes":
         [
             "California Zephyr",
-            "Illinois ZephyrandCarl Sandburg",
+            "Illinois Zephyr",
             "Southwest Chief"
         ]
     },
@@ -1422,7 +1422,7 @@
         "station_code": "GLM",
         "routes":
         [
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -1755,7 +1755,7 @@
         "routes":
         [
             "City of New Orleans",
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -1907,7 +1907,7 @@
         "routes":
         [
             "City of New Orleans",
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -1942,7 +1942,7 @@
         "station_code": "KEE",
         "routes":
         [
-            "Illinois ZephyrandCarl Sandburg"
+            "Illinois Zephyr"
         ]
     },
     {
@@ -2008,7 +2008,7 @@
         "station_code": "LAG",
         "routes":
         [
-            "Illinois ZephyrandCarl Sandburg"
+            "Illinois Zephyr"
         ]
     },
     {
@@ -2257,7 +2257,7 @@
         "station_code": "MAC",
         "routes":
         [
-            "Illinois ZephyrandCarl Sandburg"
+            "Illinois Zephyr"
         ]
     },
     {
@@ -2344,7 +2344,7 @@
         "routes":
         [
             "City of New Orleans",
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {
@@ -2392,7 +2392,7 @@
         "station_code": "MDT",
         "routes":
         [
-            "Illinois ZephyrandCarl Sandburg",
+            "Illinois Zephyr",
             "Southwest Chief"
         ]
     },
@@ -2563,7 +2563,7 @@
         "routes":
         [
             "California Zephyr",
-            "Illinois ZephyrandCarl Sandburg",
+            "Illinois Zephyr",
             "Southwest Chief"
         ]
     },
@@ -3073,7 +3073,7 @@
         "station_code": "PLO",
         "routes":
         [
-            "Illinois ZephyrandCarl Sandburg"
+            "Illinois Zephyr"
         ]
     },
     {
@@ -3194,7 +3194,7 @@
         "routes":
         [
             "California Zephyr",
-            "Illinois ZephyrandCarl Sandburg",
+            "Illinois Zephyr",
             "Southwest Chief"
         ]
     },
@@ -3247,7 +3247,7 @@
         "station_code": "QCY",
         "routes":
         [
-            "Illinois ZephyrandCarl Sandburg"
+            "Illinois Zephyr"
         ]
     },
     {
@@ -3273,7 +3273,7 @@
         "station_code": "RTL",
         "routes":
         [
-            "IlliniandSaluki"
+            "Saluki"
         ]
     },
     {

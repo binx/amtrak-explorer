@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Table = styled.table`
   display: block;
   border-collapse: collapse;
-  td { padding: 2px 15px; }
+  td, th { padding: 2px 15px; text-align: left; }
 `;
 const Dot = styled.div`
   width: 15px;
@@ -14,8 +14,16 @@ const Dot = styled.div`
 `;
 
 function StationList({ stations }) {
+  if (!stations.length) return null;
   return (
     <Table>
+      <thead>
+        <tr>
+          <th>City</th>
+          <th>State</th>
+          <th>Transfer?</th>
+        </tr>
+      </thead>
       <tbody>
         {stations.map((d,i) => (
           <tr key={`station${i}`}>
