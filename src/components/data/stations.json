@@ -1,0 +1,4577 @@
+[
+    {
+        "station_name": "Aberdeen",
+        "station_code": "ABE",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Albany",
+        "station_code": "ALY",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Albany–Rensselaer",
+        "station_code": "ALB",
+        "routes":
+        [
+            "Adirondack",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Albion",
+        "station_code": "ALI",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Albuquerque",
+        "station_code": "ABQ",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Aldershot",
+        "station_code": "AST",
+        "routes":
+        [
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Alderson",
+        "station_code": "ALD",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Alexandria",
+        "station_code": "ALX",
+        "routes":
+        [
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Northeast Regional",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Allensworth State Park",
+        "station_code": "CNL",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Alliance",
+        "station_code": "ALC",
+        "routes":
+        [
+            "Capitol Limited"
+        ]
+    },
+    {
+        "station_name": "Alpine",
+        "station_code": "ALP",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Alton",
+        "station_code": "ALN",
+        "routes":
+        [
+            "Lincoln Service",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Altoona",
+        "station_code": "ALT",
+        "routes":
+        [
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Amsterdam",
+        "station_code": "AMS",
+        "routes":
+        [
+            "Empire Service",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Anaheim",
+        "station_code": "ANA",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Ann Arbor",
+        "station_code": "ARB",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Anniston",
+        "station_code": "ATN",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Antioch–Pittsburg",
+        "station_code": "ACA",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Arcadia Valley",
+        "station_code": "ACD",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Ardmore",
+        "station_code": "ADM",
+        "routes":
+        [
+            "Heartland Flyer"
+        ]
+    },
+    {
+        "station_name": "Ardmore",
+        "station_code": "ARD",
+        "routes":
+        [
+            "Keystone Service"
+        ]
+    },
+    {
+        "station_name": "Arkadelphia",
+        "station_code": "ARK",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Ashland",
+        "station_code": "AKY",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Ashland",
+        "station_code": "ASD",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Atlanta Peachtree",
+        "station_code": "ATL",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Auburn",
+        "station_code": "ARN",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Austin",
+        "station_code": "AUS",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Bakersfield",
+        "station_code": "BFD",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Baltimore Penn",
+        "station_code": "BAL",
+        "routes":
+        [
+            "Acela",
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Northeast Regional",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Bangor",
+        "station_code": "BAM",
+        "routes":
+        [
+            "Pere Marquette"
+        ]
+    },
+    {
+        "station_name": "Barstow",
+        "station_code": "BAR",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Battle Creek",
+        "station_code": "BTL",
+        "routes":
+        [
+            "Blue Water",
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Beaumont",
+        "station_code": "BMT",
+        "routes":
+        [
+            "Sunset Limited"
+        ]
+    },
+    {
+        "station_name": "Bellingham Fairhaven",
+        "station_code": "BEL",
+        "routes":
+        [
+            "Cascades"
+        ]
+    },
+    {
+        "station_name": "Bellows Falls",
+        "station_code": "BLF",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Benson",
+        "station_code": "BEN",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Berkeley",
+        "station_code": "BKY",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Berlin",
+        "station_code": "BER",
+        "routes":
+        [
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Bingen–White Salmon",
+        "station_code": "BNG",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Birmingham",
+        "station_code": "BHM",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Bloomington–Normal",
+        "station_code": "BNL",
+        "routes":
+        [
+            "Lincoln Service",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Boston Back Bay",
+        "station_code": "BBY",
+        "routes":
+        [
+            "Acela",
+            "Lake Shore Limited",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Boston North",
+        "station_code": "BON",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Boston South",
+        "station_code": "BOS",
+        "routes":
+        [
+            "Acela",
+            "Lake Shore Limited",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Brattleboro",
+        "station_code": "BRA",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Bridgeport",
+        "station_code": "BRP",
+        "routes":
+        [
+            "Northeast Regional",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Brookhaven",
+        "station_code": "BRH",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Browning",
+        "station_code": "BRO",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Brunswick",
+        "station_code": "BRK",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Bryan",
+        "station_code": "BYN",
+        "routes":
+        [
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Buffalo–Depew",
+        "station_code": "BUF",
+        "routes":
+        [
+            "Empire Service",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Buffalo–Exchange Street",
+        "station_code": "BFX",
+        "routes":
+        [
+            "Empire Service",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Burbank Airport",
+        "station_code": "BUR",
+        "routes":
+        [
+            "Coast Starlight",
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Burke Centre",
+        "station_code": "BCV",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Burlington",
+        "station_code": "BRL",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Burlington",
+        "station_code": "BNC",
+        "routes":
+        [
+            "Carolinian",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "BWI Thurgood Marshall Airport",
+        "station_code": "BWI",
+        "routes":
+        [
+            "Acela",
+            "Northeast Regional",
+            "Palmetto",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Camarillo",
+        "station_code": "CML",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Camden",
+        "station_code": "CAM",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Carbondale",
+        "station_code": "CDL",
+        "routes":
+        [
+            "City of New Orleans",
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Carlinville",
+        "station_code": "CRV",
+        "routes":
+        [
+            "Lincoln Service",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Carpinteria",
+        "station_code": "CPN",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Cary",
+        "station_code": "CYN",
+        "routes":
+        [
+            "Carolinian",
+            "Piedmont",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Castleton",
+        "station_code": "CNV",
+        "routes":
+        [
+            "Ethan Allen Express"
+        ]
+    },
+    {
+        "station_name": "Centralia",
+        "station_code": "CEN",
+        "routes":
+        [
+            "City of New Orleans",
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Centralia",
+        "station_code": "CTL",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Champaign–Urbana",
+        "station_code": "CHM",
+        "routes":
+        [
+            "City of New Orleans",
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Charleston",
+        "station_code": "CHS",
+        "routes":
+        [
+            "Palmetto",
+            "Silver Meteor"
+        ]
+    },
+    {
+        "station_name": "Charleston",
+        "station_code": "CHW",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Charlotte",
+        "station_code": "CLT",
+        "routes":
+        [
+            "Carolinian",
+            "Crescent",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "Charlottesville",
+        "station_code": "CVS",
+        "routes":
+        [
+            "Cardinal",
+            "Crescent",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Chatsworth",
+        "station_code": "CWT",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Chemult",
+        "station_code": "CMO",
+        "routes":
+        [
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Chicago Union",
+        "station_code": "CHI",
+        "routes":
+        [
+            "Blue Water",
+            "California Zephyr",
+            "Capitol Limited",
+            "Cardinal",
+            "City of New Orleans",
+            "Empire Builder",
+            "Hiawatha Service",
+            "IlliniandSaluki",
+            "Illinois ZephyrandCarl Sandburg",
+            "Lake Shore Limited",
+            "Lincoln Service",
+            "Pere Marquette",
+            "Southwest Chief",
+            "Texas Eagle",
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Chico",
+        "station_code": "CIC",
+        "routes":
+        [
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Cincinnati",
+        "station_code": "CIN",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Claremont",
+        "station_code": "CLA",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Cleburne",
+        "station_code": "CBR",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Clemson",
+        "station_code": "CSN",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Cleveland",
+        "station_code": "CLE",
+        "routes":
+        [
+            "Capitol Limited",
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Clifton Forge",
+        "station_code": "CLF",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Coatesville",
+        "station_code": "COT",
+        "routes":
+        [
+            "Keystone Service"
+        ]
+    },
+    {
+        "station_name": "Colfax",
+        "station_code": "COX",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Columbia",
+        "station_code": "CLB",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Columbus",
+        "station_code": "CBS",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Connellsville",
+        "station_code": "COV",
+        "routes":
+        [
+            "Capitol Limited"
+        ]
+    },
+    {
+        "station_name": "Connersville",
+        "station_code": "COI",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Corcoran",
+        "station_code": "COC",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Cornwells Heights",
+        "station_code": "CWH",
+        "routes":
+        [
+            "Keystone Service",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Crawfordsville",
+        "station_code": "CRF",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Creston",
+        "station_code": "CRN",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Croton–Harmon",
+        "station_code": "CRT",
+        "routes":
+        [
+            "Adirondack",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Culpeper",
+        "station_code": "CLP",
+        "routes":
+        [
+            "Cardinal",
+            "Crescent",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Cumberland",
+        "station_code": "CUM",
+        "routes":
+        [
+            "Capitol Limited"
+        ]
+    },
+    {
+        "station_name": "Cut Bank",
+        "station_code": "CUT",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Dallas",
+        "station_code": "DAL",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Danville",
+        "station_code": "DAN",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Davis",
+        "station_code": "DAV",
+        "routes":
+        [
+            "California Zephyr",
+            "Capitol Corridor",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Dearborn",
+        "station_code": "DER",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Deerfield Beach",
+        "station_code": "DFB",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Del Rio",
+        "station_code": "DRT",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "DeLand",
+        "station_code": "DLD",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Delray Beach",
+        "station_code": "DLB",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Deming",
+        "station_code": "DEM",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Denmark",
+        "station_code": "DNK",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Denver",
+        "station_code": "DEN",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Detroit",
+        "station_code": "DET",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Detroit Lakes",
+        "station_code": "DLK",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Devils Lake",
+        "station_code": "DVL",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Dillon",
+        "station_code": "DIL",
+        "routes":
+        [
+            "Palmetto"
+        ]
+    },
+    {
+        "station_name": "Dodge City",
+        "station_code": "DDG",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Dover",
+        "station_code": "DOV",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Dowagiac",
+        "station_code": "DOA",
+        "routes":
+        [
+            "Blue Water",
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Downingtown",
+        "station_code": "DOW",
+        "routes":
+        [
+            "Keystone Service"
+        ]
+    },
+    {
+        "station_name": "Du Quoin",
+        "station_code": "DQN",
+        "routes":
+        [
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Dunsmuir",
+        "station_code": "DUN",
+        "routes":
+        [
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Durand",
+        "station_code": "DRD",
+        "routes":
+        [
+            "Blue Water"
+        ]
+    },
+    {
+        "station_name": "Durham",
+        "station_code": "DNC",
+        "routes":
+        [
+            "Carolinian",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "Durham–UNH",
+        "station_code": "DHM",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Dwight",
+        "station_code": "DWT",
+        "routes":
+        [
+            "Lincoln Service"
+        ]
+    },
+    {
+        "station_name": "Dyer",
+        "station_code": "DYE",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "East Glacier Park",
+        "station_code": "GPK",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "East Lansing",
+        "station_code": "LNS",
+        "routes":
+        [
+            "Blue Water"
+        ]
+    },
+    {
+        "station_name": "Edmonds",
+        "station_code": "EDM",
+        "routes":
+        [
+            "Cascades",
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Effingham",
+        "station_code": "EFG",
+        "routes":
+        [
+            "City of New Orleans",
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "El Paso",
+        "station_code": "ELP",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Elkhart",
+        "station_code": "EKH",
+        "routes":
+        [
+            "Capitol Limited",
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Elizabethtown",
+        "station_code": "ELT",
+        "routes":
+        [
+            "Keystone Service",
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Elko",
+        "station_code": "ELK",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Elyria",
+        "station_code": "ELY",
+        "routes":
+        [
+            "Capitol Limited",
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Emeryville",
+        "station_code": "EMY",
+        "routes":
+        [
+            "California Zephyr",
+            "Capitol Corridor",
+            "Coast Starlight",
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Ephrata",
+        "station_code": "EPH",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Erie",
+        "station_code": "ERI",
+        "routes":
+        [
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Essex",
+        "station_code": "ESM",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Essex Junction",
+        "station_code": "ESX",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Eugene–Springfield",
+        "station_code": "EUG",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Everett",
+        "station_code": "EVR",
+        "routes":
+        [
+            "Cascades",
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Exeter",
+        "station_code": "EXR",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Exton",
+        "station_code": "EXT",
+        "routes":
+        [
+            "Keystone Service",
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Fairfield–Vacaville",
+        "station_code": "FFV",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Fargo",
+        "station_code": "FAR",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Fayetteville",
+        "station_code": "FAY",
+        "routes":
+        [
+            "Palmetto",
+            "Silver Meteor"
+        ]
+    },
+    {
+        "station_name": "Flagstaff",
+        "station_code": "FLG",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Flint",
+        "station_code": "FLN",
+        "routes":
+        [
+            "Blue Water"
+        ]
+    },
+    {
+        "station_name": "Florence",
+        "station_code": "FLO",
+        "routes":
+        [
+            "Palmetto",
+            "Silver Meteor"
+        ]
+    },
+    {
+        "station_name": "Fort Edward",
+        "station_code": "FED",
+        "routes":
+        [
+            "Adirondack",
+            "Ethan Allen Express"
+        ]
+    },
+    {
+        "station_name": "Fort Lauderdale",
+        "station_code": "FTL",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Fort Madison",
+        "station_code": "FMD",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Fort Morgan",
+        "station_code": "FMG",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Fort Worth",
+        "station_code": "FTW",
+        "routes":
+        [
+            "Heartland Flyer",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Framingham",
+        "station_code": "FRA",
+        "routes":
+        [
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Fraser–Winter Park",
+        "station_code": "WIP",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Fredericksburg",
+        "station_code": "FBG",
+        "routes":
+        [
+            "Carolinian",
+            "Northeast Regional",
+            "Silver Meteor"
+        ]
+    },
+    {
+        "station_name": "Freeport",
+        "station_code": "FRE",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Fremont",
+        "station_code": "FMT",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Fresno",
+        "station_code": "FNO",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Fullerton",
+        "station_code": "FUL",
+        "routes":
+        [
+            "Pacific Surfliner",
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Fulton",
+        "station_code": "FTN",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Gainesville",
+        "station_code": "GNS",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Gainesville",
+        "station_code": "GLE",
+        "routes":
+        [
+            "Heartland Flyer"
+        ]
+    },
+    {
+        "station_name": "Galesburg",
+        "station_code": "GBB",
+        "routes":
+        [
+            "California Zephyr",
+            "Illinois ZephyrandCarl Sandburg",
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Gallup",
+        "station_code": "GLP",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Garden City",
+        "station_code": "GCK",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Gastonia",
+        "station_code": "GAS",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Gilman",
+        "station_code": "GLM",
+        "routes":
+        [
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Glasgow",
+        "station_code": "GGW",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Glendale",
+        "station_code": "GDL",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Glenview",
+        "station_code": "GLN",
+        "routes":
+        [
+            "Empire Builder",
+            "Hiawatha Service"
+        ]
+    },
+    {
+        "station_name": "Glenwood Springs",
+        "station_code": "GSC",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Goleta",
+        "station_code": "GTA",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Granby",
+        "station_code": "GRA",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Grand Forks",
+        "station_code": "GFK",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Grand Junction",
+        "station_code": "GJT",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Grand Rapids",
+        "station_code": "GRR",
+        "routes":
+        [
+            "Pere Marquette"
+        ]
+    },
+    {
+        "station_name": "Green River",
+        "station_code": "GRI",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Greenfield",
+        "station_code": "GFD",
+        "routes":
+        [
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Greensboro",
+        "station_code": "GRO",
+        "routes":
+        [
+            "Carolinian",
+            "Crescent",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "Greensburg",
+        "station_code": "GNB",
+        "routes":
+        [
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Greenville",
+        "station_code": "GRV",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Greenwood",
+        "station_code": "GWD",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Grimsby",
+        "station_code": "GMS",
+        "routes":
+        [
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Grover Beach",
+        "station_code": "GVB",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Guadalupe",
+        "station_code": "GUA",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Hamlet",
+        "station_code": "HAM",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Hammond",
+        "station_code": "HMD",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Hammond/Whiting",
+        "station_code": "HMI",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Hanford",
+        "station_code": "HNF",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Harpers Ferry",
+        "station_code": "HFY",
+        "routes":
+        [
+            "Capitol Limited"
+        ]
+    },
+    {
+        "station_name": "Harrisburg",
+        "station_code": "HAR",
+        "routes":
+        [
+            "Keystone Service",
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Hartford",
+        "station_code": "HFD",
+        "routes":
+        [
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Hastings",
+        "station_code": "HAS",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Hattiesburg",
+        "station_code": "HBG",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Haverhill",
+        "station_code": "HHL",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Havre",
+        "station_code": "HAV",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Hayward",
+        "station_code": "HAY",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Hazlehurst",
+        "station_code": "HAZ",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Helper",
+        "station_code": "HER",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Hermann",
+        "station_code": "HEM",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "High Point",
+        "station_code": "HPT",
+        "routes":
+        [
+            "Carolinian",
+            "Crescent",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "Hinton",
+        "station_code": "HIN",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Holdrege",
+        "station_code": "HLD",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Holland",
+        "station_code": "HOM",
+        "routes":
+        [
+            "Pere Marquette"
+        ]
+    },
+    {
+        "station_name": "Hollywood",
+        "station_code": "HOL",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Holyoke",
+        "station_code": "HLK",
+        "routes":
+        [
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Homewood",
+        "station_code": "HMW",
+        "routes":
+        [
+            "City of New Orleans",
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Hope",
+        "station_code": "HOP",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Houston",
+        "station_code": "HOS",
+        "routes":
+        [
+            "Sunset Limited"
+        ]
+    },
+    {
+        "station_name": "Hudson",
+        "station_code": "HUD",
+        "routes":
+        [
+            "Adirondack",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Huntingdon",
+        "station_code": "HGD",
+        "routes":
+        [
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Huntington",
+        "station_code": "HUN",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Hutchinson",
+        "station_code": "HUT",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Independence",
+        "station_code": "IDP",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "Indianapolis",
+        "station_code": "IND",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Irvine",
+        "station_code": "IRV",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Jackson",
+        "station_code": "JXN",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Jackson",
+        "station_code": "JAN",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Jacksonville",
+        "station_code": "JAX",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Jefferson City",
+        "station_code": "JEF",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "Jesup",
+        "station_code": "JSP",
+        "routes":
+        [
+            "Silver Meteor"
+        ]
+    },
+    {
+        "station_name": "Johnstown",
+        "station_code": "JST",
+        "routes":
+        [
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Joliet",
+        "station_code": "JOL",
+        "routes":
+        [
+            "Lincoln Service",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Kalamazoo",
+        "station_code": "KAL",
+        "routes":
+        [
+            "Blue Water",
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Kankakee",
+        "station_code": "KKI",
+        "routes":
+        [
+            "City of New Orleans",
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Kannapolis",
+        "station_code": "KAN",
+        "routes":
+        [
+            "Carolinian",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "Kansas City",
+        "station_code": "KCY",
+        "routes":
+        [
+            "Missouri River Runner",
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Kelso",
+        "station_code": "KEL",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Kewanee",
+        "station_code": "KEE",
+        "routes":
+        [
+            "Illinois ZephyrandCarl Sandburg"
+        ]
+    },
+    {
+        "station_name": "Kingman",
+        "station_code": "KNG",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Kingston",
+        "station_code": "KIN",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Kingstree",
+        "station_code": "KTR",
+        "routes":
+        [
+            "Palmetto",
+            "Silver Meteor"
+        ]
+    },
+    {
+        "station_name": "Kirkwood",
+        "station_code": "KWD",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "Kissimmee",
+        "station_code": "KIS",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Klamath Falls",
+        "station_code": "KFS",
+        "routes":
+        [
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "La Crosse",
+        "station_code": "LSE",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "La Grange Road",
+        "station_code": "LAG",
+        "routes":
+        [
+            "Illinois ZephyrandCarl Sandburg"
+        ]
+    },
+    {
+        "station_name": "La Junta",
+        "station_code": "LAJ",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "La Plata",
+        "station_code": "LAP",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Lafayette",
+        "station_code": "LAF",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Lafayette",
+        "station_code": "LFT",
+        "routes":
+        [
+            "Sunset Limited"
+        ]
+    },
+    {
+        "station_name": "Lake Charles",
+        "station_code": "LCH",
+        "routes":
+        [
+            "Sunset Limited"
+        ]
+    },
+    {
+        "station_name": "Lakeland",
+        "station_code": "LAK/LKL",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Lamar",
+        "station_code": "LMR",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Lamy",
+        "station_code": "LMY",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Lancaster",
+        "station_code": "LNC",
+        "routes":
+        [
+            "Keystone Service",
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Lapeer",
+        "station_code": "LPE",
+        "routes":
+        [
+            "Blue Water"
+        ]
+    },
+    {
+        "station_name": "Las Vegas",
+        "station_code": "LSV",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Latrobe",
+        "station_code": "LAB",
+        "routes":
+        [
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Laurel",
+        "station_code": "LAU",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Lawrence",
+        "station_code": "LRC",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Leavenworth",
+        "station_code": "LWA",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Lee's Summit",
+        "station_code": "LEE",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "Lewistown",
+        "station_code": "LEW",
+        "routes":
+        [
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Lexington",
+        "station_code": "LEX",
+        "routes":
+        [
+            "Carolinian",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "Libby",
+        "station_code": "LIB",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Lincoln",
+        "station_code": "LCN",
+        "routes":
+        [
+            "Lincoln Service",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Lincoln",
+        "station_code": "LNK",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Little Rock",
+        "station_code": "LRK",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Lodi",
+        "station_code": "LOD",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Lompoc–Surf",
+        "station_code": "LPS",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Longview",
+        "station_code": "LVW",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Lordsburg",
+        "station_code": "LDB",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Lorton",
+        "station_code": "LOR",
+        "routes":
+        [
+            "Auto Train"
+        ]
+    },
+    {
+        "station_name": "Los Angeles Union",
+        "station_code": "LAX",
+        "routes":
+        [
+            "Coast Starlight",
+            "Pacific Surfliner",
+            "Southwest Chief",
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Lynchburg–Kemper Street",
+        "station_code": "LYH",
+        "routes":
+        [
+            "Crescent",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Macomb",
+        "station_code": "MAC",
+        "routes":
+        [
+            "Illinois ZephyrandCarl Sandburg"
+        ]
+    },
+    {
+        "station_name": "Madera",
+        "station_code": "MAD",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Malta",
+        "station_code": "MAL",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Malvern",
+        "station_code": "MVN",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Manassas",
+        "station_code": "MSS",
+        "routes":
+        [
+            "Cardinal",
+            "Crescent",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Maricopa",
+        "station_code": "MRC",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Marks",
+        "station_code": "MKS",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Marshall",
+        "station_code": "MHL",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Martinez",
+        "station_code": "MTZ",
+        "routes":
+        [
+            "California Zephyr",
+            "Capitol Corridor",
+            "Coast Starlight",
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Martinsburg",
+        "station_code": "MRB",
+        "routes":
+        [
+            "Capitol Limited"
+        ]
+    },
+    {
+        "station_name": "Mattoon",
+        "station_code": "MAT",
+        "routes":
+        [
+            "City of New Orleans",
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Maysville",
+        "station_code": "MAY",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "McComb",
+        "station_code": "MCB",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "McCook",
+        "station_code": "MCK",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "McGregor",
+        "station_code": "MCG",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Memphis Central",
+        "station_code": "MEM",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Mendota",
+        "station_code": "MDT",
+        "routes":
+        [
+            "Illinois ZephyrandCarl Sandburg",
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Merced",
+        "station_code": "MCD",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Meriden",
+        "station_code": "MDN",
+        "routes":
+        [
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Meridian",
+        "station_code": "MEI",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Metropark",
+        "station_code": "MET",
+        "routes":
+        [
+            "Acela",
+            "Keystone Service",
+            "Northeast Regional",
+            "Palmetto",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Miami",
+        "station_code": "MIA",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Middletown",
+        "station_code": "MID",
+        "routes":
+        [
+            "Keystone Service"
+        ]
+    },
+    {
+        "station_name": "Milwaukee",
+        "station_code": "MKE",
+        "routes":
+        [
+            "Empire Builder",
+            "Hiawatha Service"
+        ]
+    },
+    {
+        "station_name": "Milwaukee Airport",
+        "station_code": "MKA",
+        "routes":
+        [
+            "Hiawatha Service"
+        ]
+    },
+    {
+        "station_name": "Mineola",
+        "station_code": "MIN",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Minot",
+        "station_code": "MOT",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Modesto",
+        "station_code": "MOD",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Montgomery",
+        "station_code": "MNG",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Montpelier",
+        "station_code": "MPR",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Montreal",
+        "station_code": "MTR",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Moorpark",
+        "station_code": "MPK",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Mount Joy",
+        "station_code": "MJY",
+        "routes":
+        [
+            "Keystone Service"
+        ]
+    },
+    {
+        "station_name": "Mount Pleasant",
+        "station_code": "MTP",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Mount Vernon",
+        "station_code": "MVW",
+        "routes":
+        [
+            "Cascades"
+        ]
+    },
+    {
+        "station_name": "Mystic",
+        "station_code": "MYS",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Naperville",
+        "station_code": "NPV",
+        "routes":
+        [
+            "California Zephyr",
+            "Illinois ZephyrandCarl Sandburg",
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Needles",
+        "station_code": "NDL",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "New Brunswick",
+        "station_code": "NBK",
+        "routes":
+        [
+            "Keystone Service",
+            "Northeast Regional",
+            "Palmetto"
+        ]
+    },
+    {
+        "station_name": "New Buffalo",
+        "station_code": "NBU",
+        "routes":
+        [
+            "Blue Water",
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "New Carrollton",
+        "station_code": "NCR",
+        "routes":
+        [
+            "Northeast Regional",
+            "Palmetto",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "New Haven Union",
+        "station_code": "NHV",
+        "routes":
+        [
+            "Acela",
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "New Haven State Street",
+        "station_code": "STS",
+        "routes":
+        [
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer"
+        ]
+    },
+    {
+        "station_name": "New Iberia",
+        "station_code": "NIB",
+        "routes":
+        [
+            "Sunset Limited"
+        ]
+    },
+    {
+        "station_name": "New London",
+        "station_code": "NLC",
+        "routes":
+        [
+            "Acela",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "New Orleans",
+        "station_code": "NOL",
+        "routes":
+        [
+            "City of New Orleans",
+            "Crescent",
+            "Sunset Limited"
+        ]
+    },
+    {
+        "station_name": "New Rochelle",
+        "station_code": "NRO",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "New York Penn",
+        "station_code": "NYP",
+        "routes":
+        [
+            "Acela",
+            "Adirondack",
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Keystone Service",
+            "Lake Shore Limited",
+            "Maple Leaf",
+            "Northeast Regional",
+            "Pennsylvanian",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "New York State Fair",
+        "station_code": "NYF",
+        "routes":
+        [
+            "Empire Service",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Newark",
+        "station_code": "NRK",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Newark Liberty International Airport",
+        "station_code": "EWR",
+        "routes":
+        [
+            "Keystone Service",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Newark Penn",
+        "station_code": "NWK",
+        "routes":
+        [
+            "Acela",
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Keystone Service",
+            "Northeast Regional",
+            "Pennsylvanian",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Newbern–Dyersburg",
+        "station_code": "NBN",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Newport News",
+        "station_code": "NPN",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Newton",
+        "station_code": "NEW",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Niagara Falls",
+        "station_code": "NFL",
+        "routes":
+        [
+            "Empire Service",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Niagara Falls",
+        "station_code": "NFS",
+        "routes":
+        [
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Niles",
+        "station_code": "NLS",
+        "routes":
+        [
+            "Blue Water",
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Norfolk",
+        "station_code": "NFK",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Norman",
+        "station_code": "NOR",
+        "routes":
+        [
+            "Heartland Flyer"
+        ]
+    },
+    {
+        "station_name": "North Carolina State Fair",
+        "station_code": "NSF",
+        "routes":
+        [
+            "Carolinian"
+        ]
+    },
+    {
+        "station_name": "Northampton",
+        "station_code": "NHT",
+        "routes":
+        [
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Oakland Coliseum",
+        "station_code": "OAC",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Oakland–Jack London Square",
+        "station_code": "OKJ",
+        "routes":
+        [
+            "Capitol Corridor",
+            "Coast Starlight",
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Oakville",
+        "station_code": "OKL",
+        "routes":
+        [
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Oceanside",
+        "station_code": "OSD",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Okeechobee",
+        "station_code": "OKE",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Oklahoma City",
+        "station_code": "OKC",
+        "routes":
+        [
+            "Heartland Flyer"
+        ]
+    },
+    {
+        "station_name": "Old Orchard Beach",
+        "station_code": "ORB",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Old Saybrook",
+        "station_code": "OSB",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Olympia–Lacey",
+        "station_code": "OWL",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Omaha",
+        "station_code": "OMA",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Ontario",
+        "station_code": "ONA",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Oregon City",
+        "station_code": "ORC",
+        "routes":
+        [
+            "Cascades"
+        ]
+    },
+    {
+        "station_name": "Orlando",
+        "station_code": "ORL",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Osceola",
+        "station_code": "OSC",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Ottumwa",
+        "station_code": "OTM",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Oxnard",
+        "station_code": "OXN",
+        "routes":
+        [
+            "Coast Starlight",
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Palatka",
+        "station_code": "PAK",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Palm Springs",
+        "station_code": "PSN",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Paoli",
+        "station_code": "PAO",
+        "routes":
+        [
+            "Keystone Service",
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Parkesburg",
+        "station_code": "PAR",
+        "routes":
+        [
+            "Keystone Service"
+        ]
+    },
+    {
+        "station_name": "Pasco",
+        "station_code": "PSC",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Paso Robles",
+        "station_code": "PRB",
+        "routes":
+        [
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Petersburg",
+        "station_code": "PTB",
+        "routes":
+        [
+            "Carolinian",
+            "Northeast Regional",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Pauls Valley",
+        "station_code": "PVL",
+        "routes":
+        [
+            "Heartland Flyer"
+        ]
+    },
+    {
+        "station_name": "Philadelphia 30th Street",
+        "station_code": "PHL",
+        "routes":
+        [
+            "Acela",
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Keystone Service",
+            "Northeast Regional",
+            "Palmetto",
+            "Pennsylvanian",
+            "Silver Meteor",
+            "Silver Star",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Philadelphia North",
+        "station_code": "PHN",
+        "routes":
+        [
+            "Keystone Service",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Picayune",
+        "station_code": "PIC",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Pittsburgh",
+        "station_code": "PGH",
+        "routes":
+        [
+            "Capitol Limited",
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Pittsfield",
+        "station_code": "PIT",
+        "routes":
+        [
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Plano",
+        "station_code": "PLO",
+        "routes":
+        [
+            "Illinois ZephyrandCarl Sandburg"
+        ]
+    },
+    {
+        "station_name": "Plattsburgh",
+        "station_code": "PLB",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Pomona",
+        "station_code": "POS",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Pontiac",
+        "station_code": "PON",
+        "routes":
+        [
+            "Lincoln Service",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Pontiac",
+        "station_code": "PNT",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Poplar Bluff",
+        "station_code": "PBF",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Port Henry",
+        "station_code": "POH",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Port Huron",
+        "station_code": "PTH",
+        "routes":
+        [
+            "Blue Water"
+        ]
+    },
+    {
+        "station_name": "Port Kent",
+        "station_code": "PRK",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Portage",
+        "station_code": "POG",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Portland",
+        "station_code": "POR",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Portland",
+        "station_code": "PDX",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight",
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Poughkeepsie",
+        "station_code": "POU",
+        "routes":
+        [
+            "Adirondack",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Prince",
+        "station_code": "PRC",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Princeton",
+        "station_code": "PCT",
+        "routes":
+        [
+            "California Zephyr",
+            "Illinois ZephyrandCarl Sandburg",
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Princeton Junction",
+        "station_code": "PJC",
+        "routes":
+        [
+            "Keystone Service",
+            "Northeast Regional",
+            "Palmetto"
+        ]
+    },
+    {
+        "station_name": "Providence",
+        "station_code": "PVD",
+        "routes":
+        [
+            "Acela",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Provo",
+        "station_code": "PRO",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Purcell",
+        "station_code": "PUR",
+        "routes":
+        [
+            "Heartland Flyer"
+        ]
+    },
+    {
+        "station_name": "Quantico",
+        "station_code": "QAN",
+        "routes":
+        [
+            "Carolinian",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Quincy",
+        "station_code": "QCY",
+        "routes":
+        [
+            "Illinois ZephyrandCarl Sandburg"
+        ]
+    },
+    {
+        "station_name": "Raleigh Union",
+        "station_code": "RGH",
+        "routes":
+        [
+            "Carolinian",
+            "Piedmont",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Randolph",
+        "station_code": "RPH",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Rantoul",
+        "station_code": "RTL",
+        "routes":
+        [
+            "IlliniandSaluki"
+        ]
+    },
+    {
+        "station_name": "Raton",
+        "station_code": "RAT",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Red Wing",
+        "station_code": "RDW",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Redding",
+        "station_code": "RDD",
+        "routes":
+        [
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Reno",
+        "station_code": "RNO",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Rensselaer",
+        "station_code": "REN",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Rhinecliff–Kingston",
+        "station_code": "RHI",
+        "routes":
+        [
+            "Adirondack",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Richmond",
+        "station_code": "RIC",
+        "routes":
+        [
+            "California Zephyr",
+            "Capitol Corridor",
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Richmond Staples Mill Road",
+        "station_code": "RVR",
+        "routes":
+        [
+            "Carolinian",
+            "Northeast Regional",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Richmond Main Street",
+        "station_code": "RVM",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Riverside",
+        "station_code": "RIV",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Roanoke",
+        "station_code": "RNK",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Rochester",
+        "station_code": "ROC",
+        "routes":
+        [
+            "Empire Service",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Rocklin",
+        "station_code": "RLN",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Rocky Mount",
+        "station_code": "RMT",
+        "routes":
+        [
+            "Carolinian",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Rockville",
+        "station_code": "RKV",
+        "routes":
+        [
+            "Capitol Limited"
+        ]
+    },
+    {
+        "station_name": "Rome",
+        "station_code": "ROM",
+        "routes":
+        [
+            "Empire Service",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Roseville",
+        "station_code": "RSV",
+        "routes":
+        [
+            "California Zephyr",
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Rouses Point",
+        "station_code": "RSP",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Royal Oak",
+        "station_code": "ROY",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Rugby",
+        "station_code": "RUG",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Rutland",
+        "station_code": "RUD",
+        "routes":
+        [
+            "Ethan Allen Express"
+        ]
+    },
+    {
+        "station_name": "Saco–Biddeford",
+        "station_code": "SAO",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Sacramento",
+        "station_code": "SAC",
+        "routes":
+        [
+            "California Zephyr",
+            "Capitol Corridor",
+            "Coast Starlight",
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Salem",
+        "station_code": "SLM",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Salinas",
+        "station_code": "SNS",
+        "routes":
+        [
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Salisbury",
+        "station_code": "SAL",
+        "routes":
+        [
+            "Carolinian",
+            "Crescent",
+            "Piedmont"
+        ]
+    },
+    {
+        "station_name": "Salt Lake City",
+        "station_code": "SLC",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "San Antonio",
+        "station_code": "SAS",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "San Bernardino",
+        "station_code": "SNB",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "San Clemente Pier",
+        "station_code": "SNP",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "San Diego Old Town",
+        "station_code": "OLT",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "San Diego Santa Fe Depot",
+        "station_code": "SAN",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "San Jose Diridon",
+        "station_code": "SJC",
+        "routes":
+        [
+            "Capitol Corridor",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "San Juan Capistrano",
+        "station_code": "SNC",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "San Luis Obispo",
+        "station_code": "SLO",
+        "routes":
+        [
+            "Coast Starlight",
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "San Marcos",
+        "station_code": "SMC",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Sanderson",
+        "station_code": "SND",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Sandpoint",
+        "station_code": "SPT",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Sandusky",
+        "station_code": "SKY",
+        "routes":
+        [
+            "Capitol Limited",
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Sanford",
+        "station_code": "SFA",
+        "routes":
+        [
+            "Auto Train"
+        ]
+    },
+    {
+        "station_name": "Santa Ana",
+        "station_code": "SNA",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Santa Barbara",
+        "station_code": "SBA",
+        "routes":
+        [
+            "Coast Starlight",
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Santa Clara – Great America",
+        "station_code": "GAC",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Santa Clara",
+        "station_code": "SCC",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Saratoga Springs",
+        "station_code": "SAR",
+        "routes":
+        [
+            "Adirondack",
+            "Ethan Allen Express"
+        ]
+    },
+    {
+        "station_name": "Savannah",
+        "station_code": "SAV",
+        "routes":
+        [
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Schenectady",
+        "station_code": "SDY",
+        "routes":
+        [
+            "Adirondack",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Schriever",
+        "station_code": "SCH",
+        "routes":
+        [
+            "Sunset Limited"
+        ]
+    },
+    {
+        "station_name": "Seattle King Street",
+        "station_code": "SEA",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight",
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Sebring",
+        "station_code": "SBG",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Sedalia",
+        "station_code": "SED",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "Selma",
+        "station_code": "SSM",
+        "routes":
+        [
+            "Carolinian",
+            "Palmetto"
+        ]
+    },
+    {
+        "station_name": "Shelby",
+        "station_code": "SBY",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Simi Valley",
+        "station_code": "SIM",
+        "routes":
+        [
+            "Coast Starlight",
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Slidell",
+        "station_code": "SDL",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Solana Beach",
+        "station_code": "SOL",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "South Bend",
+        "station_code": "SOB",
+        "routes":
+        [
+            "Capitol Limited",
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "South Portsmouth–South Shore",
+        "station_code": "SPM",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Southern Pines",
+        "station_code": "SOP",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Spartanburg",
+        "station_code": "SPB",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Spokane",
+        "station_code": "SPK",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Springfield",
+        "station_code": "SPI",
+        "routes":
+        [
+            "Lincoln Service",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Springfield",
+        "station_code": "SPG",
+        "routes":
+        [
+            "Hartford Line",
+            "Lake Shore Limited",
+            "Northeast Regional",
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "St. Albans",
+        "station_code": "SAB",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "St. Catharines",
+        "station_code": "SCA",
+        "routes":
+        [
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "St. Cloud",
+        "station_code": "SCD",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "St. Joseph–Benton Harbor",
+        "station_code": "SJM",
+        "routes":
+        [
+            "Pere Marquette"
+        ]
+    },
+    {
+        "station_name": "Saint-Lambert",
+        "station_code": "SLQ",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "St. Louis Gateway",
+        "station_code": "STL",
+        "routes":
+        [
+            "Lincoln Service",
+            "Missouri River Runner",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "St. Paul - Minneapolis Union",
+        "station_code": "MSP",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Stamford",
+        "station_code": "STM",
+        "routes":
+        [
+            "Acela",
+            "Northeast Regional",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Stanley",
+        "station_code": "STN",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Stanwood",
+        "station_code": "STW",
+        "routes":
+        [
+            "Cascades"
+        ]
+    },
+    {
+        "station_name": "Staples",
+        "station_code": "SPL",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Staunton",
+        "station_code": "STA",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Stockton Downtown",
+        "station_code": "SKT",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Stockton San Joaquin Street",
+        "station_code": "SKN",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Sturtevant",
+        "station_code": "SVT",
+        "routes":
+        [
+            "Hiawatha Service"
+        ]
+    },
+    {
+        "station_name": "Suisun–Fairfield",
+        "station_code": "SUI",
+        "routes":
+        [
+            "Capitol Corridor"
+        ]
+    },
+    {
+        "station_name": "Summit",
+        "station_code": "SMT",
+        "routes":
+        [
+            "Lincoln Service"
+        ]
+    },
+    {
+        "station_name": "Syracuse",
+        "station_code": "SYR",
+        "routes":
+        [
+            "Empire Service",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Tacoma Dome",
+        "station_code": "TAC",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight"
+        ]
+    },
+    {
+        "station_name": "Tampa",
+        "station_code": "TPA",
+        "routes":
+        [
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Taylor",
+        "station_code": "TAY",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Temple",
+        "station_code": "TPL",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Texarkana",
+        "station_code": "TXA",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Thurmond",
+        "station_code": "THN",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Ticonderoga",
+        "station_code": "FTC",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Toccoa",
+        "station_code": "TCA",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Toledo",
+        "station_code": "TOL",
+        "routes":
+        [
+            "Capitol Limited",
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Tomah",
+        "station_code": "TOH",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Topeka",
+        "station_code": "TOP",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Toronto Union",
+        "station_code": "TWO",
+        "routes":
+        [
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Trenton",
+        "station_code": "TRE",
+        "routes":
+        [
+            "Acela",
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Keystone Service",
+            "Northeast Regional",
+            "Palmetto",
+            "Pennsylvanian",
+            "Silver Meteor",
+            "Silver Star",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Trinidad",
+        "station_code": "TRI",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Troy",
+        "station_code": "TRM",
+        "routes":
+        [
+            "Wolverine"
+        ]
+    },
+    {
+        "station_name": "Truckee",
+        "station_code": "TRU",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Tucson",
+        "station_code": "TUS",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Tukwila",
+        "station_code": "TUK",
+        "routes":
+        [
+            "Cascades"
+        ]
+    },
+    {
+        "station_name": "Turlock–Denair",
+        "station_code": "TRK",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Tuscaloosa",
+        "station_code": "TCL",
+        "routes":
+        [
+            "Crescent"
+        ]
+    },
+    {
+        "station_name": "Tyrone",
+        "station_code": "TYR",
+        "routes":
+        [
+            "Pennsylvanian"
+        ]
+    },
+    {
+        "station_name": "Utica",
+        "station_code": "UCA",
+        "routes":
+        [
+            "Empire Service",
+            "Lake Shore Limited",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Van Nuys",
+        "station_code": "VNC",
+        "routes":
+        [
+            "Coast Starlight",
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Vancouver Pacific Central",
+        "station_code": "VAC",
+        "routes":
+        [
+            "Cascades"
+        ]
+    },
+    {
+        "station_name": "Vancouver",
+        "station_code": "VAN",
+        "routes":
+        [
+            "Cascades",
+            "Coast Starlight",
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Ventura",
+        "station_code": "VEC",
+        "routes":
+        [
+            "Pacific Surfliner"
+        ]
+    },
+    {
+        "station_name": "Victorville",
+        "station_code": "VRV",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Wallingford",
+        "station_code": "WFD",
+        "routes":
+        [
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer"
+        ]
+    },
+    {
+        "station_name": "Walnut Ridge",
+        "station_code": "WNR",
+        "routes":
+        [
+            "Texas Eagle"
+        ]
+    },
+    {
+        "station_name": "Warrensburg",
+        "station_code": "WAR",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "Wasco",
+        "station_code": "WAC",
+        "routes":
+        [
+            "San Joaquins"
+        ]
+    },
+    {
+        "station_name": "Washington Union",
+        "station_code": "WAS",
+        "routes":
+        [
+            "Acela",
+            "Capitol Limited",
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Northeast Regional",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Washington",
+        "station_code": "WAH",
+        "routes":
+        [
+            "Missouri River Runner"
+        ]
+    },
+    {
+        "station_name": "Waterbury–Stowe",
+        "station_code": "WAB",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Waterloo",
+        "station_code": "WTI",
+        "routes":
+        [
+            "Capitol Limited",
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Wells",
+        "station_code": "WEM",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Wenatchee",
+        "station_code": "WEN",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "West Glacier",
+        "station_code": "WGL",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "West Palm Beach",
+        "station_code": "WPB",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Westerly",
+        "station_code": "WLY",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Westport",
+        "station_code": "WSP",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Westwood–Route 128",
+        "station_code": "RTE",
+        "routes":
+        [
+            "Acela",
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "White River Junction",
+        "station_code": "WRJ",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "White Sulphur Springs",
+        "station_code": "WSS",
+        "routes":
+        [
+            "Cardinal"
+        ]
+    },
+    {
+        "station_name": "Whitefish",
+        "station_code": "WFH",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Whitehall",
+        "station_code": "WHL",
+        "routes":
+        [
+            "Adirondack"
+        ]
+    },
+    {
+        "station_name": "Williamsburg",
+        "station_code": "WBG",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Williston",
+        "station_code": "WTN",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Wilmington",
+        "station_code": "WIL",
+        "routes":
+        [
+            "Acela",
+            "Cardinal",
+            "Carolinian",
+            "Crescent",
+            "Northeast Regional",
+            "Palmetto",
+            "Silver Meteor",
+            "Silver Star",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Wilson",
+        "station_code": "WLN",
+        "routes":
+        [
+            "Carolinian",
+            "Palmetto"
+        ]
+    },
+    {
+        "station_name": "Windsor",
+        "station_code": "WND",
+        "routes":
+        [
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer"
+        ]
+    },
+    {
+        "station_name": "Windsor–Mt. Ascutney",
+        "station_code": "WNM",
+        "routes":
+        [
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Windsor Locks",
+        "station_code": "WNL",
+        "routes":
+        [
+            "Hartford Line",
+            "Northeast Regional",
+            "Valley Flyer",
+            "Vermonter"
+        ]
+    },
+    {
+        "station_name": "Winnemucca",
+        "station_code": "WNN",
+        "routes":
+        [
+            "California Zephyr"
+        ]
+    },
+    {
+        "station_name": "Winona",
+        "station_code": "WIN",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Winslow",
+        "station_code": "WLO",
+        "routes":
+        [
+            "Southwest Chief"
+        ]
+    },
+    {
+        "station_name": "Winter Haven",
+        "station_code": "WTH",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Winter Park",
+        "station_code": "WPK",
+        "routes":
+        [
+            "Silver Meteor",
+            "Silver Star"
+        ]
+    },
+    {
+        "station_name": "Wisconsin Dells",
+        "station_code": "WDL",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Wishram",
+        "station_code": "WIH",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Woburn–Anderson",
+        "station_code": "WOB",
+        "routes":
+        [
+            "Downeaster"
+        ]
+    },
+    {
+        "station_name": "Wolf Point",
+        "station_code": "WPT",
+        "routes":
+        [
+            "Empire Builder"
+        ]
+    },
+    {
+        "station_name": "Woodbridge",
+        "station_code": "WDB",
+        "routes":
+        [
+            "Northeast Regional"
+        ]
+    },
+    {
+        "station_name": "Worcester",
+        "station_code": "WOR",
+        "routes":
+        [
+            "Lake Shore Limited"
+        ]
+    },
+    {
+        "station_name": "Yazoo City",
+        "station_code": "YAZ",
+        "routes":
+        [
+            "City of New Orleans"
+        ]
+    },
+    {
+        "station_name": "Yemassee",
+        "station_code": "YEM",
+        "routes":
+        [
+            "Palmetto",
+            "Silver Meteor"
+        ]
+    },
+    {
+        "station_name": "Yonkers",
+        "station_code": "YNY",
+        "routes":
+        [
+            "Adirondack",
+            "Empire Service",
+            "Ethan Allen Express",
+            "Maple Leaf"
+        ]
+    },
+    {
+        "station_name": "Yuma",
+        "station_code": "YUM",
+        "routes":
+        [
+            "Sunset Limited",
+            "Texas Eagle"
+        ]
+    }
+]
