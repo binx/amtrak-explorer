@@ -3,7 +3,11 @@ import styled from "styled-components";
 const Table = styled.table`
   display: block;
   border-collapse: collapse;
-  td, th { padding: 2px 15px; text-align: left; }
+  td, th {
+    padding: 2px 15px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
 `;
 const Dot = styled.div`
   width: 15px;
