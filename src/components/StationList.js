@@ -10,13 +10,13 @@ const Table = styled.table`
     border-bottom: 1px solid #333;
   }
 `;
-const Dot = styled.div`
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  border: 50%;
-  background-color: lightblue;
-`;
+// const Dot = styled.div`
+//   width: 15px;
+//   height: 15px;
+//   display: inline-block;
+//   border: 50%;
+//   background-color: lightblue;
+// `;
 
 function StationList({ stations }) {
   if (!stations.length) return null;
