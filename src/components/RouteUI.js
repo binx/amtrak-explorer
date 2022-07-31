@@ -7,19 +7,23 @@ const Wrapper = styled.div`
   display: flex;
   margin-bottom: 20px;
 `;
+const ResetButton = styled(Button)`
+  margin-left: 80px;
+  @media only screen and (max-width: 600px) {
+    margin-left: 20px;
+  }
+`;
 
 function RouteUI({ selectedRoute, setSelectedRoute }) {
   return (
     <Wrapper>
       <Select
-        placeholder="Select a Route"
+        placeholder="select a route"
         options={routeList}
         value={selectedRoute}
         onChange={({ option }) => setSelectedRoute(option)}
       />
-      <Button onClick={() => setSelectedRoute()} primary label="reset"
-        style={{ marginLeft: "80px" }}
-      />
+      <ResetButton onClick={() => setSelectedRoute()} primary label="reset"/>
     </Wrapper>
   );
 }

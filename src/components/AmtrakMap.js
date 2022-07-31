@@ -5,9 +5,15 @@ import RouteUI from "./RouteUI";
 import VectorMap from "./VectorMap";
 
 const Wrapper = styled.div`
-  margin: 40px;
+  margin: 80px 40px;
+
+  p {
+    font-size: 16px;
+    margin: 40px 0;
+  }
+
   @media only screen and (max-width: 800px) {
-    margin: 20px;
+    margin: 40px 20px;
   }
 `;
 const Tagline = styled.div`
@@ -21,6 +27,9 @@ const Footer = styled.div`
   margin-top: 40px;
   font-family: monospace;
   a { color: white; }
+  @media only screen and (max-width: 800px) {
+    font-size: 14px;
+  }
 `;
 
 function AmtrakMap() {
@@ -30,6 +39,7 @@ function AmtrakMap() {
     <Wrapper>
       <h1>amtrak explorer</h1>
       <Tagline>please, amtrak, make this information easier to find</Tagline>
+      <p>select a route to see its stations, or click on a station to get more info :)</p>
       <RouteUI selectedRoute={selectedRoute} setSelectedRoute={setSelectedRoute} />
       <VectorMap
         selectedRoute={selectedRoute}
