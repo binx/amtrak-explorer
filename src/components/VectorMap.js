@@ -10,7 +10,7 @@ import MapSVG from "./MapSVG";
 import StationList from "./StationList";
 
 function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
-  const margin = 50;
+  const margin = window.innerWidth > 800 ? 50 : 20;
 
   const containerRef = useRef();
   const [width, setWidth] = useState(0);
@@ -26,8 +26,8 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
 
   useEffect(() => {
     const div = containerRef.current;
-    const w = Math.max(div.clientWidth - 360, 350);
-    const h = Math.min(700, w);
+    const w = window.innerWidth > 800 ? div.clientWidth - 280 : div.clientWidth;
+    const h = w * .75;
     setWidth(w);
     setHeight(h);
 

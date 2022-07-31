@@ -6,6 +6,9 @@ import VectorMap from "./VectorMap";
 
 const Wrapper = styled.div`
   margin: 40px;
+  @media only screen and (max-width: 800px) {
+    margin: 20px;
+  }
 `;
 const Tagline = styled.div`
   font-style: italic;

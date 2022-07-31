@@ -2,8 +2,12 @@ import styled from "styled-components";
 
 const SVG = styled.svg`
   border: 1px solid white;
-  margin: 0 40px 40px 0;
+  margin: 0 20px 0 0;
   flex-shrink: 0;
+  
+  @media only screen and (max-width: 600px) {
+    margin: 0 0 20px 0;
+  }
 `;
 const Path = styled.path`
   fill: none;
@@ -21,6 +25,7 @@ const StatePath = styled.path`
 
 function MapSVG({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute }) {
   const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
+  const isSmall = window.innerWidth < 800;
 
   return (
     <SVG width={width} height={height} >
@@ -60,9 +65,10 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
           {stations.map((d,i) => (
             <circle key={`station${i}`}
               cx={d.point[0]} cy={d.point[1]}
-              r="6" fill="#222"
+              r={isSmall ? 4 : 6}
+              fill="#222"
               stroke="white"
-              strokeWidth="2"
+              strokeWidth={isSmall ? 1 : 2}
             />
           ))}
         </g>

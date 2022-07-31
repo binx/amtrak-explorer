@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Table = styled.table`
-  width: 300px;
+  width: 240px;
   display: block;
   border-collapse: collapse;
   td, th {
@@ -20,13 +20,13 @@ const Dot = styled.div`
 
 function StationList({ stations }) {
   if (!stations.length) return null;
+  // <td>{d.transfer && <Dot />}</td>
   return (
     <Table>
       <thead>
         <tr>
           <th>City</th>
           <th>State</th>
-          <th>Transfer Available?</th>
         </tr>
       </thead>
       <tbody>
@@ -34,7 +34,6 @@ function StationList({ stations }) {
           <tr key={`station${i}`}>
             <td>{d.properties.stationnam.split(",")[0]}</td>
             <td>{d.properties.stationnam.split(",")[1]}</td>
-            <td>{d.transfer && <Dot />}</td>
           </tr>
         ))}
       </tbody>
