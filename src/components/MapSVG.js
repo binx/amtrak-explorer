@@ -29,7 +29,7 @@ const Circle = styled.circle`
   &:hover { fill: white; }
 `;
 
-function MapSVG({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute, hoverStation, setHoverStation }) {
+function MapSVG({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute, hoverStation, setHoverStation, setClickStation }) {
   const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
   const isSmall = window.innerWidth < 800;
 
@@ -76,6 +76,7 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
               hovered={hoverStation && hoverStation.properties.code === d.properties.code}
               onMouseEnter={() => setHoverStation(d)}
               onMouseLeave={() => setHoverStation()}
+              onClick={() => setClickStation(d)}
             />
           ))}
         </g>

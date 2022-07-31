@@ -8,6 +8,7 @@ import stationList from "./data/stations.json";
 
 import MapSVG from "./MapSVG";
 import HoverStation from "./HoverStation";
+import ClickStation from "./ClickStation";
 import StationList from "./StationList";
 
 function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
@@ -26,6 +27,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
   const [states, setStates] = useState([]);
 
   const [hoverStation, setHoverStation] = useState();
+  const [clickStation, setClickStation] = useState();
 
   useEffect(() => {
     const div = containerRef.current;
@@ -74,6 +76,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
   }, []);
 
   useEffect(() => {
+    setClickStation();
     let object;
     if (selectedRoute) {
       object = routeData.find(d => d.properties.NAME === selectedRoute);
@@ -115,7 +118,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
       const index = stationCodes.indexOf(s.properties.code);
 
       s.point = projection(s.geometry.coordinates);
-      s.transfer = stationsOnRoute[index].routes.length > 1;
+      s.routes = stationsOnRoute[index].routes;
       return s;
     }).sort((a,b) => {
       if (isHorizontalish) return a.point[0] - b.point[0];
@@ -128,7 +131,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
 
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }} ref={containerRef}>
-      <div style={{ position: "relative" }}>
+      <div style={{ position: "relative", height }}>
         <MapSVG 
           width={width}
           height={height}
@@ -140,13 +143,26 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
           setSelectedRoute={setSelectedRoute}
           hoverStation={hoverStation}
           setHoverStation={setHoverStation}
+          setClickStation={setClickStation}
         />
-        <HoverStation hoverStation={hoverStation} margin={margin} />
+        { hoverStation && <HoverStation hoverStation={hoverStation} margin={margin} />}
+        { clickStation && (
+          <ClickStation
+            station={clickStation}
+            margin={margin} height={height} 
+            setClickStation={setClickStation}
+            setSelectedRoute={setSelectedRoute}
+            selectedRoute={selectedRoute}
+          />
+        )}
       </div>
-      <StationList
-        stations={stations}
-        setHoverStation={setHoverStation}
-      />
+      { stations.length && (
+        <StationList
+          stations={stations}
+          setHoverStation={setHoverStation}
+          setClickStation={setClickStation}
+        />
+      )}
     </div>
   );
 }

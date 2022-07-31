@@ -6,18 +6,15 @@ const Wrapper = styled.div`
   padding: 4px;
 `;
 
-function HoverStation({ hoverStation, margin }) {
-  if (!hoverStation) return null;
-  return (
-    <Wrapper
-      style={{
-        top: `${hoverStation.point[1] + 10}px`,
-        left: `${hoverStation.point[0] + margin + 10}px`
-      }}
-    >
-      {hoverStation.properties.stationnam}
-    </Wrapper>
-  );
-}
+const HoverStation = ({ hoverStation, margin }) => (
+  <Wrapper
+    style={{
+      top: `${hoverStation.point[1] + 10}px`,
+      left: `${hoverStation.point[0] + margin + 10}px`
+    }}
+  >
+    {hoverStation.properties.stationnam}
+  </Wrapper>
+);
 
 export default HoverStation;
