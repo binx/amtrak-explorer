@@ -7,6 +7,9 @@ const Wrapper = styled.div`
   display: flex;
   margin-bottom: 20px;
 `;
+const RouteSelect = styled(Select)`
+  border-color: #ccc;
+`;
 const ResetButton = styled(Button)`
   margin-left: 80px;
   @media only screen and (max-width: 600px) {
@@ -17,7 +20,7 @@ const ResetButton = styled(Button)`
 function RouteUI({ selectedRoute, setSelectedRoute }) {
   return (
     <Wrapper>
-      <Select
+      <RouteSelect
         placeholder="select a route"
         options={routeList}
         value={selectedRoute}

@@ -22,8 +22,14 @@ const StatePath = styled.path`
   stroke-dasharray: 2 2;
   stroke-width: 1;
 `;
+const Circle = styled.circle`
+  fill: ${props => props.hovered ? "white" : "#222"};
+  stroke: white;
+  cursor: pointer;
+  &:hover { fill: white; }
+`;
 
-function MapSVG({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute }) {
+function MapSVG({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute, hoverStation, setHoverStation }) {
   const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
   const isSmall = window.innerWidth < 800;
 
@@ -63,12 +69,13 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
         </g>
         <g>
           {stations.map((d,i) => (
-            <circle key={`station${i}`}
+            <Circle key={`station${i}`}
               cx={d.point[0]} cy={d.point[1]}
               r={isSmall ? 4 : 6}
-              fill="#222"
-              stroke="white"
               strokeWidth={isSmall ? 1 : 2}
+              hovered={hoverStation && hoverStation.properties.code === d.properties.code}
+              onMouseEnter={() => setHoverStation(d)}
+              onMouseLeave={() => setHoverStation()}
             />
           ))}
         </g>

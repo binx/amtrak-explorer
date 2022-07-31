@@ -7,6 +7,7 @@ import statesJSON from "./data/us-states.geojson";
 import stationList from "./data/stations.json";
 
 import MapSVG from "./MapSVG";
+import HoverStation from "./HoverStation";
 import StationList from "./StationList";
 
 function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
@@ -23,6 +24,8 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
   const [routes, setRoutes] = useState([]);
   const [stations, setStations] = useState([]);
   const [states, setStates] = useState([]);
+
+  const [hoverStation, setHoverStation] = useState();
 
   useEffect(() => {
     const div = containerRef.current;
@@ -125,17 +128,25 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
 
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }} ref={containerRef}>
-      <MapSVG 
-        width={width}
-        height={height}
-        margin={margin}
+      <div style={{ position: "relative" }}>
+        <MapSVG 
+          width={width}
+          height={height}
+          margin={margin}
+          stations={stations}
+          routes={routes}
+          states={states}
+          selectedRoute={selectedRoute}
+          setSelectedRoute={setSelectedRoute}
+          hoverStation={hoverStation}
+          setHoverStation={setHoverStation}
+        />
+        <HoverStation hoverStation={hoverStation} margin={margin} />
+      </div>
+      <StationList
         stations={stations}
-        routes={routes}
-        states={states}
-        selectedRoute={selectedRoute}
-        setSelectedRoute={setSelectedRoute}
+        setHoverStation={setHoverStation}
       />
-      <StationList stations={stations} />
     </div>
   );
 }

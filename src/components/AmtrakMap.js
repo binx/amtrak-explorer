@@ -5,7 +5,7 @@ import RouteUI from "./RouteUI";
 import VectorMap from "./VectorMap";
 
 const Wrapper = styled.div`
-  margin: 80px 40px;
+  margin: 40px;
 
   p {
     font-size: 16px;
