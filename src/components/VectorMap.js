@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import * as d3 from "d3-geo";
 
 import geoJSON from "./data/Amtrak_Routes-simplified.geojson";
@@ -10,9 +10,11 @@ import MapSVG from "./MapSVG";
 import StationList from "./StationList";
 
 function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
-  const width = 1200;
-  const height = 700;
   const margin = 50;
+
+  const containerRef = useRef();
+  const [width, setWidth] = useState(0);
+  const [height, setHeight] = useState(0);
 
   const [stateData, setStateData] = useState([]);
   const [routeData, setRouteData] = useState([]);
@@ -23,6 +25,12 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
   const [states, setStates] = useState([]);
 
   useEffect(() => {
+    const div = containerRef.current;
+    const w = Math.max(div.clientWidth - 360, 350);
+    const h = Math.min(700, w);
+    setWidth(w);
+    setHeight(h);
+
     fetch(stationJSON).then(response => response.json())
       .then(stations => {
         setStationData(stations.features)
@@ -34,7 +42,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
         setRouteData(data.features);
 
         const originalProjection =  d3.geoAlbers().fitExtent(
-          [[0, 0], [width - margin*2, height - margin*2]],
+          [[0, 0], [w - margin*2, h - margin*2]],
           data
         );
 
@@ -116,7 +124,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
   }, [selectedRoute]);
 
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", flexWrap: "wrap" }} ref={containerRef}>
       <MapSVG 
         width={width}
         height={height}

@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+const SVG = styled.svg`
+  border: 1px solid white;
+  margin: 0 40px 40px 0;
+  flex-shrink: 0;
+`;
 const Path = styled.path`
   fill: none;
   stroke-linecap: round;
@@ -18,14 +23,24 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
   const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
 
   return (
-    <svg
-      width={width} height={height} 
-      style={{ border: "1px solid white", marginRight: "40px", flexShrink: 0 }}
-    >
+    <SVG width={width} height={height} >
       <g transform={`translate(${margin},${margin})`}>
         <g>
           {states.map((d,i) => (
             <StatePath d={d.d} key={`state${i}`} />
+          ))}
+        </g>
+        <g>
+          {routes.map((d,i) => (
+            <path
+              key={`routeBehind${i}`}
+              d={d.d}
+              stroke="transparent"
+              strokeWidth="10"
+              fill="none"
+              style={{ cursor: "pointer" }}
+              onClick={() => setSelectedRoute(d.name)}
+            />
           ))}
         </g>
         <g>
@@ -52,7 +67,7 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
           ))}
         </g>
       </g>
-    </svg>
+    </SVG>
   );
 }
 

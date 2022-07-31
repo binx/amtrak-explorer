@@ -5,9 +5,7 @@ import routeList from "./data/route_names.json";
 
 const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
   margin-bottom: 20px;
-  width: 1200px;
 `;
 
 function RouteUI({ selectedRoute, setSelectedRoute }) {
@@ -19,7 +17,9 @@ function RouteUI({ selectedRoute, setSelectedRoute }) {
         value={selectedRoute}
         onChange={({ option }) => setSelectedRoute(option)}
       />
-      <Button onClick={() => setSelectedRoute()} primary label="reset" />
+      <Button onClick={() => setSelectedRoute()} primary label="reset"
+        style={{ marginLeft: "80px" }}
+      />
     </Wrapper>
   );
 }

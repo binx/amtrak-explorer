@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Table = styled.table`
+  width: 300px;
   display: block;
   border-collapse: collapse;
   td, th {
