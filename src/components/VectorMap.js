@@ -156,7 +156,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
           />
         )}
       </div>
-      { stations.length && (
+      { !!stations.length && (
         <StationList
           stations={stations}
           setHoverStation={setHoverStation}

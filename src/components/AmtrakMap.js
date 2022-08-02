@@ -34,6 +34,9 @@ const Footer = styled.div`
 const DataFootnote = styled.div`
   font-size: 12px;
   margin-top: 20px;
+  max-width: 400px;
+  div { margin-top: 10px; }
+
   a { color: white; }
 `;
 
@@ -51,7 +54,15 @@ function AmtrakMap() {
         setSelectedRoute={setSelectedRoute}
       />
       <Footer>site by <a href="https://rachelbinx.com">rachel binx</a></Footer>
-      <DataFootnote>station/route data from <a href="https://www.wikiwand.com/en/List_of_Amtrak_stations">here</a></DataFootnote>
+      <DataFootnote>
+        I built this site because I wanted a visual explore tool to understand the amtrak network, to see which trains run to which stations. The data is correlated from several sites to map routes & station names, and the order of the stations is geographiclly inferred (and often incorrect!)
+
+        <div>Next steps for this site are to hard-code the station order, and to publish the final dataset for other people to use :)</div>
+
+        <div>station/route correlation from <a href="https://www.wikiwand.com/en/List_of_Amtrak_stations">here</a></div>
+        <div>route geojson from <a href="https://data-usdot.opendata.arcgis.com/datasets/baa5a6c4d4ae4034850e99aaca38cfbb/explore">here</a></div>
+        <div>station lat/lng from <a href="https://github.com/datanews/amtrak-geojson">here</a></div>
+      </DataFootnote>
     </Wrapper>
   );
 }
