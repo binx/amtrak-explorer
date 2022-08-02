@@ -31,6 +31,11 @@ const Footer = styled.div`
     font-size: 14px;
   }
 `;
+const DataFootnote = styled.div`
+  font-size: 12px;
+  margin-top: 20px;
+  a { color: white; }
+`;
 
 function AmtrakMap() {
   const [selectedRoute, setSelectedRoute] = useState();
@@ -46,6 +51,7 @@ function AmtrakMap() {
         setSelectedRoute={setSelectedRoute}
       />
       <Footer>site by <a href="https://rachelbinx.com">rachel binx</a></Footer>
+      <DataFootnote>station/route data from <a href="https://www.wikiwand.com/en/List_of_Amtrak_stations">here</a></DataFootnote>
     </Wrapper>
   );
 }

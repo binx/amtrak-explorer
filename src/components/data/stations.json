@@ -69,9 +69,7 @@
             "Carolinian",
             "Crescent",
             "Northeast Regional",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -247,9 +245,7 @@
             "Carolinian",
             "Crescent",
             "Northeast Regional",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -492,7 +488,7 @@
         [
             "Acela",
             "Northeast Regional",
-            "Palmetto",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -509,7 +505,7 @@
         "station_code": "CAM",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -545,7 +541,7 @@
         [
             "Carolinian",
             "Piedmont",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -588,8 +584,7 @@
         "station_code": "CHS",
         "routes":
         [
-            "Palmetto",
-            "Silver Meteor"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -736,7 +731,7 @@
         "station_code": "CLB",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -873,8 +868,7 @@
         "station_code": "DFB",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -891,8 +885,7 @@
         "station_code": "DLD",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -900,8 +893,7 @@
         "station_code": "DLB",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -918,7 +910,7 @@
         "station_code": "DNK",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -958,7 +950,7 @@
         "station_code": "DIL",
         "routes":
         [
-            "Palmetto"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1228,8 +1220,7 @@
         "station_code": "FAY",
         "routes":
         [
-            "Palmetto",
-            "Silver Meteor"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1253,8 +1244,7 @@
         "station_code": "FLO",
         "routes":
         [
-            "Palmetto",
-            "Silver Meteor"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1271,8 +1261,7 @@
         "station_code": "FTL",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1323,7 +1312,7 @@
         [
             "Carolinian",
             "Northeast Regional",
-            "Silver Meteor"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1578,7 +1567,7 @@
         "station_code": "HAM",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1736,8 +1725,7 @@
         "station_code": "HOL",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1855,8 +1843,7 @@
         "station_code": "JAX",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1872,7 +1859,7 @@
         "station_code": "JSP",
         "routes":
         [
-            "Silver Meteor"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1966,8 +1953,7 @@
         "station_code": "KTR",
         "routes":
         [
-            "Palmetto",
-            "Silver Meteor"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -1983,8 +1969,7 @@
         "station_code": "KIS",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -2056,7 +2041,7 @@
         "station_code": "LAK/LKL",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -2431,7 +2416,7 @@
             "Acela",
             "Keystone Service",
             "Northeast Regional",
-            "Palmetto",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -2440,8 +2425,7 @@
         "station_code": "MIA",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -2582,7 +2566,7 @@
         [
             "Keystone Service",
             "Northeast Regional",
-            "Palmetto"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -2600,7 +2584,7 @@
         "routes":
         [
             "Northeast Regional",
-            "Palmetto",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -2678,9 +2662,7 @@
             "Maple Leaf",
             "Northeast Regional",
             "Pennsylvanian",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -2722,9 +2704,7 @@
             "Keystone Service",
             "Northeast Regional",
             "Pennsylvanian",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -2850,7 +2830,7 @@
         "station_code": "OKE",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -2916,8 +2896,7 @@
         "station_code": "ORL",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -2950,8 +2929,7 @@
         "station_code": "PAK",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3003,9 +2981,7 @@
         [
             "Carolinian",
             "Northeast Regional",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3027,10 +3003,8 @@
             "Crescent",
             "Keystone Service",
             "Northeast Regional",
-            "Palmetto",
             "Pennsylvanian",
-            "Silver Meteor",
-            "Silver Star",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -3205,7 +3179,7 @@
         [
             "Keystone Service",
             "Northeast Regional",
-            "Palmetto"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3257,7 +3231,7 @@
         [
             "Carolinian",
             "Piedmont",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3345,9 +3319,7 @@
         [
             "Carolinian",
             "Northeast Regional",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3398,9 +3370,7 @@
         "routes":
         [
             "Carolinian",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3671,9 +3641,7 @@
         "station_code": "SAV",
         "routes":
         [
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3711,8 +3679,7 @@
         "station_code": "SBG",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3729,7 +3696,7 @@
         "routes":
         [
             "Carolinian",
-            "Palmetto"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3787,7 +3754,7 @@
         "station_code": "SOP",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -3991,7 +3958,7 @@
         "station_code": "TPA",
         "routes":
         [
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -4086,10 +4053,8 @@
             "Crescent",
             "Keystone Service",
             "Northeast Regional",
-            "Palmetto",
             "Pennsylvanian",
-            "Silver Meteor",
-            "Silver Star",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -4256,9 +4221,7 @@
             "Carolinian",
             "Crescent",
             "Northeast Regional",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -4316,8 +4279,7 @@
         "station_code": "WPB",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -4403,9 +4365,7 @@
             "Carolinian",
             "Crescent",
             "Northeast Regional",
-            "Palmetto",
-            "Silver Meteor",
-            "Silver Star",
+            "Silver Service/Palmetto",
             "Vermonter"
         ]
     },
@@ -4415,7 +4375,7 @@
         "routes":
         [
             "Carolinian",
-            "Palmetto"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -4476,8 +4436,7 @@
         "station_code": "WTH",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -4485,8 +4444,7 @@
         "station_code": "WPK",
         "routes":
         [
-            "Silver Meteor",
-            "Silver Star"
+            "Silver Service/Palmetto"
         ]
     },
     {
@@ -4550,8 +4508,7 @@
         "station_code": "YEM",
         "routes":
         [
-            "Palmetto",
-            "Silver Meteor"
+            "Silver Service/Palmetto"
         ]
     },
     {
