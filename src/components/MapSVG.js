@@ -13,7 +13,7 @@ const Path = styled.path`
   fill: none;
   stroke-linecap: round;
   cursor: pointer;
-  stroke-width: ${props => props.selected ? 5 : 2};
+  stroke-width: ${props => props.hasSelection ? (props.selected ? 5 : 3.5) : 2};
   opacity: ${props => props.hasSelection ? (props.selected ? 1 : .2) : 1};
 `;
 const StatePath = styled.path`

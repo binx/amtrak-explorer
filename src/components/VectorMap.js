@@ -38,7 +38,9 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
 
     fetch(stationJSON).then(response => response.json())
       .then(stations => {
-        setStationData(stations.features)
+        const trainsOnly = stations.features
+          .filter(s => s.properties.stntype === "TRAIN");
+        setStationData(trainsOnly)
       });
 
     fetch(geoJSON).then(response => response.json())
