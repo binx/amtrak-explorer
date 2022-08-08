@@ -17,7 +17,11 @@ const ResetButton = styled(Button)`
   }
 `;
 
-function RouteUI({ selectedRoute, setSelectedRoute }) {
+function RouteUI({ selectedRoute, setSelectedRoute, setSearchParams }) {
+  const resetRoute = () => {
+    setSelectedRoute();
+    setSearchParams({});
+  }
   return (
     <Wrapper>
       <RouteSelect
@@ -26,7 +30,7 @@ function RouteUI({ selectedRoute, setSelectedRoute }) {
         value={selectedRoute}
         onChange={({ option }) => setSelectedRoute(option)}
       />
-      <ResetButton onClick={() => setSelectedRoute()} primary label="reset"/>
+      <ResetButton onClick={resetRoute} primary label="reset"/>
     </Wrapper>
   );
 }

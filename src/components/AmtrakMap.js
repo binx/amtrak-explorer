@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
+import { useSearchParams } from "react-router-dom";
 
 import RouteUI from "./RouteUI";
 import VectorMap from "./VectorMap";
@@ -42,16 +43,27 @@ const DataFootnote = styled.div`
 
 function AmtrakMap() {
   const [selectedRoute, setSelectedRoute] = useState();
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  useEffect(() => {
+    if (selectedRoute)
+      setSearchParams({ route: selectedRoute });
+  }, [selectedRoute, setSearchParams]);
 
   return (
     <Wrapper>
       <h1>amtrak explorer</h1>
       <Tagline>please, amtrak, make this information easier to find</Tagline>
       <p>select a route to see its stations, or click on a station to get more info :)</p>
-      <RouteUI selectedRoute={selectedRoute} setSelectedRoute={setSelectedRoute} />
+      <RouteUI
+        selectedRoute={selectedRoute}
+        setSelectedRoute={setSelectedRoute}
+        setSearchParams={setSearchParams}
+      />
       <VectorMap
         selectedRoute={selectedRoute}
         setSelectedRoute={setSelectedRoute}
+        searchParams={searchParams}
       />
       <Footer>site by <a href="https://rachelbinx.com">rachel binx</a></Footer>
       <DataFootnote>

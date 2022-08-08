@@ -11,7 +11,7 @@ import HoverStation from "./HoverStation";
 import ClickStation from "./ClickStation";
 import StationList from "./StationList";
 
-function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
+function VectorMap({ selectedRoute, setSelectedRoute, searchParams }) {
   const margin = window.innerWidth > 800 ? 50 : 20;
 
   const containerRef = useRef();
@@ -45,39 +45,28 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
 
     fetch(geoJSON).then(response => response.json())
       .then(data => {
-
         setRouteData(data.features);
+      });
 
-        const originalProjection =  d3.geoAlbers().fitExtent(
-          [[0, 0], [w - margin*2, h - margin*2]],
-          data
-        );
-
-        const path = d3.geoPath(originalProjection);
-
-        const newRoutes = data.features.map(r => ({
-          name: r.properties.NAME,
-          d: path(r)
-        }));
-        setRoutes(newRoutes);
-
-        fetch(statesJSON).then(response => response.json())
-          .then(stateData => {
-            setStateData(stateData.features);
-
-            const s = stateData.features
-              .map(d => ({
-                d: path(d),
-                name: d.properties.name
-              }));
-            setStates(s);
-          })
-      })
+    fetch(statesJSON).then(response => response.json())
+      .then(stateData => {
+        setStateData(stateData.features);
+      });
 
       // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
+    if (!stateData.length || !stationData.length || !routeData.length) return;
+    // try to get everything loaded before selecting a route
+    const route = searchParams.get("route");
+    if (route) setSelectedRoute(route);
+    // eslint-disable-next-line
+  }, [stationData, stateData, routeData])
+
+  useEffect(() => {
+    if (!stateData.length || !stationData.length || !routeData.length) return;
+
     setClickStation();
     let object;
     if (selectedRoute) {
@@ -86,7 +75,8 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
       object = { "type": "FeatureCollection", "features": routeData };
     }
 
-    const projection = d3.geoAlbers().fitExtent([[margin, margin], [width - margin*2, height - margin*2]], object);
+    const projection = d3.geoAlbers()
+      .fitExtent([[0, 0], [width - margin*2, height - margin*2]], object);
     const path = d3.geoPath(projection);
 
     const newRoutes = routeData.map(r => ({
@@ -97,7 +87,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
 
     const newStates = stateData.map(d => ({
       d: path(d),
-      name: d.name
+      name: d.properties.name
     }));
     setStates(newStates);
 
@@ -129,7 +119,7 @@ function VectorMap({ selectedRoute, setSelectedRoute, stationsOnRoute }) {
     setStations(newStations);
 
   // eslint-disable-next-line
-  }, [selectedRoute]);
+  }, [stateData, routeData, stationData, selectedRoute]);
 
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }} ref={containerRef}>

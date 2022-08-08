@@ -1,4 +1,6 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import { Grommet } from 'grommet';
+
 import AmtrakMap from "./components/AmtrakMap";
 
 const theme = {
@@ -17,7 +19,9 @@ const theme = {
 function App() {
   return (
     <Grommet theme={theme}>
-      <AmtrakMap />
+      <Router>
+        <AmtrakMap />
+      </Router>
     </Grommet>
   );
 }
