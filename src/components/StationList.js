@@ -5,14 +5,10 @@ import orderedStations from "./data/route_segments.json";
 
 import LineVis from "./LineVis";
 
-const Table = styled.div`
+const Wrapper = styled.div`
   width: 240px;
-  display: block;
-  border-collapse: collapse;
-  
-  > div { cursor: pointer; }
-  > div:hover td {
-    border-bottom: 1px solid #48D5C6;
+  @media only screen and (max-width: 800px) {
+    padding: 20px 10px;
   }
 `;
 const Flex = styled.div`
@@ -23,13 +19,13 @@ const Flex = styled.div`
   font-size: 14px;
 
   span {
+    cursor: pointer;
     text-decoration: underline;
     text-decoration-color: ${props => props.hovered ? props.color : "transparent"};
   }
 `;
 const Spacer = styled.div`
   height: 25px;
-  // margin-right: 20px;
   margin-left: ${props => (props.depth) * 20}px;
   flex: 0;
   display: flex;
@@ -85,13 +81,14 @@ function StationList({ stations, selectedRoute, hoverStation, color, setHoverSta
 
     setStationList(newStationList);
 
+    // eslint-disable-next-line
   }, [stations]);
 
 
   return (
-    <div style={{ position: "relative" }}>
+    <Wrapper>
       <LineVis stationList={stationList} color={color} />
-      <Table>
+      <div>
         {stationList.map((segment, j) => {
           return (
             <div key={`seg${j}`} style={{ marginBottom: '10px'}}>
@@ -99,13 +96,12 @@ function StationList({ stations, selectedRoute, hoverStation, color, setHoverSta
                 <div style={{ marginTop: "40px"}} />
               )}
               { segment.stations.map((d,i) => {
-                // hovered={hoverStation && hoverStation.properties.code === d.properties.code}
                 return (
                   <Flex key={`station${i}`}
                     onMouseEnter={() => setHoverStation(d)}
                     onMouseLeave={() => setHoverStation()}
                     onClick={() => setClickStation(d)}
-                    
+                    hovered={hoverStation && hoverStation.properties.code === d.properties.code} 
                     color={color}
                   >
                     <Spacer depth={segment.depth} />
@@ -116,8 +112,8 @@ function StationList({ stations, selectedRoute, hoverStation, color, setHoverSta
             </div>
           )
         })}
-      </Table>
-    </div>
+      </div>
+    </Wrapper>
   );
 }
 

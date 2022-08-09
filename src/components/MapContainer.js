@@ -48,7 +48,7 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
         setStateData(stateData.features);
       });
 
-      // eslint-disable-next-line
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -87,15 +87,10 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
     setStates(newStates);
 
     /* begin station code */
-    const bounds = d3.geoBounds(object);
-    const aspect = [bounds[1][0] - bounds[0][0], bounds[1][1] - bounds[0][1]];
-    const isHorizontalish = aspect[0] > aspect[1];
 
-    const stationsOnRoute = [...stationList].filter(s => {
-      if (s.routes.indexOf(selectedRoute) !== -1)
-        return true;
-      else return false;
-    });
+    const stationsOnRoute = [...stationList].filter(s => (
+      s.routes.indexOf(selectedRoute) !== -1
+    ));
     const stationCodes = stationsOnRoute.map(s => s.station_code);
 
     const newStations = [...stationData].filter(s => {
@@ -108,10 +103,6 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
       s.routes = stationsOnRoute[index].routes;
       return s;
     })
-    // .sort((a,b) => {
-    //   if (isHorizontalish) return a.point[0] - b.point[0];
-    //   else return a.point[1] - b.point[1]; 
-    // })
     setStations(newStations);
 
   // eslint-disable-next-line
