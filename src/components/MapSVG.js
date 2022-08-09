@@ -34,6 +34,11 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
   const isSmall = window.innerWidth < 800;
   const circleColor = selectedRoute && routes.find(r => r.name === selectedRoute).color;
 
+  const sortedRoutes = routes.sort((a,b) => {
+    if (a.name === selectedRoute) return 1;
+    else return -1;
+  })
+
   return (
     <SVG width={width} height={height} >
       <g transform={`translate(${margin},${margin})`}>
@@ -43,7 +48,7 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
           ))}
         </g>
         <g>
-          {routes.map((d,i) => (
+          {sortedRoutes.map((d,i) => (
             <path
               key={`routeBehind${i}`}
               d={d.d}

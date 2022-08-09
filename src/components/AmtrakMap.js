@@ -8,6 +8,7 @@ import MapContainer from "./MapContainer";
 const Wrapper = styled.div`
   margin: 40px;
 
+  h1 { margin-bottom: 20px; }
   p {
     font-size: 16px;
     margin: 40px 0;
@@ -53,8 +54,7 @@ function AmtrakMap() {
   return (
     <Wrapper>
       <h1>amtrak explorer</h1>
-      <Tagline>please, amtrak, make this information easier to find</Tagline>
-      <p>select a route to see its stations, or click on a station to get more info :)</p>
+      <Tagline>explore the amtrakverse</Tagline>
       <RouteUI
         selectedRoute={selectedRoute}
         setSelectedRoute={setSelectedRoute}

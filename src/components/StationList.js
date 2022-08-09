@@ -28,63 +28,60 @@ const Flex = styled.div`
   }
 `;
 const Spacer = styled.div`
-  width: 80px;
-  margin-right: 20px;
+  height: 25px;
+  // margin-right: 20px;
+  margin-left: ${props => (props.depth) * 20}px;
   flex: 0;
   display: flex;
   align-items: center;
-`;
-const Bar = styled.div`
-  height: 25px;
-  width: 5px;
-  margin-left: ${props => (props.depth - 1) * 15}px;
-  background-color: white;
-  opacity: .1
 `;
 
 function StationList({ stations, selectedRoute, hoverStation, color, setHoverStation, setClickStation }) {
 
   const [stationList, setStationList] = useState([]);
 
-  useEffect(() => {
-    const selected = orderedStations.find(s => s.route === selectedRoute);
+  // console.log(orderedStations)
+  // const map = orderedStations.map(o => {
+  //   return {
+  //     route: o.route,
+  //     segments: o.segments.map(list => {
+  //       if (typeof list[0] === "string")
+  //         return { stations: list };
+  //       else
+  //         return { segments: list.map(l => ({ stations: l })) }
+  //     })
+  //   }
+  // })
+  // console.log(JSON.stringify(map))
 
+  useEffect(() => {
     const getStations = list => (
       list.map(d => {
         return stations.find(s => s.properties.stationnam === d);
       })
     )
 
+    const selected = orderedStations.find(s => s.route === selectedRoute);
     let newStationList = [];
 
-    // lmaooooo
-    // if 2 -> 3
-    // if 1 -> 1
-    // please please make this better
-    const maxSegs = Math.max(selected.segments.map(s => s.length));
+    const pushToList = (obj) => {
+      newStationList.push({
+        depth: obj.depth,
+        linksUp: obj.linksUp,
+        splitsOff: obj.splitsOff,
+        endOfLine: obj.endOfLine,
+        stations: getStations(obj.stations)
+      });
+    }
 
-    /*
-      if it's one just make it 1
-      if it's 2 segmants, try to space bar
-    */
+    const parseObj = obj => {
+      if (obj.stations)
+        pushToList(obj);
+      else
+        obj.segments.forEach(o => parseObj(o));
+    }
 
-    selected.segments.forEach(segment => {
-      if (typeof segment[0] === "string") {
-        // flat array of stations
-        newStationList.push({
-          depth: maxSegs === 1 ? 1 : 2,
-          stations: getStations(segment)
-        });
-      } else {
-        segment.forEach((s,i) => {
-          // kill me
-          newStationList.push({
-            depth: i === 0 ? 1 : 3,
-            stations: getStations(s)
-          });
-        })
-      }
-    })
+    selected.segments.forEach(s => parseObj(s))
 
     setStationList(newStationList);
 
@@ -97,28 +94,25 @@ function StationList({ stations, selectedRoute, hoverStation, color, setHoverSta
       <Table>
         {stationList.map((segment, j) => {
           return (
-            <div key={`seg${j}`}>
+            <div key={`seg${j}`} style={{ marginBottom: '10px'}}>
               { ((segment.depth === 2 || segment.depth === 1) && j !== 0) && (
                 <div style={{ marginTop: "40px"}} />
               )}
               { segment.stations.map((d,i) => {
-                const spacerDepth = segment.depth > 2 ? segment.depth + 1 : segment.depth;
+                // hovered={hoverStation && hoverStation.properties.code === d.properties.code}
                 return (
                   <Flex key={`station${i}`}
                     onMouseEnter={() => setHoverStation(d)}
                     onMouseLeave={() => setHoverStation()}
                     onClick={() => setClickStation(d)}
-                    hovered={hoverStation ? hoverStation.properties.code === d.properties.code : false}
+                    
                     color={color}
                   >
-                    <Spacer>
-                      <Bar depth={spacerDepth} />
-                    </Spacer>
+                    <Spacer depth={segment.depth} />
                     <span>{d && d.properties.stationnam}</span>
                   </Flex>
                 );
               })}
-              <div style={{ marginBottom: '10px'}}></div>
             </div>
           )
         })}

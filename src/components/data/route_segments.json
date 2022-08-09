@@ -3,739 +3,591 @@
         "route": "Acela",
         "segments":
         [
-            [
-                "Washington, DC",
-                "BWI Marshall Airport, MD",
-                "Baltimore, MD",
-                "Wilmington, DE",
-                "Philadelphia, PA",
-                "Trenton, NJ",
-                "Metropark, NJ",
-                "Newark Penn, NJ",
-                "New York, NY",
-                "Stamford, CT",
-                "New Haven Union, CT",
-                "Providence, RI",
-                "Route 128, MA",
-                "Boston Back Bay, MA",
-                "Boston South, MA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Washington, DC",
+                    "BWI Marshall Airport, MD",
+                    "Baltimore, MD",
+                    "Wilmington, DE",
+                    "Philadelphia, PA",
+                    "Trenton, NJ",
+                    "Metropark, NJ",
+                    "Newark Penn, NJ",
+                    "New York, NY",
+                    "Stamford, CT",
+                    "New Haven Union, CT",
+                    "Providence, RI",
+                    "Route 128, MA",
+                    "Boston Back Bay, MA",
+                    "Boston South, MA"
+                ]
+            }
         ]
     },
     {
         "route": "Adirondack",
         "segments":
         [
-            [
-                "Montreal, QC",
-                "St-Lambert, QC",
-                "Rouses Point, NY",
-                "Plattsburgh, NY",
-                "Port Kent, NY",
-                "Westport, NY",
-                "Port Henry, NY",
-                "Ticonderoga, NY",
-                "Whitehall, NY",
-                "Fort Edward-Glens Falls, NY",
-                "Saratoga Springs, NY",
-                "Schenectady, NY",
-                "Albany-Rensselaer, NY",
-                "Hudson, NY",
-                "Rhinecliff, NY",
-                "Poughkeepsie, NY",
-                "Croton-Harmon, NY",
-                "Yonkers, NY",
-                "New York, NY"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Montreal, QC",
+                    "St-Lambert, QC",
+                    "Rouses Point, NY",
+                    "Plattsburgh, NY",
+                    "Port Kent, NY",
+                    "Westport, NY",
+                    "Port Henry, NY",
+                    "Ticonderoga, NY",
+                    "Whitehall, NY",
+                    "Fort Edward-Glens Falls, NY",
+                    "Saratoga Springs, NY",
+                    "Schenectady, NY",
+                    "Albany-Rensselaer, NY",
+                    "Hudson, NY",
+                    "Rhinecliff, NY",
+                    "Poughkeepsie, NY",
+                    "Croton-Harmon, NY",
+                    "Yonkers, NY",
+                    "New York, NY"
+                ]
+            }
         ]
     },
     {
         "route": "Auto Train",
         "segments":
         [
-            [
-                "Lorton, VA",
-                "Sanford, FL"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Lorton, VA",
+                    "Sanford, FL"
+                ]
+            }
         ]
     },
     {
         "route": "Blue Water",
         "segments":
         [
-            [
-                "Chicago, IL",
-                "New Buffalo, MI",
-                "Niles, MI",
-                "Dowagiac, MI",
-                "Kalamazoo, MI",
-                "Battle Creek, MI",
-                "East Lansing, MI",
-                "Durand, MI",
-                "Flint, MI",
-                "Lapeer, MI",
-                "Port Huron, MI"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "New Buffalo, MI",
+                    "Niles, MI",
+                    "Dowagiac, MI",
+                    "Kalamazoo, MI",
+                    "Battle Creek, MI",
+                    "East Lansing, MI",
+                    "Durand, MI",
+                    "Flint, MI",
+                    "Lapeer, MI",
+                    "Port Huron, MI"
+                ]
+            }
         ]
     },
     {
         "route": "California Zephyr",
         "segments":
         [
-            [
-                "Emeryville, CA",
-                "Richmond, CA",
-                "Martinez, CA",
-                "Davis, CA",
-                "Sacramento, CA",
-                "Roseville, CA",
-                "Colfax, CA",
-                "Truckee, CA",
-                "Reno, NV",
-                "Winnemucca, NV",
-                "Elko, NV",
-                "Salt Lake City, UT",
-                "Provo, UT",
-                "Helper, UT",
-                "Green River, UT",
-                "Grand Junction, CO",
-                "Glenwood Springs, CO",
-                "Granby, CO",
-                "Fraser-Winter Park, CO",
-                "Denver, CO",
-                "Fort Morgan, CO",
-                "McCook, NE",
-                "Holdrege, NE",
-                "Hastings, NE",
-                "Lincoln, NE",
-                "Omaha, NE",
-                "Creston, IA",
-                "Osceola, IA",
-                "Ottumwa, IA",
-                "Mount Pleasant, IA",
-                "Burlington, IA",
-                "Galesburg, IL",
-                "Princeton, IL",
-                "Naperville, IL",
-                "Chicago, IL"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Emeryville, CA",
+                    "Richmond, CA",
+                    "Martinez, CA",
+                    "Davis, CA",
+                    "Sacramento, CA",
+                    "Roseville, CA",
+                    "Colfax, CA",
+                    "Truckee, CA",
+                    "Reno, NV",
+                    "Winnemucca, NV",
+                    "Elko, NV",
+                    "Salt Lake City, UT",
+                    "Provo, UT",
+                    "Helper, UT",
+                    "Green River, UT",
+                    "Grand Junction, CO",
+                    "Glenwood Springs, CO",
+                    "Granby, CO",
+                    "Fraser-Winter Park, CO",
+                    "Denver, CO",
+                    "Fort Morgan, CO",
+                    "McCook, NE",
+                    "Holdrege, NE",
+                    "Hastings, NE",
+                    "Lincoln, NE",
+                    "Omaha, NE",
+                    "Creston, IA",
+                    "Osceola, IA",
+                    "Ottumwa, IA",
+                    "Mount Pleasant, IA",
+                    "Burlington, IA",
+                    "Galesburg, IL",
+                    "Princeton, IL",
+                    "Naperville, IL",
+                    "Chicago, IL"
+                ]
+            }
         ]
     },
     {
         "route": "Capitol Corridor",
         "segments":
         [
-            [
-                "Auburn, CA",
-                "Rocklin, CA",
-                "Roseville, CA",
-                "Davis, CA",
-                "Sacramento, CA",
-                "Fairfield-Vacaville, CA",
-                "Suisun-Fairfield, CA",
-                "Martinez, CA",
-                "Richmond, CA",
-                "Berkeley, CA",
-                "Emeryville, CA",
-                "Oakland–Jack London Square, CA",
-                "Oakland Coliseum, CA",
-                "Hayward, CA",
-                "Fremont, CA",
-                "Santa Clara – Great America, CA",
-                "Santa Clara, CA",
-                "San Jose, CA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Auburn, CA",
+                    "Rocklin, CA",
+                    "Roseville, CA",
+                    "Davis, CA",
+                    "Sacramento, CA",
+                    "Fairfield-Vacaville, CA",
+                    "Suisun-Fairfield, CA",
+                    "Martinez, CA",
+                    "Richmond, CA",
+                    "Berkeley, CA",
+                    "Emeryville, CA",
+                    "Oakland–Jack London Square, CA",
+                    "Oakland Coliseum, CA",
+                    "Hayward, CA",
+                    "Fremont, CA",
+                    "Santa Clara – Great America, CA",
+                    "Santa Clara, CA",
+                    "San Jose, CA"
+                ]
+            }
         ]
     },
     {
         "route": "Capitol Limited",
         "segments":
         [
-            [
-                "Chicago, IL",
-                "South Bend, IN",
-                "Elkhart, IN",
-                "Waterloo, IN",
-                "Toledo, OH",
-                "Sandusky, OH",
-                "Elyria, OH",
-                "Cleveland, OH",
-                "Alliance, OH",
-                "Pittsburgh, PA",
-                "Connellsville, PA",
-                "Cumberland, MD",
-                "Martinsburg, WV",
-                "Harpers Ferry, WV",
-                "Rockville, MD",
-                "Washington, DC"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "South Bend, IN",
+                    "Elkhart, IN",
+                    "Waterloo, IN",
+                    "Toledo, OH",
+                    "Sandusky, OH",
+                    "Elyria, OH",
+                    "Cleveland, OH",
+                    "Alliance, OH",
+                    "Pittsburgh, PA",
+                    "Connellsville, PA",
+                    "Cumberland, MD",
+                    "Martinsburg, WV",
+                    "Harpers Ferry, WV",
+                    "Rockville, MD",
+                    "Washington, DC"
+                ]
+            }
         ]
     },
     {
         "route": "Cardinal",
         "segments":
         [
-            [
-                "Chicago, IL",
-                "Dyer, IN",
-                "Rensselaer, IN",
-                "Lafayette, IN",
-                "Crawfordsville, IN",
-                "Indianapolis, IN",
-                "Connersville, IN",
-                "Cincinnati, OH",
-                "Maysville, KY",
-                "South Shore-South Portsmouth, KY",
-                "Ashland, KY",
-                "Huntington, WV",
-                "Charleston, WV",
-                "Montgomery, WV",
-                "Thurmond, WV",
-                "Prince, WV",
-                "Hinton, WV",
-                "Alderson, WV",
-                "White Sulphur Springs, WV",
-                "Clifton Forge, VA",
-                "Staunton, VA",
-                "Charlottesville, VA",
-                "Culpeper, VA",
-                "Manassas, VA",
-                "Alexandria, VA",
-                "Washington, DC",
-                "Baltimore, MD",
-                "Wilmington, DE",
-                "Philadelphia, PA",
-                "Trenton, NJ",
-                "Newark Penn, NJ",
-                "New York, NY"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "Dyer, IN",
+                    "Rensselaer, IN",
+                    "Lafayette, IN",
+                    "Crawfordsville, IN",
+                    "Indianapolis, IN",
+                    "Connersville, IN",
+                    "Cincinnati, OH",
+                    "Maysville, KY",
+                    "South Shore-South Portsmouth, KY",
+                    "Ashland, KY",
+                    "Huntington, WV",
+                    "Charleston, WV",
+                    "Montgomery, WV",
+                    "Thurmond, WV",
+                    "Prince, WV",
+                    "Hinton, WV",
+                    "Alderson, WV",
+                    "White Sulphur Springs, WV",
+                    "Clifton Forge, VA",
+                    "Staunton, VA",
+                    "Charlottesville, VA",
+                    "Culpeper, VA",
+                    "Manassas, VA",
+                    "Alexandria, VA",
+                    "Washington, DC",
+                    "Baltimore, MD",
+                    "Wilmington, DE",
+                    "Philadelphia, PA",
+                    "Trenton, NJ",
+                    "Newark Penn, NJ",
+                    "New York, NY"
+                ]
+            }
         ]
     },
     {
         "route": "Carolinian",
         "segments":
         [
-            [
-                "New York, NY",
-                "Newark Penn, NJ",
-                "Trenton, NJ",
-                "Philadelphia, PA",
-                "Wilmington, DE",
-                "Baltimore, MD",
-                "Washington, DC",
-                "Alexandria, VA",
-                "Quantico, VA",
-                "Fredericksburg, VA",
-                "Richmond Staples Mill Road, VA",
-                "Petersburg, VA",
-                "Rocky Mount, NC",
-                "Wilson, NC",
-                "Selma-Smithfield, NC",
-                "Raleigh, NC",
-                "North Carolina State Fair, NC",
-                "Cary, NC",
-                "Durham, NC",
-                "Burlington, NC",
-                "Greensboro, NC",
-                "High Point, NC",
-                "Lexington Barbeque Festival, NC",
-                "Salisbury, NC",
-                "Kannapolis, NC",
-                "Charlotte, NC"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "New York, NY",
+                    "Newark Penn, NJ",
+                    "Trenton, NJ",
+                    "Philadelphia, PA",
+                    "Wilmington, DE",
+                    "Baltimore, MD",
+                    "Washington, DC",
+                    "Alexandria, VA",
+                    "Quantico, VA",
+                    "Fredericksburg, VA",
+                    "Richmond Staples Mill Road, VA",
+                    "Petersburg, VA",
+                    "Rocky Mount, NC",
+                    "Wilson, NC",
+                    "Selma-Smithfield, NC",
+                    "Raleigh, NC",
+                    "North Carolina State Fair, NC",
+                    "Cary, NC",
+                    "Durham, NC",
+                    "Burlington, NC",
+                    "Greensboro, NC",
+                    "High Point, NC",
+                    "Lexington Barbeque Festival, NC",
+                    "Salisbury, NC",
+                    "Kannapolis, NC",
+                    "Charlotte, NC"
+                ]
+            }
         ]
     },
     {
         "route": "Cascades",
         "segments":
         [
-            [
-                "Vancouver, BC",
-                "Bellingham, WA",
-                "Mount Vernon, WA",
-                "Stanwood, WA",
-                "Everett, WA",
-                "Edmonds, WA",
-                "Seattle, WA",
-                "Tukwila, WA",
-                "Tacoma, WA",
-                "Centralia, WA",
-                "Kelso-Longview, WA",
-                "Vancouver, WA",
-                "Portland, OR",
-                "Oregon City, OR",
-                "Salem, OR",
-                "Albany, OR",
-                "Eugene, OR"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Vancouver, BC",
+                    "Bellingham, WA",
+                    "Mount Vernon, WA",
+                    "Stanwood, WA",
+                    "Everett, WA",
+                    "Edmonds, WA",
+                    "Seattle, WA",
+                    "Tukwila, WA",
+                    "Tacoma, WA",
+                    "Centralia, WA",
+                    "Kelso-Longview, WA",
+                    "Vancouver, WA",
+                    "Portland, OR",
+                    "Oregon City, OR",
+                    "Salem, OR",
+                    "Albany, OR",
+                    "Eugene, OR"
+                ]
+            }
         ]
     },
     {
         "route": "City of New Orleans",
         "segments":
         [
-            [
-                "Chicago, IL",
-                "Homewood, IL",
-                "Kankakee, IL",
-                "Champaign-Urbana, IL",
-                "Mattoon, IL",
-                "Effingham, IL",
-                "Centralia, IL",
-                "Carbondale, IL",
-                "Fulton, KY",
-                "Newbern-Dyersburg, TN",
-                "Memphis, TN",
-                "Marks, MS",
-                "Greenwood, MS",
-                "Yazoo City, MS",
-                "Jackson, MS",
-                "Hazlehurst, MS",
-                "Brookhaven, MS",
-                "McComb, MS",
-                "Hammond, LA",
-                "New Orleans, LA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "Homewood, IL",
+                    "Kankakee, IL",
+                    "Champaign-Urbana, IL",
+                    "Mattoon, IL",
+                    "Effingham, IL",
+                    "Centralia, IL",
+                    "Carbondale, IL",
+                    "Fulton, KY",
+                    "Newbern-Dyersburg, TN",
+                    "Memphis, TN",
+                    "Marks, MS",
+                    "Greenwood, MS",
+                    "Yazoo City, MS",
+                    "Jackson, MS",
+                    "Hazlehurst, MS",
+                    "Brookhaven, MS",
+                    "McComb, MS",
+                    "Hammond, LA",
+                    "New Orleans, LA"
+                ]
+            }
         ]
     },
     {
         "route": "Coast Starlight",
         "segments":
         [
-            [
-                "Seattle, WA",
-                "Tacoma, WA",
-                "Centralia, WA",
-                "Kelso-Longview, WA",
-                "Vancouver, WA",
-                "Portland, OR",
-                "Salem, OR",
-                "Albany, OR",
-                "Eugene, OR",
-                "Chemult, OR",
-                "Klamath Falls, OR",
-                "Dunsmuir, CA",
-                "Redding, CA",
-                "Chico, CA",
-                "Sacramento, CA",
-                "Davis, CA",
-                "Martinez, CA",
-                "Emeryville, CA",
-                "Oakland–Jack London Square, CA",
-                "San Jose, CA",
-                "Salinas, CA",
-                "Paso Robles, CA",
-                "San Luis Obispo, CA",
-                "Santa Barbara, CA",
-                "Oxnard, CA",
-                "Simi Valley, CA",
-                "Van Nuys, CA",
-                "Burbank, CA",
-                "Los Angeles, CA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Seattle, WA",
+                    "Tacoma, WA",
+                    "Centralia, WA",
+                    "Kelso-Longview, WA",
+                    "Vancouver, WA",
+                    "Portland, OR",
+                    "Salem, OR",
+                    "Albany, OR",
+                    "Eugene, OR",
+                    "Chemult, OR",
+                    "Klamath Falls, OR",
+                    "Dunsmuir, CA",
+                    "Redding, CA",
+                    "Chico, CA",
+                    "Sacramento, CA",
+                    "Davis, CA",
+                    "Martinez, CA",
+                    "Emeryville, CA",
+                    "Oakland–Jack London Square, CA",
+                    "San Jose, CA",
+                    "Salinas, CA",
+                    "Paso Robles, CA",
+                    "San Luis Obispo, CA",
+                    "Santa Barbara, CA",
+                    "Oxnard, CA",
+                    "Simi Valley, CA",
+                    "Van Nuys, CA",
+                    "Burbank, CA",
+                    "Los Angeles, CA"
+                ]
+            }
         ]
     },
     {
         "route": "Crescent",
         "segments":
         [
-            [
-                "New York, NY",
-                "Newark Penn, NJ",
-                "Trenton, NJ",
-                "Philadelphia, PA",
-                "Wilmington, DE",
-                "Baltimore, MD",
-                "Washington, DC",
-                "Alexandria, VA",
-                "Manassas, VA",
-                "Culpeper, VA",
-                "Charlottesville, VA",
-                "Lynchburg, VA",
-                "Danville, VA",
-                "Greensboro, NC",
-                "High Point, NC",
-                "Salisbury, NC",
-                "Charlotte, NC",
-                "Gastonia, NC",
-                "Spartanburg, SC",
-                "Greenville, SC",
-                "Clemson, SC",
-                "Toccoa, GA",
-                "Gainesville, GA",
-                "Atlanta, GA",
-                "Anniston, AL",
-                "Birmingham, AL",
-                "Tuscaloosa, AL",
-                "Meridian, MS",
-                "Laurel, MS",
-                "Hattiesburg, MS",
-                "Picayune, MS",
-                "Slidell, LA",
-                "New Orleans, LA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "New York, NY",
+                    "Newark Penn, NJ",
+                    "Trenton, NJ",
+                    "Philadelphia, PA",
+                    "Wilmington, DE",
+                    "Baltimore, MD",
+                    "Washington, DC",
+                    "Alexandria, VA",
+                    "Manassas, VA",
+                    "Culpeper, VA",
+                    "Charlottesville, VA",
+                    "Lynchburg, VA",
+                    "Danville, VA",
+                    "Greensboro, NC",
+                    "High Point, NC",
+                    "Salisbury, NC",
+                    "Charlotte, NC",
+                    "Gastonia, NC",
+                    "Spartanburg, SC",
+                    "Greenville, SC",
+                    "Clemson, SC",
+                    "Toccoa, GA",
+                    "Gainesville, GA",
+                    "Atlanta, GA",
+                    "Anniston, AL",
+                    "Birmingham, AL",
+                    "Tuscaloosa, AL",
+                    "Meridian, MS",
+                    "Laurel, MS",
+                    "Hattiesburg, MS",
+                    "Picayune, MS",
+                    "Slidell, LA",
+                    "New Orleans, LA"
+                ]
+            }
         ]
     },
     {
         "route": "Downeaster",
         "segments":
         [
-            [
-                "Brunswick, ME",
-                "Freeport, ME",
-                "Portland, ME",
-                "Old Orchard Beach, ME",
-                "Saco, ME",
-                "Wells, ME",
-                "Dover, NH",
-                "Durham, NH",
-                "Exeter, NH",
-                "Haverhill, MA",
-                "Woburn, MA",
-                "Boston North, MA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Brunswick, ME",
+                    "Freeport, ME",
+                    "Portland, ME",
+                    "Old Orchard Beach, ME",
+                    "Saco, ME",
+                    "Wells, ME",
+                    "Dover, NH",
+                    "Durham, NH",
+                    "Exeter, NH",
+                    "Haverhill, MA",
+                    "Woburn, MA",
+                    "Boston North, MA"
+                ]
+            }
         ]
     },
     {
         "route": "Empire Builder",
         "segments":
         [
-            [
+            {
+                "segments":
                 [
-                    "Portland, OR",
-                    "Vancouver, WA",
-                    "Bingen-White Salmon, WA",
-                    "Wishram, WA",
-                    "Pasco, WA"
-                ],
-                [
-                    "Seattle, WA",
-                    "Edmonds, WA",
-                    "Everett, WA",
-                    "Leavenworth, WA",
-                    "Wenatchee, WA",
-                    "Ephrata, WA"
+                    {
+                        "depth": 1,
+                        "stations":
+                        [
+                            "Portland, OR",
+                            "Vancouver, WA",
+                            "Bingen-White Salmon, WA",
+                            "Wishram, WA",
+                            "Pasco, WA"
+                        ]
+                    },
+                    {
+                        "depth": 3,
+                        "linksUp": true,
+                        "stations":
+                        [
+                            "Seattle, WA",
+                            "Edmonds, WA",
+                            "Everett, WA",
+                            "Leavenworth, WA",
+                            "Wenatchee, WA",
+                            "Ephrata, WA"
+                        ]
+                    }
                 ]
-            ],
-            [
-                "Spokane, WA",
-                "Sandpoint, ID",
-                "Libby, MT",
-                "Whitefish, MT",
-                "West Glacier, MT",
-                "Essex, MT",
-                "East Glacier Park, MT",
-                "Browning, MT",
-                "Cut Bank, MT",
-                "Shelby, MT",
-                "Havre, MT",
-                "Malta, MT",
-                "Glasgow, MT",
-                "Wolf Point, MT",
-                "Williston, ND",
-                "Stanley, ND",
-                "Minot, ND",
-                "Rugby, ND",
-                "Devils Lake, ND",
-                "Grand Forks, ND",
-                "Fargo, ND",
-                "Detroit Lakes, MN",
-                "Staples, MN",
-                "St. Cloud, MN",
-                "St. Paul-Minneapolis, MN",
-                "Red Wing, MN",
-                "Winona, MN",
-                "La Crosse, WI",
-                "Tomah, WI",
-                "Wisconsin Dells, WI",
-                "Portage, WI",
-                "Columbus, WI",
-                "Milwaukee-Downtown, WI",
-                "Glenview, IL",
-                "Chicago, IL"
-            ]
+            },
+            {
+                "depth": 2,
+                "stations":
+                [
+                    "Spokane, WA",
+                    "Sandpoint, ID",
+                    "Libby, MT",
+                    "Whitefish, MT",
+                    "West Glacier, MT",
+                    "Essex, MT",
+                    "East Glacier Park, MT",
+                    "Browning, MT",
+                    "Cut Bank, MT",
+                    "Shelby, MT",
+                    "Havre, MT",
+                    "Malta, MT",
+                    "Glasgow, MT",
+                    "Wolf Point, MT",
+                    "Williston, ND",
+                    "Stanley, ND",
+                    "Minot, ND",
+                    "Rugby, ND",
+                    "Devils Lake, ND",
+                    "Grand Forks, ND",
+                    "Fargo, ND",
+                    "Detroit Lakes, MN",
+                    "Staples, MN",
+                    "St. Cloud, MN",
+                    "St. Paul-Minneapolis, MN",
+                    "Red Wing, MN",
+                    "Winona, MN",
+                    "La Crosse, WI",
+                    "Tomah, WI",
+                    "Wisconsin Dells, WI",
+                    "Portage, WI",
+                    "Columbus, WI",
+                    "Milwaukee-Downtown, WI",
+                    "Glenview, IL",
+                    "Chicago, IL"
+                ]
+            }
         ]
     },
     {
         "route": "Empire Service",
         "segments":
         [
-            [
-                "Niagara Falls, NY",
-                "Buffalo–Exchange Street, NY",
-                "Buffalo–Depew, NY",
-                "Rochester, NY",
-                "New York State Fair, NY",
-                "Syracuse, NY",
-                "Rome, NY",
-                "Utica, NY",
-                "Amsterdam, NY",
-                "Schenectady, NY",
-                "Albany-Rensselaer, NY",
-                "Hudson, NY",
-                "Rhinecliff, NY",
-                "Poughkeepsie, NY",
-                "Croton-Harmon, NY",
-                "Yonkers, NY",
-                "New York, NY"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Niagara Falls, NY",
+                    "Buffalo–Exchange Street, NY",
+                    "Buffalo–Depew, NY",
+                    "Rochester, NY",
+                    "New York State Fair, NY",
+                    "Syracuse, NY",
+                    "Rome, NY",
+                    "Utica, NY",
+                    "Amsterdam, NY",
+                    "Schenectady, NY",
+                    "Albany-Rensselaer, NY",
+                    "Hudson, NY",
+                    "Rhinecliff, NY",
+                    "Poughkeepsie, NY",
+                    "Croton-Harmon, NY",
+                    "Yonkers, NY",
+                    "New York, NY"
+                ]
+            }
         ]
     },
     {
         "route": "Ethan Allen Express",
         "segments":
         [
-            [
-                "Rutland, VT",
-                "Castleton, VT",
-                "Fort Edward-Glens Falls, NY",
-                "Saratoga Springs, NY",
-                "Schenectady, NY",
-                "Albany-Rensselaer, NY",
-                "Hudson, NY",
-                "Rhinecliff, NY",
-                "Poughkeepsie, NY",
-                "Croton-Harmon, NY",
-                "Yonkers, NY",
-                "New York, NY"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Rutland, VT",
+                    "Castleton, VT",
+                    "Fort Edward-Glens Falls, NY",
+                    "Saratoga Springs, NY",
+                    "Schenectady, NY",
+                    "Albany-Rensselaer, NY",
+                    "Hudson, NY",
+                    "Rhinecliff, NY",
+                    "Poughkeepsie, NY",
+                    "Croton-Harmon, NY",
+                    "Yonkers, NY",
+                    "New York, NY"
+                ]
+            }
         ]
     },
     {
         "route": "Hartford Line",
         "segments":
         [
-            [
-                "Springfield, MA",
-                "Windsor Locks, CT",
-                "Windsor, CT",
-                "Hartford, CT",
-                "Berlin, CT",
-                "Meriden, CT",
-                "Wallingford, CT",
-                "New Haven State Street, CT",
-                "New Haven Union, CT"
-            ]
-        ]
-    },
-    {
-        "route": "Heartland Flyer",
-        "segments":
-        [
-            [
-                "Oklahoma City, OK",
-                "Norman, OK",
-                "Purcell, OK",
-                "Pauls Valley, OK",
-                "Ardmore, OK",
-                "Gainesville, TX",
-                "Fort Worth, TX"
-            ]
-        ]
-    },
-    {
-        "route": "Hiawatha",
-        "segments":
-        [
-            [
-                "Milwaukee-Downtown, WI",
-                "Milwaukee Airport-Trains, WI",
-                "Sturtevant, WI",
-                "Glenview, IL",
-                "Chicago, IL"
-            ]
-        ]
-    },
-    {
-        "route": "Illinois Zephyr",
-        "segments":
-        [
-            [
-                "Chicago, IL",
-                "La Grange, IL",
-                "Naperville, IL",
-                "Plano, IL",
-                "Mendota, IL",
-                "Princeton, IL",
-                "Kewanee, IL",
-                "Galesburg, IL",
-                "Macomb, IL",
-                "Quincy, IL"
-            ]
-        ]
-    },
-    {
-        "route": "Illinois Zephyr",
-        "segments":
-        [
-            [
-                "Quincy, IL",
-                "Macomb, IL",
-                "Galesburg, IL",
-                "Kewanee, IL",
-                "Princeton, IL",
-                "Mendota, IL",
-                "Plano, IL",
-                "Naperville, IL",
-                "La Grange, IL",
-                "Chicago, IL"
-            ]
-        ]
-    },
-    {
-        "route": "Keystone Service",
-        "segments":
-        [
-            [
-                "Harrisburg, PA",
-                "Middletown, PA",
-                "Elizabethtown, PA",
-                "Mount Joy, PA",
-                "Lancaster, PA",
-                "Parkesburg, PA",
-                "Coatesville, PA",
-                "Downingtown, PA",
-                "Exton, PA",
-                "Paoli, PA",
-                "Ardmore, PA",
-                "Philadelphia, PA",
-                "North Philadelphia, PA",
-                "Cornwells Heights, PA",
-                "Trenton, NJ",
-                "Princeton Junction, NJ",
-                "New Brunswick, NJ",
-                "Metropark, NJ",
-                "Newark Liberty International Airport, NJ",
-                "Newark Penn, NJ",
-                "New York, NY"
-            ]
-        ]
-    },
-    {
-        "route": "Lake Shore Limited",
-        "segments":
-        [
-            [
-                "Chicago, IL",
-                "South Bend, IN",
-                "Elkhart, IN",
-                "Waterloo, IN",
-                "Bryan, OH",
-                "Toledo, OH",
-                "Sandusky, OH",
-                "Elyria, OH",
-                "Cleveland, OH",
-                "Erie, PA",
-                "Buffalo–Depew, NY",
-                "Rochester, NY",
-                "Syracuse, NY",
-                "Utica, NY",
-                "Schenectady, NY",
-                "Albany-Rensselaer, NY"
-            ],
-            [
-                [
-                    "Hudson, NY",
-                    "Rhinecliff, NY",
-                    "Poughkeepsie, NY",
-                    "Croton-Harmon, NY",
-                    "New York, NY"
-                ],
-                [
-                    "Pittsfield, MA",
-                    "Springfield, MA",
-                    "Worcester, MA",
-                    "Framingham, MA",
-                    "Boston Back Bay, MA",
-                    "Boston South, MA"
-                ]
-            ]
-        ]
-    },
-    {
-        "route": "Lincoln Service",
-        "segments":
-        [
-            [
-                "Chicago, IL",
-                "Summit, IL",
-                "Joliet, IL",
-                "Dwight, IL",
-                "Pontiac, IL",
-                "Bloomington-Normal, IL",
-                "Lincoln, IL",
-                "Springfield, IL",
-                "Carlinville, IL",
-                "Alton, IL",
-                "St. Louis, MO"
-            ]
-        ]
-    },
-    {
-        "route": "Maple Leaf",
-        "segments":
-        [
-            [
-                "Toronto, ON",
-                "Oakville, ON",
-                "Aldershot, ON",
-                "Grimsby, ON",
-                "St. Catharines, ON",
-                "Niagara Falls, ON",
-                "Niagara Falls, NY",
-                "Buffalo–Exchange Street, NY",
-                "Buffalo–Depew, NY",
-                "Rochester, NY",
-                "New York State Fair, NY",
-                "Syracuse, NY",
-                "Rome, NY",
-                "Utica, NY",
-                "Amsterdam, NY",
-                "Schenectady, NY",
-                "Albany-Rensselaer, NY",
-                "Hudson, NY",
-                "Rhinecliff, NY",
-                "Poughkeepsie, NY",
-                "Croton-Harmon, NY",
-                "Yonkers, NY",
-                "New York, NY"
-            ]
-        ]
-    },
-    {
-        "route": "Missouri River Runner",
-        "segments":
-        [
-            [
-                "Kansas City, MO",
-                "Independence, MO",
-                "Lee's Summit, MO",
-                "Warrensburg, MO",
-                "Sedalia, MO",
-                "Jefferson City, MO",
-                "Hermann, MO",
-                "Washington, MO",
-                "Kirkwood, MO",
-                "St. Louis, MO"
-            ]
-        ]
-    },
-    {
-        "route": "Northeast Regional",
-        "segments":
-        [
-            [
-                [
-                    "Boston South, MA",
-                    "Boston Back Bay, MA",
-                    "Route 128, MA",
-                    "Providence, RI",
-                    "Kingston, RI",
-                    "Westerly, RI",
-                    "Mystic, CT",
-                    "New London, CT",
-                    "Old Saybrook, CT"
-                ],
+            {
+                "depth": 1,
+                "stations":
                 [
                     "Springfield, MA",
                     "Windsor Locks, CT",
@@ -744,528 +596,876 @@
                     "Berlin, CT",
                     "Meriden, CT",
                     "Wallingford, CT",
-                    "New Haven State Street, CT"
+                    "New Haven State Street, CT",
+                    "New Haven Union, CT"
                 ]
-            ],
-            [
-                "New Haven Union, CT",
-                "Bridgeport, CT",
-                "Stamford, CT",
-                "New Rochelle, NY",
-                "New York, NY",
-                "Newark Penn, NJ",
-                "Newark Liberty International Airport, NJ",
-                "Metropark, NJ",
-                "New Brunswick, NJ",
-                "Princeton Junction, NJ",
-                "Trenton, NJ",
-                "Cornwells Heights, PA",
-                "North Philadelphia, PA",
-                "Philadelphia, PA",
-                "Wilmington, DE",
-                "Newark, DE",
-                "Aberdeen, MD",
-                "Baltimore, MD",
-                "BWI Marshall Airport, MD",
-                "New Carrollton, MD",
-                "Washington, DC",
-                "Alexandria, VA"
-            ],
-            [
+            }
+        ]
+    },
+    {
+        "route": "Heartland Flyer",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
                 [
-                    "Burke Centre, VA",
-                    "Manassas, VA",
-                    "Culpeper, VA",
-                    "Charlottesville, VA",
-                    "Lynchburg, VA",
-                    "Roanoke, VA"
-                ],
-                [
-                    "Woodbridge, VA",
-                    "Quantico, VA",
-                    "Fredericksburg, VA",
-                    "Ashland, VA",
-                    "Richmond Staples Mill Road, VA"
+                    "Oklahoma City, OK",
+                    "Norman, OK",
+                    "Purcell, OK",
+                    "Pauls Valley, OK",
+                    "Ardmore, OK",
+                    "Gainesville, TX",
+                    "Fort Worth, TX"
                 ]
-            ],
-            [
+            }
+        ]
+    },
+    {
+        "route": "Hiawatha",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
                 [
-                    "Petersburg, VA",
-                    "Norfolk, VA"
-                ],
-                [
-                    "Richmond, VA",
-                    "Williamsburg, VA",
-                    "Newport News, VA"
+                    "Milwaukee-Downtown, WI",
+                    "Milwaukee Airport-Trains, WI",
+                    "Sturtevant, WI",
+                    "Glenview, IL",
+                    "Chicago, IL"
                 ]
-            ]
+            }
+        ]
+    },
+    {
+        "route": "Illinois Zephyr",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "La Grange, IL",
+                    "Naperville, IL",
+                    "Plano, IL",
+                    "Mendota, IL",
+                    "Princeton, IL",
+                    "Kewanee, IL",
+                    "Galesburg, IL",
+                    "Macomb, IL",
+                    "Quincy, IL"
+                ]
+            }
+        ]
+    },
+    {
+        "route": "Illinois Zephyr",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Quincy, IL",
+                    "Macomb, IL",
+                    "Galesburg, IL",
+                    "Kewanee, IL",
+                    "Princeton, IL",
+                    "Mendota, IL",
+                    "Plano, IL",
+                    "Naperville, IL",
+                    "La Grange, IL",
+                    "Chicago, IL"
+                ]
+            }
+        ]
+    },
+    {
+        "route": "Keystone Service",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Harrisburg, PA",
+                    "Middletown, PA",
+                    "Elizabethtown, PA",
+                    "Mount Joy, PA",
+                    "Lancaster, PA",
+                    "Parkesburg, PA",
+                    "Coatesville, PA",
+                    "Downingtown, PA",
+                    "Exton, PA",
+                    "Paoli, PA",
+                    "Ardmore, PA",
+                    "Philadelphia, PA",
+                    "North Philadelphia, PA",
+                    "Cornwells Heights, PA",
+                    "Trenton, NJ",
+                    "Princeton Junction, NJ",
+                    "New Brunswick, NJ",
+                    "Metropark, NJ",
+                    "Newark Liberty International Airport, NJ",
+                    "Newark Penn, NJ",
+                    "New York, NY"
+                ]
+            }
+        ]
+    },
+    {
+        "route": "Lake Shore Limited",
+        "segments":
+        [
+            {
+                "depth": 2,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "South Bend, IN",
+                    "Elkhart, IN",
+                    "Waterloo, IN",
+                    "Bryan, OH",
+                    "Toledo, OH",
+                    "Sandusky, OH",
+                    "Elyria, OH",
+                    "Cleveland, OH",
+                    "Erie, PA",
+                    "Buffalo–Depew, NY",
+                    "Rochester, NY",
+                    "Syracuse, NY",
+                    "Utica, NY",
+                    "Schenectady, NY",
+                    "Albany-Rensselaer, NY"
+                ]
+            },
+            {
+                "segments":
+                [
+                    {
+                        "depth": 1,
+                        "splitsOff": true,
+                        "stations":
+                        [
+                            "Hudson, NY",
+                            "Rhinecliff, NY",
+                            "Poughkeepsie, NY",
+                            "Croton-Harmon, NY",
+                            "New York, NY"
+                        ]
+                    },
+                    {
+                        "depth": 3,
+                        "stations":
+                        [
+                            "Pittsfield, MA",
+                            "Springfield, MA",
+                            "Worcester, MA",
+                            "Framingham, MA",
+                            "Boston Back Bay, MA",
+                            "Boston South, MA"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "route": "Lincoln Service",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "Summit, IL",
+                    "Joliet, IL",
+                    "Dwight, IL",
+                    "Pontiac, IL",
+                    "Bloomington-Normal, IL",
+                    "Lincoln, IL",
+                    "Springfield, IL",
+                    "Carlinville, IL",
+                    "Alton, IL",
+                    "St. Louis, MO"
+                ]
+            }
+        ]
+    },
+    {
+        "route": "Maple Leaf",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Toronto, ON",
+                    "Oakville, ON",
+                    "Aldershot, ON",
+                    "Grimsby, ON",
+                    "St. Catharines, ON",
+                    "Niagara Falls, ON",
+                    "Niagara Falls, NY",
+                    "Buffalo–Exchange Street, NY",
+                    "Buffalo–Depew, NY",
+                    "Rochester, NY",
+                    "New York State Fair, NY",
+                    "Syracuse, NY",
+                    "Rome, NY",
+                    "Utica, NY",
+                    "Amsterdam, NY",
+                    "Schenectady, NY",
+                    "Albany-Rensselaer, NY",
+                    "Hudson, NY",
+                    "Rhinecliff, NY",
+                    "Poughkeepsie, NY",
+                    "Croton-Harmon, NY",
+                    "Yonkers, NY",
+                    "New York, NY"
+                ]
+            }
+        ]
+    },
+    {
+        "route": "Missouri River Runner",
+        "segments":
+        [
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Kansas City, MO",
+                    "Independence, MO",
+                    "Lee's Summit, MO",
+                    "Warrensburg, MO",
+                    "Sedalia, MO",
+                    "Jefferson City, MO",
+                    "Hermann, MO",
+                    "Washington, MO",
+                    "Kirkwood, MO",
+                    "St. Louis, MO"
+                ]
+            }
+        ]
+    },
+    {
+        "route": "Northeast Regional",
+        "segments":
+        [
+            {
+                "segments":
+                [
+                    {
+                        "depth": 1,
+                        "stations":
+                        [
+                            "Boston South, MA",
+                            "Boston Back Bay, MA",
+                            "Route 128, MA",
+                            "Providence, RI",
+                            "Kingston, RI",
+                            "Westerly, RI",
+                            "Mystic, CT",
+                            "New London, CT",
+                            "Old Saybrook, CT"
+                        ]
+                    },
+                    {
+                        "depth": 3,
+                        "linksUp": true,
+                        "stations":
+                        [
+                            "Springfield, MA",
+                            "Windsor Locks, CT",
+                            "Windsor, CT",
+                            "Hartford, CT",
+                            "Berlin, CT",
+                            "Meriden, CT",
+                            "Wallingford, CT",
+                            "New Haven State Street, CT"
+                        ]
+                    }
+                ]
+            },
+            {
+                "depth": 2,
+                "stations":
+                [
+                    "New Haven Union, CT",
+                    "Bridgeport, CT",
+                    "Stamford, CT",
+                    "New Rochelle, NY",
+                    "New York, NY",
+                    "Newark Penn, NJ",
+                    "Newark Liberty International Airport, NJ",
+                    "Metropark, NJ",
+                    "New Brunswick, NJ",
+                    "Princeton Junction, NJ",
+                    "Trenton, NJ",
+                    "Cornwells Heights, PA",
+                    "North Philadelphia, PA",
+                    "Philadelphia, PA",
+                    "Wilmington, DE",
+                    "Newark, DE",
+                    "Aberdeen, MD",
+                    "Baltimore, MD",
+                    "BWI Marshall Airport, MD",
+                    "New Carrollton, MD",
+                    "Washington, DC",
+                    "Alexandria, VA"
+                ]
+            },
+            {
+                "segments":
+                [
+                    {
+                        "depth": 1,
+                        "splitsOff": true,
+                        "endOfLine": true,
+                        "stations":
+                        [
+                            "Burke Centre, VA",
+                            "Manassas, VA",
+                            "Culpeper, VA",
+                            "Charlottesville, VA",
+                            "Lynchburg, VA",
+                            "Roanoke, VA"
+                        ]
+                    },
+                    {
+                        "segments":
+                        [
+                            {
+                                "depth": 3,
+                                "stations":
+                                [
+                                    "Woodbridge, VA",
+                                    "Quantico, VA",
+                                    "Fredericksburg, VA",
+                                    "Ashland, VA",
+                                    "Richmond Staples Mill Road, VA"
+                                ]
+                            },
+                            {
+                                "segments":
+                                [
+                                    {
+                                        "depth": 2,
+                                        "splitsOff": true,
+                                        "endOfLine": true,
+                                        "stations":
+                                        [
+                                            "Petersburg, VA",
+                                            "Norfolk, VA"
+                                        ]
+                                    },
+                                    {
+                                        "depth": 4,
+                                        "stations":
+                                        [
+                                            "Richmond, VA",
+                                            "Williamsburg, VA",
+                                            "Newport News, VA"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
     },
     {
         "route": "Pacific Surfliner",
         "segments":
         [
-            [
-                "San Luis Obispo, CA",
-                "Grover Beach, CA",
-                "Guadalupe, CA",
-                "Lompoc-Surf, CA",
-                "Goleta, CA",
-                "Santa Barbara, CA",
-                "Carpinteria, CA",
-                "Ventura, CA",
-                "Oxnard, CA",
-                "Camarillo, CA",
-                "Moorpark, CA",
-                "Simi Valley, CA",
-                "Chatsworth, CA",
-                "Van Nuys, CA",
-                "Burbank, CA",
-                "Glendale, CA",
-                "Los Angeles, CA",
-                "Fullerton, CA",
-                "Anaheim, CA",
-                "Santa Ana, CA",
-                "Irvine, CA",
-                "San Juan Capistrano, CA",
-                "San Clemente Pier, CA",
-                "Oceanside, CA",
-                "Solana Beach, CA",
-                "San Diego Old Town, CA",
-                "San Diego Santa Fe Depot, CA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "San Luis Obispo, CA",
+                    "Grover Beach, CA",
+                    "Guadalupe, CA",
+                    "Lompoc-Surf, CA",
+                    "Goleta, CA",
+                    "Santa Barbara, CA",
+                    "Carpinteria, CA",
+                    "Ventura, CA",
+                    "Oxnard, CA",
+                    "Camarillo, CA",
+                    "Moorpark, CA",
+                    "Simi Valley, CA",
+                    "Chatsworth, CA",
+                    "Van Nuys, CA",
+                    "Burbank, CA",
+                    "Glendale, CA",
+                    "Los Angeles, CA",
+                    "Fullerton, CA",
+                    "Anaheim, CA",
+                    "Santa Ana, CA",
+                    "Irvine, CA",
+                    "San Juan Capistrano, CA",
+                    "San Clemente Pier, CA",
+                    "Oceanside, CA",
+                    "Solana Beach, CA",
+                    "San Diego Old Town, CA",
+                    "San Diego Santa Fe Depot, CA"
+                ]
+            }
         ]
     },
     {
         "route": "Pennsylvanian",
         "segments":
         [
-            [
-                "Pittsburgh, PA",
-                "Greensburg, PA",
-                "Latrobe, PA",
-                "Johnstown, PA",
-                "Altoona, PA",
-                "Tyrone, PA",
-                "Huntingdon, PA",
-                "Lewistown, PA",
-                "Harrisburg, PA",
-                "Elizabethtown, PA",
-                "Lancaster, PA",
-                "Exton, PA",
-                "Paoli, PA",
-                "Philadelphia, PA",
-                "Trenton, NJ",
-                "Newark Penn, NJ",
-                "New York, NY"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Pittsburgh, PA",
+                    "Greensburg, PA",
+                    "Latrobe, PA",
+                    "Johnstown, PA",
+                    "Altoona, PA",
+                    "Tyrone, PA",
+                    "Huntingdon, PA",
+                    "Lewistown, PA",
+                    "Harrisburg, PA",
+                    "Elizabethtown, PA",
+                    "Lancaster, PA",
+                    "Exton, PA",
+                    "Paoli, PA",
+                    "Philadelphia, PA",
+                    "Trenton, NJ",
+                    "Newark Penn, NJ",
+                    "New York, NY"
+                ]
+            }
         ]
     },
     {
         "route": "Pere Marquette",
         "segments":
         [
-            [
-                "Chicago, IL",
-                "St. Joseph-Benton Harbor, MI",
-                "Bangor, MI",
-                "Holland, MI",
-                "Grand Rapids, MI"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "St. Joseph-Benton Harbor, MI",
+                    "Bangor, MI",
+                    "Holland, MI",
+                    "Grand Rapids, MI"
+                ]
+            }
         ]
     },
     {
         "route": "Piedmont",
         "segments":
         [
-            [
-                "Charlotte, NC",
-                "Kannapolis, NC",
-                "Salisbury, NC",
-                "Lexington Barbeque Festival, NC",
-                "High Point, NC",
-                "Greensboro, NC",
-                "Burlington, NC",
-                "Durham, NC",
-                "Cary, NC",
-                "Raleigh, NC"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Charlotte, NC",
+                    "Kannapolis, NC",
+                    "Salisbury, NC",
+                    "Lexington Barbeque Festival, NC",
+                    "High Point, NC",
+                    "Greensboro, NC",
+                    "Burlington, NC",
+                    "Durham, NC",
+                    "Cary, NC",
+                    "Raleigh, NC"
+                ]
+            }
         ]
     },
     {
         "route": "Saluki",
         "segments":
         [
-            [
-                "Chicago, IL",
-                "Homewood, IL",
-                "Kankakee, IL",
-                "Gilman, IL",
-                "Rantoul, IL",
-                "Champaign-Urbana, IL",
-                "Mattoon, IL",
-                "Effingham, IL",
-                "Centralia, IL",
-                "Du Quoin, IL",
-                "Carbondale, IL"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "Homewood, IL",
+                    "Kankakee, IL",
+                    "Gilman, IL",
+                    "Rantoul, IL",
+                    "Champaign-Urbana, IL",
+                    "Mattoon, IL",
+                    "Effingham, IL",
+                    "Centralia, IL",
+                    "Du Quoin, IL",
+                    "Carbondale, IL"
+                ]
+            }
         ]
     },
     {
         "route": "San Joaquins",
         "segments":
         [
-            [
+            {
+                "segments":
                 [
-                    "Oakland–Jack London Square, CA",
-                    "Emeryville, CA",
-                    "Richmond, CA",
-                    "Martinez, CA",
-                    "Antioch-Pittsburg, CA",
-                    "Stockton San Joaquin Street, CA"
-                ],
-                [
-                    "Sacramento, CA",
-                    "Lodi, CA",
-                    "Stockton Downtown, CA"
+                    {
+                        "depth": 1,
+                        "stations":
+                        [
+                            "Oakland–Jack London Square, CA",
+                            "Emeryville, CA",
+                            "Richmond, CA",
+                            "Martinez, CA",
+                            "Antioch-Pittsburg, CA",
+                            "Stockton San Joaquin Street, CA"
+                        ]
+                    },
+                    {
+                        "depth": 3,
+                        "linksUp": true,
+                        "stations":
+                        [
+                            "Sacramento, CA",
+                            "Lodi, CA",
+                            "Stockton Downtown, CA"
+                        ]
+                    }
                 ]
-            ],
-            [
-                "Modesto, CA",
-                "Turlock-Denair, CA",
-                "Merced, CA",
-                "Fresno, CA",
-                "Hanford, CA",
-                "Corcoran, CA",
-                "Col Allensworth State Park, CA",
-                "Wasco, CA",
-                "Bakersfield, CA"
-            ]
+            },
+            {
+                "depth": 2,
+                "stations":
+                [
+                    "Modesto, CA",
+                    "Turlock-Denair, CA",
+                    "Merced, CA",
+                    "Fresno, CA",
+                    "Hanford, CA",
+                    "Corcoran, CA",
+                    "Col Allensworth State Park, CA",
+                    "Wasco, CA",
+                    "Bakersfield, CA"
+                ]
+            }
         ]
     },
     {
         "route": "Silver Service/Palmetto",
         "segments":
         [
-            [
-                "New York, NY",
-                "Newark Penn, NJ",
-                "Metropark, NJ",
-                "New Brunswick, NJ",
-                "Princeton Junction, NJ",
-                "Trenton, NJ",
-                "Philadelphia, PA",
-                "Wilmington, DE",
-                "Baltimore, MD",
-                "BWI Marshall Airport, MD",
-                "New Carrollton, MD",
-                "Washington, DC",
-                "Alexandria, VA",
-                "Fredericksburg, VA",
-                "Richmond Staples Mill Road, VA",
-                "Petersburg, VA",
-                "Rocky Mount, NC",
-                "Wilson, NC",
-                "Selma-Smithfield, NC"
-            ],
-            [
+            {
+                "depth": 2,
+                "stations":
                 [
-                    "Raleigh, NC",
-                    "Cary, NC",
-                    "Southern Pines, NC",
-                    "Hamlet, NC",
-                    "Camden, SC",
-                    "Columbia, SC",
-                    "Denmark, SC"
-                ],
-                [
-                    "Fayetteville, NC",
-                    "Dillon, SC",
-                    "Florence, SC",
-                    "Kingstree, SC",
-                    "Charleston, SC",
-                    "Yemassee, SC"
+                    "New York, NY",
+                    "Newark Penn, NJ",
+                    "Metropark, NJ",
+                    "New Brunswick, NJ",
+                    "Princeton Junction, NJ",
+                    "Trenton, NJ",
+                    "Philadelphia, PA",
+                    "Wilmington, DE",
+                    "Baltimore, MD",
+                    "BWI Marshall Airport, MD",
+                    "New Carrollton, MD",
+                    "Washington, DC",
+                    "Alexandria, VA",
+                    "Fredericksburg, VA",
+                    "Richmond Staples Mill Road, VA",
+                    "Petersburg, VA",
+                    "Rocky Mount, NC",
+                    "Wilson, NC",
+                    "Selma-Smithfield, NC"
                 ]
-            ],
-            [
-                "Savannah, GA",
-                "Jesup, GA",
-                "Jacksonville, FL",
-                "Palatka, FL",
-                "DeLand, FL",
-                "Winter Park, FL",
-                "Orlando, FL",
-                "Kissimmee, FL"
-            ],
-            [
+            },
+            {
+                "segments":
                 [
-                    "Lakeland, FL",
-                    "Tampa, FL"
-                ],
-                [
-                    "Winter Haven, FL",
-                    "Sebring, FL",
-                    "Okeechobee, FL",
-                    "West Palm Beach, FL",
-                    "Delray Beach, FL",
-                    "Deerfield Beach, FL",
-                    "Fort Lauderdale, FL",
-                    "Hollywood, FL",
-                    "Miami, FL"
+                    {
+                        "depth": 1,
+                        "splitsOff": true,
+                        "stations":
+                        [
+                            "Raleigh, NC",
+                            "Cary, NC",
+                            "Southern Pines, NC",
+                            "Hamlet, NC",
+                            "Camden, SC",
+                            "Columbia, SC",
+                            "Denmark, SC"
+                        ]
+                    },
+                    {
+                        "depth": 3,
+                        "linksUp": true,
+                        "stations":
+                        [
+                            "Fayetteville, NC",
+                            "Dillon, SC",
+                            "Florence, SC",
+                            "Kingstree, SC",
+                            "Charleston, SC",
+                            "Yemassee, SC"
+                        ]
+                    }
                 ]
-            ]
+            },
+            {
+                "depth": 2,
+                "stations":
+                [
+                    "Savannah, GA",
+                    "Jesup, GA",
+                    "Jacksonville, FL",
+                    "Palatka, FL",
+                    "DeLand, FL",
+                    "Winter Park, FL",
+                    "Orlando, FL",
+                    "Kissimmee, FL"
+                ]
+            },
+            {
+                "segments":
+                [
+                    {
+                        "depth": 1,
+                        "splitsOff": true,
+                        "endOfLine": true,
+                        "stations":
+                        [
+                            "Lakeland, FL",
+                            "Tampa, FL"
+                        ]
+                    },
+                    {
+                        "depth": 3,
+                        "stations":
+                        [
+                            "Winter Haven, FL",
+                            "Sebring, FL",
+                            "Okeechobee, FL",
+                            "West Palm Beach, FL",
+                            "Delray Beach, FL",
+                            "Deerfield Beach, FL",
+                            "Fort Lauderdale, FL",
+                            "Hollywood, FL",
+                            "Miami, FL"
+                        ]
+                    }
+                ]
+            }
         ]
     },
     {
         "route": "Southwest Chief",
         "segments":
         [
-            [
-                "Los Angeles, CA",
-                "Fullerton, CA",
-                "Riverside, CA",
-                "San Bernardino, CA",
-                "Victorville, CA",
-                "Barstow, CA",
-                "Needles, CA",
-                "Kingman, AZ",
-                "Flagstaff, AZ",
-                "Winslow, AZ",
-                "Gallup, NM",
-                "Albuquerque, NM",
-                "Lamy, NM",
-                "Las Vegas, NM",
-                "Raton, NM",
-                "Trinidad, CO",
-                "La Junta, CO",
-                "Lamar, CO",
-                "Garden City, KS",
-                "Dodge City, KS",
-                "Hutchinson, KS",
-                "Newton, KS",
-                "Topeka, KS",
-                "Lawrence, KS",
-                "Kansas City, MO",
-                "La Plata, MO",
-                "Fort Madison, IA",
-                "Galesburg, IL",
-                "Princeton, IL",
-                "Mendota, IL",
-                "Naperville, IL",
-                "Chicago, IL"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Los Angeles, CA",
+                    "Fullerton, CA",
+                    "Riverside, CA",
+                    "San Bernardino, CA",
+                    "Victorville, CA",
+                    "Barstow, CA",
+                    "Needles, CA",
+                    "Kingman, AZ",
+                    "Flagstaff, AZ",
+                    "Winslow, AZ",
+                    "Gallup, NM",
+                    "Albuquerque, NM",
+                    "Lamy, NM",
+                    "Las Vegas, NM",
+                    "Raton, NM",
+                    "Trinidad, CO",
+                    "La Junta, CO",
+                    "Lamar, CO",
+                    "Garden City, KS",
+                    "Dodge City, KS",
+                    "Hutchinson, KS",
+                    "Newton, KS",
+                    "Topeka, KS",
+                    "Lawrence, KS",
+                    "Kansas City, MO",
+                    "La Plata, MO",
+                    "Fort Madison, IA",
+                    "Galesburg, IL",
+                    "Princeton, IL",
+                    "Mendota, IL",
+                    "Naperville, IL",
+                    "Chicago, IL"
+                ]
+            }
         ]
     },
     {
         "route": "Sunset Limited",
         "segments":
         [
-            [
-                "Los Angeles, CA",
-                "Pomona, CA",
-                "Ontario, CA",
-                "Palm Springs, CA",
-                "Yuma, AZ",
-                "Maricopa, AZ",
-                "Tucson, AZ",
-                "Benson, AZ",
-                "Lordsburg, NM",
-                "Deming, NM",
-                "El Paso, TX",
-                "Alpine, TX",
-                "Sanderson, TX",
-                "Del Rio, TX",
-                "San Antonio, TX",
-                "Houston, TX",
-                "Beaumont, TX",
-                "Lake Charles, LA",
-                "Lafayette, LA",
-                "New Iberia, LA",
-                "Schriever, LA",
-                "New Orleans, LA"
-            ]
-        ]
-    },
-    {
-        "route": "Sunset Limited",
-        "segments":
-        [
-            [
-                "Los Angeles, CA",
-                "Pomona, CA",
-                "Ontario, CA",
-                "Palm Springs, CA",
-                "Yuma, AZ",
-                "Maricopa, AZ",
-                "Tucson, AZ",
-                "Benson, AZ",
-                "Lordsburg, NM",
-                "Deming, NM",
-                "El Paso, TX",
-                "Alpine, TX",
-                "Sanderson, TX",
-                "Del Rio, TX",
-                "San Antonio, TX",
-                "Houston, TX",
-                "Beaumont, TX",
-                "Lake Charles, LA",
-                "Lafayette, LA",
-                "New Iberia, LA",
-                "Schriever, LA",
-                "New Orleans, LA"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Los Angeles, CA",
+                    "Pomona, CA",
+                    "Ontario, CA",
+                    "Palm Springs, CA",
+                    "Yuma, AZ",
+                    "Maricopa, AZ",
+                    "Tucson, AZ",
+                    "Benson, AZ",
+                    "Lordsburg, NM",
+                    "Deming, NM",
+                    "El Paso, TX",
+                    "Alpine, TX",
+                    "Sanderson, TX",
+                    "Del Rio, TX",
+                    "San Antonio, TX",
+                    "Houston, TX",
+                    "Beaumont, TX",
+                    "Lake Charles, LA",
+                    "Lafayette, LA",
+                    "New Iberia, LA",
+                    "Schriever, LA",
+                    "New Orleans, LA"
+                ]
+            }
         ]
     },
     {
         "route": "Texas Eagle",
         "segments":
         [
-            [
-                "Los Angeles, CA",
-                "Pomona, CA",
-                "Ontario, CA",
-                "Palm Springs, CA",
-                "Yuma, AZ",
-                "Maricopa, AZ",
-                "Tucson, AZ",
-                "Benson, AZ",
-                "Lordsburg, NM",
-                "Deming, NM",
-                "El Paso, TX",
-                "Alpine, TX",
-                "Sanderson, TX",
-                "Del Rio, TX",
-                "San Antonio, TX",
-                "San Marcos, TX",
-                "Austin, TX",
-                "Taylor, TX",
-                "Temple, TX",
-                "McGregor, TX",
-                "Cleburne, TX",
-                "Fort Worth, TX",
-                "Dallas, TX",
-                "Mineola, TX",
-                "Longview, TX",
-                "Marshall, TX",
-                "Texarkana, AR",
-                "Hope, AR",
-                "Arkadelphia, AR",
-                "Malvern, AR",
-                "Little Rock, AR",
-                "Walnut Ridge, AR",
-                "Poplar Bluff, MO",
-                "Arcadia, MO",
-                "St. Louis, MO",
-                "Alton, IL",
-                "Carlinville, IL",
-                "Springfield, IL",
-                "Lincoln, IL",
-                "Bloomington-Normal, IL",
-                "Pontiac, IL",
-                "Joliet, IL",
-                "Chicago, IL"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Los Angeles, CA",
+                    "Pomona, CA",
+                    "Ontario, CA",
+                    "Palm Springs, CA",
+                    "Yuma, AZ",
+                    "Maricopa, AZ",
+                    "Tucson, AZ",
+                    "Benson, AZ",
+                    "Lordsburg, NM",
+                    "Deming, NM",
+                    "El Paso, TX",
+                    "Alpine, TX",
+                    "Sanderson, TX",
+                    "Del Rio, TX",
+                    "San Antonio, TX",
+                    "San Marcos, TX",
+                    "Austin, TX",
+                    "Taylor, TX",
+                    "Temple, TX",
+                    "McGregor, TX",
+                    "Cleburne, TX",
+                    "Fort Worth, TX",
+                    "Dallas, TX",
+                    "Mineola, TX",
+                    "Longview, TX",
+                    "Marshall, TX",
+                    "Texarkana, AR",
+                    "Hope, AR",
+                    "Arkadelphia, AR",
+                    "Malvern, AR",
+                    "Little Rock, AR",
+                    "Walnut Ridge, AR",
+                    "Poplar Bluff, MO",
+                    "Arcadia, MO",
+                    "St. Louis, MO",
+                    "Alton, IL",
+                    "Carlinville, IL",
+                    "Springfield, IL",
+                    "Lincoln, IL",
+                    "Bloomington-Normal, IL",
+                    "Pontiac, IL",
+                    "Joliet, IL",
+                    "Chicago, IL"
+                ]
+            }
         ]
     },
     {
         "route": "Vermonter",
         "segments":
         [
-            [
-                "St. Albans, VT",
-                "Essex Junction-Burlington, VT",
-                "Waterbury-Stowe, VT",
-                "Montpelier-Berlin, VT",
-                "Randolph, VT",
-                "White River Junction, VT",
-                "Windsor-Mt. Ascutney, VT",
-                "Claremont, NH",
-                "Bellows Falls, VT",
-                "Brattleboro, VT",
-                "Greenfield, MA",
-                "Northampton, MA",
-                "Holyoke, MA",
-                "Springfield, MA",
-                "Windsor Locks, CT",
-                "Hartford, CT",
-                "Berlin, CT",
-                "Meriden, CT",
-                "New Haven Union, CT",
-                "Bridgeport, CT",
-                "Stamford, CT",
-                "New York, NY",
-                "Newark Penn, NJ",
-                "Metropark, NJ",
-                "Trenton, NJ",
-                "Philadelphia, PA",
-                "Wilmington, DE",
-                "Baltimore, MD",
-                "BWI Marshall Airport, MD",
-                "New Carrollton, MD",
-                "Washington, DC"
-            ]
-        ]
-    },
-    {
-        "route": "Vermonter",
-        "segments":
-        [
-            [
-                "St. Albans, VT",
-                "Essex Junction-Burlington, VT",
-                "Waterbury-Stowe, VT",
-                "Montpelier-Berlin, VT",
-                "Randolph, VT",
-                "White River Junction, VT",
-                "Windsor-Mt. Ascutney, VT",
-                "Claremont, NH",
-                "Bellows Falls, VT",
-                "Brattleboro, VT",
-                "Greenfield, MA",
-                "Northampton, MA",
-                "Holyoke, MA",
-                "Springfield, MA",
-                "Windsor Locks, CT",
-                "Hartford, CT",
-                "Berlin, CT",
-                "Meriden, CT",
-                "New Haven Union, CT",
-                "Bridgeport, CT",
-                "Stamford, CT",
-                "New York, NY",
-                "Newark Penn, NJ",
-                "Metropark, NJ",
-                "Trenton, NJ",
-                "Philadelphia, PA",
-                "Wilmington, DE",
-                "Baltimore, MD",
-                "BWI Marshall Airport, MD",
-                "New Carrollton, MD",
-                "Washington, DC"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "St. Albans, VT",
+                    "Essex Junction-Burlington, VT",
+                    "Waterbury-Stowe, VT",
+                    "Montpelier-Berlin, VT",
+                    "Randolph, VT",
+                    "White River Junction, VT",
+                    "Windsor-Mt. Ascutney, VT",
+                    "Claremont, NH",
+                    "Bellows Falls, VT",
+                    "Brattleboro, VT",
+                    "Greenfield, MA",
+                    "Northampton, MA",
+                    "Holyoke, MA",
+                    "Springfield, MA",
+                    "Windsor Locks, CT",
+                    "Hartford, CT",
+                    "Berlin, CT",
+                    "Meriden, CT",
+                    "New Haven Union, CT",
+                    "Bridgeport, CT",
+                    "Stamford, CT",
+                    "New York, NY",
+                    "Newark Penn, NJ",
+                    "Metropark, NJ",
+                    "Trenton, NJ",
+                    "Philadelphia, PA",
+                    "Wilmington, DE",
+                    "Baltimore, MD",
+                    "BWI Marshall Airport, MD",
+                    "New Carrollton, MD",
+                    "Washington, DC"
+                ]
+            }
         ]
     },
     {
         "route": "Wolverine",
         "segments":
         [
-            [
-                "Chicago, IL",
-                "Hammond-Whiting, IN",
-                "New Buffalo, MI",
-                "Niles, MI",
-                "Dowagiac, MI",
-                "Kalamazoo, MI",
-                "Battle Creek, MI",
-                "Albion, MI",
-                "Jackson, MI",
-                "Ann Arbor, MI",
-                "Dearborn, MI",
-                "Detroit, MI",
-                "Royal Oak, MI",
-                "Troy, MI",
-                "Pontiac, MI"
-            ]
+            {
+                "depth": 1,
+                "stations":
+                [
+                    "Chicago, IL",
+                    "Hammond-Whiting, IN",
+                    "New Buffalo, MI",
+                    "Niles, MI",
+                    "Dowagiac, MI",
+                    "Kalamazoo, MI",
+                    "Battle Creek, MI",
+                    "Albion, MI",
+                    "Jackson, MI",
+                    "Ann Arbor, MI",
+                    "Dearborn, MI",
+                    "Detroit, MI",
+                    "Royal Oak, MI",
+                    "Troy, MI",
+                    "Pontiac, MI"
+                ]
+            }
         ]
     }
 ]
