@@ -322,7 +322,6 @@
         [
             "Hartford Line",
             "Northeast Regional",
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -1500,7 +1499,6 @@
         "station_code": "GFD",
         "routes":
         [
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -1618,7 +1616,6 @@
         [
             "Hartford Line",
             "Northeast Regional",
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -1733,7 +1730,6 @@
         "station_code": "HLK",
         "routes":
         [
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -2396,7 +2392,6 @@
         [
             "Hartford Line",
             "Northeast Regional",
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -2596,7 +2591,6 @@
             "Acela",
             "Hartford Line",
             "Northeast Regional",
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -2606,8 +2600,7 @@
         "routes":
         [
             "Hartford Line",
-            "Northeast Regional",
-            "Valley Flyer"
+            "Northeast Regional"
         ]
     },
     {
@@ -2786,7 +2779,6 @@
         "station_code": "NHT",
         "routes":
         [
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -3789,7 +3781,6 @@
             "Hartford Line",
             "Lake Shore Limited",
             "Northeast Regional",
-            "Valley Flyer",
             "Vermonter"
         ]
     },
@@ -4181,8 +4172,7 @@
         "routes":
         [
             "Hartford Line",
-            "Northeast Regional",
-            "Valley Flyer"
+            "Northeast Regional"
         ]
     },
     {
@@ -4383,8 +4373,7 @@
         "routes":
         [
             "Hartford Line",
-            "Northeast Regional",
-            "Valley Flyer"
+            "Northeast Regional"
         ]
     },
     {
@@ -4402,7 +4391,6 @@
         [
             "Hartford Line",
             "Northeast Regional",
-            "Valley Flyer",
             "Vermonter"
         ]
     },

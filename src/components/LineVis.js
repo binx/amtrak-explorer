@@ -88,13 +88,13 @@ function LineVis({ stationList }) {
       }
 
       s.stations.forEach((stat, j) => {
-        if (!stat) console.log(stat)
-        if (stat && stat.routes.length > 1)
+        // display differently if there's a connection
+        if (stat.routes.length > 1)
           newCircles.push({
             cx: width*(s.depth - 1),
             cy: top + (j*height) + height/2 + (spacerHeight)
           })
-        else if (stat)
+        else
           newLocals.push({
             x: width*(s.depth - 1),
             y: top + (j*height) + height/2 + (spacerHeight)

@@ -51,8 +51,7 @@ function StationList({ stations, selectedRoute, hoverStation, setHoverStation, s
 
     const getStations = list => (
       list.map(d => {
-        const stat = stations.find(s => s.properties.stationnam === d);
-        return stat;
+        return stations.find(s => s.properties.stationnam === d);
       })
     )
 
