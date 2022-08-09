@@ -63,7 +63,7 @@ const StationList = styled.ul`
 `;
 
 
-const ClickStation = ({ station, margin, height, setClickStation, setSelectedRoute }) => {
+function ClickStation({ station, margin, height, setClickStation, setSelectedRoute }) {
   return ( 
     <Wrapper
       style={{

@@ -105,10 +105,11 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
       s.point = projection(s.geometry.coordinates);
       s.routes = stationsOnRoute[index].routes;
       return s;
-    }).sort((a,b) => {
-      if (isHorizontalish) return a.point[0] - b.point[0];
-      else return a.point[1] - b.point[1]; 
     })
+    // .sort((a,b) => {
+    //   if (isHorizontalish) return a.point[0] - b.point[0];
+    //   else return a.point[1] - b.point[1]; 
+    // })
     setStations(newStations);
 
   // eslint-disable-next-line

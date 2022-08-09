@@ -11,14 +11,14 @@
                 "Philadelphia, PA",
                 "Trenton, NJ",
                 "Metropark, NJ",
-                "Newark, NJ",
+                "Newark Penn, NJ",
                 "New York, NY",
                 "Stamford, CT",
-                "New Haven, CT",
+                "New Haven Union, CT",
                 "Providence, RI",
                 "Route 128, MA",
-                "Boston, MA",
-                "Boston, MA"
+                "Boston Back Bay, MA",
+                "Boston South, MA"
             ]
         ]
     },
@@ -206,7 +206,7 @@
                 "Wilmington, DE",
                 "Philadelphia, PA",
                 "Trenton, NJ",
-                "Newark, NJ",
+                "Newark Penn, NJ",
                 "New York, NY"
             ]
         ]
@@ -217,7 +217,7 @@
         [
             [
                 "New York, NY",
-                "Newark, NJ",
+                "Newark Penn, NJ",
                 "Trenton, NJ",
                 "Philadelphia, PA",
                 "Wilmington, DE",
@@ -371,7 +371,7 @@
                 "Wilmington, DE",
                 "Philadelphia, PA",
                 "Trenton, NJ",
-                "Newark, NJ",
+                "Newark Penn, NJ",
                 "New York, NY"
             ]
         ]

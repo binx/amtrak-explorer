@@ -14,8 +14,6 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
     setClickStation();
   }, [selectedRoute]);
 
-  console.log(JSON.stringify(stations.map(d => d.properties.stationnam).reverse()));
-
   return (
     <>
       <div style={{ position: "relative", height }}>
@@ -48,6 +46,7 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
       { !!stations.length && (
         <StationList
           stations={stations}
+          selectedRoute={selectedRoute}
           setHoverStation={setHoverStation}
           setClickStation={setClickStation}
         />
