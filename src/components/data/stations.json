@@ -2038,7 +2038,7 @@
     },
     {
         "station_name": "Lakeland",
-        "station_code": "LAK/LKL",
+        "station_code": "LAK",
         "routes":
         [
             "Silver Service/Palmetto"
@@ -2623,7 +2623,6 @@
         "station_code": "NLC",
         "routes":
         [
-            "Acela",
             "Northeast Regional"
         ]
     },

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useSearchParams } from "react-router-dom";
 
 import RouteUI from "./RouteUI";
-import VectorMap from "./VectorMap";
+import MapContainer from "./MapContainer";
 
 const Wrapper = styled.div`
   margin: 40px;
@@ -60,7 +60,7 @@ function AmtrakMap() {
         setSelectedRoute={setSelectedRoute}
         setSearchParams={setSearchParams}
       />
-      <VectorMap
+      <MapContainer
         selectedRoute={selectedRoute}
         setSelectedRoute={setSelectedRoute}
         searchParams={searchParams}

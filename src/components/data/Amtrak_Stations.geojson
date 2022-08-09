@@ -1349,7 +1349,7 @@
                 "address1": "145 Dartmouth Street",
                 "name": "Back Bay Station",
                 "code": "BBY",
-                "stationnam": "Boston, MA"
+                "stationnam": "Boston Back Bay, MA"
             },
             "geometry":
             {
@@ -1673,7 +1673,7 @@
                 "address1": "75 Exchange Street",
                 "name": "Exchange Street Station",
                 "code": "BFX",
-                "stationnam": "Buffalo, NY"
+                "stationnam": "Buffalo–Exchange Street, NY"
             },
             "geometry":
             {
@@ -2267,7 +2267,7 @@
                 "address1": "135 Causeway Street",
                 "name": "North Station",
                 "code": "BON",
-                "stationnam": "Boston, MA"
+                "stationnam": "Boston North, MA"
             },
             "geometry":
             {
@@ -2294,7 +2294,7 @@
                 "address1": "2 South Station",
                 "name": "South Station",
                 "code": "BOS",
-                "stationnam": "Boston, MA"
+                "stationnam": "Boston South, MA"
             },
             "geometry":
             {
@@ -2618,7 +2618,7 @@
                 "address1": "55 Dick Road",
                 "name": "Depew Station",
                 "code": "BUF",
-                "stationnam": "Buffalo, NY"
+                "stationnam": "Buffalo–Depew, NY"
             },
             "geometry":
             {
@@ -7127,7 +7127,7 @@
                 "address1": "3 Brewster Road",
                 "name": "Liberty International Airport",
                 "code": "EWR",
-                "stationnam": "Newark, NJ"
+                "stationnam": "Newark Liberty International Airport, NJ"
             },
             "geometry":
             {
@@ -8153,7 +8153,7 @@
                 "address1": "5099 Stars and Stripes Drive",
                 "name": "Great America",
                 "code": "GAC",
-                "stationnam": "Santa Clara, CA"
+                "stationnam": "Santa Clara – Great America, CA"
             },
             "geometry":
             {
@@ -17171,7 +17171,7 @@
                 "address1": "50 Union Avenue",
                 "name": "Union Station",
                 "code": "NHV",
-                "stationnam": "New Haven, CT"
+                "stationnam": "New Haven Union, CT"
             },
             "geometry":
             {
@@ -17576,7 +17576,7 @@
                 "address1": "1 Raymond Plaza West",
                 "name": "Penn Station",
                 "code": "NWK",
-                "stationnam": "Newark, NJ"
+                "stationnam": "Newark Penn, NJ"
             },
             "geometry":
             {
@@ -17684,7 +17684,7 @@
                 "address1": "700 73rd Avenue",
                 "name": "Coliseum/Airport Station",
                 "code": "OAC",
-                "stationnam": "Oakland, CA"
+                "stationnam": "Oakland Coliseum, CA"
             },
             "geometry":
             {
@@ -17981,7 +17981,7 @@
                 "address1": "245 Second Street",
                 "name": "Jack London Square Station",
                 "code": "OKJ",
-                "stationnam": "Oakland, CA"
+                "stationnam": "Oakland–Jack London Square, CA"
             },
             "geometry":
             {
@@ -18062,7 +18062,7 @@
                 "address1": "4005 Taylor Street",
                 "name": "Old Town Transportation Center",
                 "code": "OLT",
-                "stationnam": "San Diego, CA"
+                "stationnam": "San Diego Old Town, CA"
             },
             "geometry":
             {
@@ -21896,7 +21896,7 @@
                 "address1": "7519 Staples Mill Road",
                 "name": "Staples Mill Road Station",
                 "code": "RVR",
-                "stationnam": "Richmond, VA"
+                "stationnam": "Richmond Staples Mill Road, VA"
             },
             "geometry":
             {
@@ -22139,7 +22139,7 @@
                 "address1": "1050 Kettner Boulevard",
                 "name": "Santa Fe Depot",
                 "code": "SAN",
-                "stationnam": "San Diego, CA"
+                "stationnam": "San Diego Santa Fe Depot, CA"
             },
             "geometry":
             {
@@ -23138,7 +23138,7 @@
                 "address1": "735 South San Joaquin Street",
                 "name": "San Joaquin Street Station",
                 "code": "SKN",
-                "stationnam": "Stockton, CA"
+                "stationnam": "Stockton San Joaquin Street, CA"
             },
             "geometry":
             {
@@ -23165,7 +23165,7 @@
                 "address1": "949 East Channel St.",
                 "name": "Robert J. Cabral Station",
                 "code": "SKT",
-                "stationnam": "Stockton, CA"
+                "stationnam": "Stockton Downtown, CA"
             },
             "geometry":
             {
@@ -24920,7 +24920,7 @@
                 "address1": "259 State Street",
                 "name": "State Street Station",
                 "code": "STS",
-                "stationnam": "New Haven, CT"
+                "stationnam": "New Haven State Street, CT"
             },
             "geometry":
             {
