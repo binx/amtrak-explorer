@@ -17,7 +17,7 @@ const SVG = styled.svg`
   circle {
     fill: #222;
     stroke: white;
-    stroke-width: 2;
+    stroke-width: 3;
   }
 `;
 
@@ -25,11 +25,13 @@ function LineVis({ stationList }) {
   const [lines, setLines] = useState([]);
   const [connectors, setConnectors] = useState([]);
   const [circles, setCircles] = useState([]);
+  const [locals, setLocals] = useState([]);
 
   useEffect(() => {
     let newLines = [];
     let newConnectors = [];
     let newCircles = [];
+    let newLocals = [];
 
     let lastDepth = 0;
     let top = 0;
@@ -54,15 +56,30 @@ function LineVis({ stationList }) {
         newConnectors.push(`M${width*2},${top + spacerHeight} C${width*2},${top + spacerCurve} ${width*1},${top + spacerHeight - spacerCurve} ${width*1},${top}`)
       }
 
-      console.log("sss", s.depth, spacerHeight)
-
-      newLines.push({
+      if (i === 0 || (i === 1 && s.depth === 3)) {
+        // first entry, move top down
+        const paddingLength = stationList.length === 1 ? -paddingBottom : paddingBottom;
+        newLines.push({
+          x: (s.depth - 1) * width,
+          y1: top + spacerHeight + 10,
+          y2: top + (s.stations.length * height) + spacerHeight + paddingLength
+        })
+      } else if ((i === stationList.length - 1) || (s.depth === 1 && i === stationList.length - 2)) {
+        // last line, or ends in a fork
+        newLines.push({
+          x: (s.depth - 1) * width,
+          y1: top + spacerHeight,
+          y2: top + (s.stations.length * height) + spacerHeight - paddingBottom
+        })
+      } else {
+        newLines.push({
         x: (s.depth - 1) * width,
-        y1: top + spacerHeight,
-        y2: top + (s.stations.length * height) + spacerHeight + paddingBottom
-      })
+          y1: top + spacerHeight,
+          y2: top + (s.stations.length * height) + spacerHeight + paddingBottom
+        })
+      }
 
-      if (s.depth === 3) {
+      if (s.depth === 3 && i !== stationList.length - 1) {
         newLines.push({
           x: 0,
           y1: top + spacerHeight,
@@ -71,10 +88,18 @@ function LineVis({ stationList }) {
       }
 
       s.stations.forEach((stat, j) => {
-        newCircles.push({
-          cx: width*(s.depth - 1),
-          cy: top + (j*height) + height/2 + (spacerHeight)
-        })
+        if (!stat) console.log(stat)
+        if (stat && stat.routes.length > 1)
+          newCircles.push({
+            cx: width*(s.depth - 1),
+            cy: top + (j*height) + height/2 + (spacerHeight)
+          })
+        else if (stat)
+          newLocals.push({
+            x: width*(s.depth - 1),
+            y: top + (j*height) + height/2 + (spacerHeight)
+          })
+
       })
 
       if ((s.depth === 1 && lastDepth === 2) || (s.depth === 2 && lastDepth === 3)) {
@@ -87,11 +112,12 @@ function LineVis({ stationList }) {
     })
     setLines(newLines);
     setConnectors(newConnectors);
-    setCircles(newCircles)
+    setCircles(newCircles);
+    setLocals(newLocals);
 
   }, [stationList])
 
-  const r = 4;
+  const r = 6;
 
   return (
     <SVG>
@@ -107,7 +133,12 @@ function LineVis({ stationList }) {
       })}
       { circles.map((l,i) => {
         return (
-          <circle key={`circle{i}`} r={r} cx={l.cx} cy={l.cy} />
+          <circle key={`circle${i}`} r={r} cx={l.cx} cy={l.cy} />
+        );
+      })}
+      { locals.map((l,i) => {
+        return (
+          <path key={`local${i}`} d={`M${l.x},${l.y+0} ${l.x+10},${l.y+0}`} />
         );
       })}
     </SVG>

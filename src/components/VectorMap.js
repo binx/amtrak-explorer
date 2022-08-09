@@ -47,6 +47,7 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
         <StationList
           stations={stations}
           selectedRoute={selectedRoute}
+          hoverStation={hoverStation}
           setHoverStation={setHoverStation}
           setClickStation={setClickStation}
         />

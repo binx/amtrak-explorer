@@ -21,6 +21,11 @@ const Flex = styled.div`
   white-space: nowrap;
   height: 25px;
   font-size: 14px;
+
+  span {
+    text-decoration: underline;
+    text-decoration-color: ${props => props.hovered ? "#48D5C6" : "transparent"};
+  }
 `;
 const Spacer = styled.div`
   width: 80px;
@@ -37,7 +42,7 @@ const Bar = styled.div`
   opacity: .1
 `;
 
-function StationList({ stations, selectedRoute, setHoverStation, setClickStation }) {
+function StationList({ stations, selectedRoute, hoverStation, setHoverStation, setClickStation }) {
 
   const [stationList, setStationList] = useState([]);
 
@@ -98,23 +103,18 @@ function StationList({ stations, selectedRoute, setHoverStation, setClickStation
                 <div style={{ marginTop: "40px"}} />
               )}
               { segment.stations.map((d,i) => {
-                
+                const spacerDepth = segment.depth > 2 ? segment.depth + 1 : segment.depth;
                 return (
                   <Flex key={`station${i}`}
                     onMouseEnter={() => setHoverStation(d)}
                     onMouseLeave={() => setHoverStation()}
                     onClick={() => setClickStation(d)}
+                    hovered={hoverStation ? hoverStation.properties.code === d.properties.code : false}
                   >
                     <Spacer>
-                      { segment.depth > 2 ? (
-                          <>
-                            <Bar depth={1} />
-                            <Bar depth={segment.depth} />
-                          </>
-                        ) : <Bar depth={segment.depth} />
-                      }
+                      <Bar depth={spacerDepth} />
                     </Spacer>
-                    <span>{d && d.properties.stationnam.split(",")}</span>
+                    <span>{d && d.properties.stationnam}</span>
                   </Flex>
                 );
               })}
