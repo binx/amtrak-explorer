@@ -10,6 +10,7 @@ import VectorMap from "./VectorMap";
 
 function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
   const margin = window.innerWidth > 800 ? 50 : 20;
+  const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
 
   const containerRef = useRef();
   const [width, setWidth] = useState(0);
@@ -72,8 +73,9 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
       .fitExtent([[0, 0], [width - margin*2, height - margin*2]], object);
     const path = d3.geoPath(projection);
 
-    const newRoutes = routeData.map(r => ({
+    const newRoutes = routeData.map((r,i) => ({
       name: r.properties.NAME,
+      color: colors[i%colors.length],
       d: path(r)
     }));
     setRoutes(newRoutes);

@@ -24,7 +24,7 @@ const Flex = styled.div`
 
   span {
     text-decoration: underline;
-    text-decoration-color: ${props => props.hovered ? "#48D5C6" : "transparent"};
+    text-decoration-color: ${props => props.hovered ? props.color : "transparent"};
   }
 `;
 const Spacer = styled.div`
@@ -42,7 +42,7 @@ const Bar = styled.div`
   opacity: .1
 `;
 
-function StationList({ stations, selectedRoute, hoverStation, setHoverStation, setClickStation }) {
+function StationList({ stations, selectedRoute, hoverStation, color, setHoverStation, setClickStation }) {
 
   const [stationList, setStationList] = useState([]);
 
@@ -93,7 +93,7 @@ function StationList({ stations, selectedRoute, hoverStation, setHoverStation, s
 
   return (
     <div style={{ position: "relative" }}>
-      <LineVis stationList={stationList} />
+      <LineVis stationList={stationList} color={color} />
       <Table>
         {stationList.map((segment, j) => {
           return (
@@ -109,6 +109,7 @@ function StationList({ stations, selectedRoute, hoverStation, setHoverStation, s
                     onMouseLeave={() => setHoverStation()}
                     onClick={() => setClickStation(d)}
                     hovered={hoverStation ? hoverStation.properties.code === d.properties.code : false}
+                    color={color}
                   >
                     <Spacer>
                       <Bar depth={spacerDepth} />

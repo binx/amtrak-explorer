@@ -24,14 +24,15 @@ const StatePath = styled.path`
 `;
 const Circle = styled.circle`
   fill: ${props => props.hovered ? "white" : "#222"};
-  stroke: white;
+  stroke: ${props => (props.hasConnection ? "white" : props.color)};
+  stroke-width: 2;
   cursor: pointer;
   &:hover { fill: white; }
 `;
 
 function MapSVG({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute, hoverStation, setHoverStation, setClickStation }) {
-  const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
   const isSmall = window.innerWidth < 800;
+  const circleColor = selectedRoute && routes.find(r => r.name === selectedRoute).color;
 
   return (
     <SVG width={width} height={height} >
@@ -60,7 +61,7 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
               key={`route${i}`}
               d={d.d}
               className={d.name} 
-              stroke={colors[i%colors.length]} 
+              stroke={d.color} 
               hasSelection={!!selectedRoute}
               selected={d.name === selectedRoute}
               onClick={() => setSelectedRoute(d.name)}
@@ -73,6 +74,8 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
               cx={d.point[0]} cy={d.point[1]}
               r={isSmall ? 4 : 6}
               strokeWidth={isSmall ? 1 : 2}
+              color={circleColor}
+              hasConnection={d.routes.length > 1}
               hovered={hoverStation && hoverStation.properties.code === d.properties.code}
               onMouseEnter={() => setHoverStation(d)}
               onMouseLeave={() => setHoverStation()}

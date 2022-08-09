@@ -14,6 +14,8 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
     setClickStation();
   }, [selectedRoute]);
 
+  const highlightColor = selectedRoute && routes.find(r => r.name === selectedRoute).color;
+
   return (
     <>
       <div style={{ position: "relative", height }}>
@@ -48,6 +50,7 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
           stations={stations}
           selectedRoute={selectedRoute}
           hoverStation={hoverStation}
+          color={highlightColor}
           setHoverStation={setHoverStation}
           setClickStation={setClickStation}
         />

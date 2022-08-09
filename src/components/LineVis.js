@@ -6,11 +6,11 @@ const SVG = styled.svg`
   position: absolute;
   z-index: -1;
   line {
-    stroke: #48D5C6;
+    stroke: ${props => props.color || "#48D5C6"};
     stroke-width: 5;
   }
   path {
-    stroke: #48D5C6;
+    stroke: ${props => props.color || "#48D5C6"};
     stroke-width: 5;
     fill: none;
   }
@@ -21,7 +21,7 @@ const SVG = styled.svg`
   }
 `;
 
-function LineVis({ stationList }) {
+function LineVis({ stationList, color }) {
   const [lines, setLines] = useState([]);
   const [connectors, setConnectors] = useState([]);
   const [circles, setCircles] = useState([]);
@@ -120,7 +120,7 @@ function LineVis({ stationList }) {
   const r = 6;
 
   return (
-    <SVG>
+    <SVG color={color}>
       { lines.map((l,i) => {
         return (
           <line key={`line${i}`} x1={l.x} x2={l.x} y1={l.y1} y2={l.y2} />
