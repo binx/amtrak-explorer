@@ -19,10 +19,12 @@ const Flex = styled.div`
   display: flex;
   align-items: center;
   white-space: nowrap;
+  height: 25px;
+  font-size: 14px;
 `;
 const Spacer = styled.div`
   width: 80px;
-  margin-right: 10px;
+  margin-right: 20px;
   flex: 0;
   display: flex;
   align-items: center;
@@ -93,7 +95,7 @@ function StationList({ stations, selectedRoute, setHoverStation, setClickStation
           return (
             <div key={`seg${j}`}>
               { ((segment.depth === 2 || segment.depth === 1) && j !== 0) && (
-                <div style={{ marginTop: "45px"}} />
+                <div style={{ marginTop: "40px"}} />
               )}
               { segment.stations.map((d,i) => {
                 
