@@ -54,7 +54,7 @@ function MapSVG({
     circleColor = routes.find(r => r.name === selectedItem.value).color;
 
   const sortedRoutes = routes.sort((a,b) => {
-    if (a.name === selectedItem.value) return 1;
+    if (selectedItem && a.name === selectedItem.value) return 1;
     else return -1;
   });
 
@@ -98,7 +98,7 @@ function MapSVG({
               stroke={d.color} 
               hasRouteSelection={(selectedItem && selectedItem.type === "route")}
               hasStationSelection={(selectedItem && selectedItem.type === "station")}
-              selected={d.name === selectedItem.value}
+              selected={selectedItem && d.name === selectedItem.value}
               onClick={() => setSelectedItem({ type: "route", value: d.name })}
             />
           ))}
