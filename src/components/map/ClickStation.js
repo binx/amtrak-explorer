@@ -30,6 +30,10 @@ const Title = styled.div`
   justify-content: space-between;
   margin-bottom: 5px;
   white-space: nowrap;
+  span {
+    cursor: pointer;
+    &:hover { text-decoration: underline; }
+  }
 `;
 const Type = styled.div`
   font-size: 12px;
@@ -66,7 +70,7 @@ const StationList = styled.ul`
 `;
 
 
-const ClickStation = ({ station, margin, height, setClickStation, setSelectedRoute }) => ( 
+const ClickStation = ({ station, margin, height, setClickStation, setSelectedItem }) => ( 
   <Wrapper
     style={{
       bottom: `${height - station.point[1] - margin + 23}px`,
@@ -74,14 +78,20 @@ const ClickStation = ({ station, margin, height, setClickStation, setSelectedRou
     }}
   >
     <Title>
-      {station.properties.station_name}
+      <span onClick={() => 
+        setSelectedItem({ type: "station", value: station.properties.station_code})
+      }>
+        {station.properties.station_name}
+      </span>
       <Close onClick={() => setClickStation()} />
     </Title>
     <Type>{station.properties.statype}</Type>
 
     <StationList>
       {station.properties.routes.map((d,i) => (
-        <li key={`line${i}`} onClick={() => setSelectedRoute(d)}>{d}</li>
+        <li key={`line${i}`} 
+          onClick={() => setSelectedItem({ type: "route", value: d })}
+        >{d}</li>
       ))}
     </StationList>
 

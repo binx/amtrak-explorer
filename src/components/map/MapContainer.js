@@ -5,10 +5,16 @@ import geoJSON from "../../data/Amtrak_Routes-simplified.geojson";
 import stationJSON from "../../data/Amtrak_Stations.geojson";
 import statesJSON from "../../data/us-states.geojson";
 
-import RouteHeader from "./RouteHeader";
+import RouteHeader from "../ui/RouteHeader";
+import StationHeader from "../ui/StationHeader";
 import VectorMap from "./VectorMap";
 
-function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearchParams }) {
+function MapContainer({
+    selectedItem,
+    setSelectedItem,
+    searchParams,
+    setSearchParams
+  }) {
   const margin = window.innerWidth > 800 ? 50 : 20;
   const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
 
@@ -38,7 +44,11 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
 
     fetch(geoJSON).then(response => response.json())
       .then(data => {
-        setRouteData(data.features);
+        const newRouteDate = data.features.map((d,i) => {
+          d.color = colors[i%colors.length];
+          return d;
+        })
+        setRouteData(newRouteDate);
       });
 
     fetch(statesJSON).then(response => response.json())
@@ -54,7 +64,11 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
 
     // try to get everything loaded before selecting a route
     const route = searchParams.get("route");
-    if (route) setSelectedRoute(route);
+    if (route) setSelectedItem({type: "route", value: route });
+
+    const station = searchParams.get("station");
+    if (station) setSelectedItem({type: "station", value: station });
+
     // eslint-disable-next-line
   }, [stationData, stateData, routeData])
 
@@ -62,8 +76,16 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
     if (!stateData.length || !stationData.length || !routeData.length) return;
 
     let object;
-    if (selectedRoute) {
-      object = routeData.find(d => d.properties.NAME === selectedRoute);
+    if (selectedItem && selectedItem.type === "route") {
+      object = routeData.find(d => d.properties.NAME === selectedItem.value);
+    } else if (selectedItem && selectedItem.type === "station") {
+      const station = stationData.find(d => d.properties.station_code === selectedItem.value);
+      const p = station.geometry.coordinates;
+      // let's make an extent lol
+      const padding = 3;
+      object = { "type": "LineString", "coordinates": [
+        [p[0]-padding, p[1]-padding], [p[0]+padding, p[1]+padding]
+      ] };
     } else {
       object = { "type": "FeatureCollection", "features": routeData };
     }
@@ -74,7 +96,7 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
 
     const newRoutes = routeData.map((r,i) => ({
       name: r.properties.NAME,
-      color: colors[i%colors.length],
+      color: r.color,
       d: path(r)
     }));
     setRoutes(newRoutes);
@@ -88,7 +110,11 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
     /* begin station code */
 
     const newStations = [...stationData].filter(s => {
-      return s.properties.routes.indexOf(selectedRoute) !== -1;
+      if (!selectedItem) return false;
+      if (selectedItem.type === "station") return true;
+      if (selectedItem.type === "route")
+        return s.properties.routes.indexOf(selectedItem.value) !== -1;
+      else return false;
     }).map(s => {
       s.point = projection(s.geometry.coordinates);
       return s;
@@ -96,16 +122,25 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
     setStations(newStations);
 
   // eslint-disable-next-line
-  }, [stateData, routeData, stationData, selectedRoute]);
+  }, [stateData, routeData, stationData, selectedItem]);
 
   return (
     <div ref={containerRef}>
-      { selectedRoute && (
+      { selectedItem && selectedItem.type === "route" && (
         <RouteHeader
-          selectedRoute={selectedRoute} 
-          setSelectedRoute={setSelectedRoute}
+          selectedItem={selectedItem} 
+          setSelectedItem={setSelectedItem}
           setSearchParams={setSearchParams}
-          color={routes.find(r => r.name === selectedRoute).color}
+          color={routes.find(r => r.name === selectedItem.value).color}
+        />
+      )}
+      { selectedItem && selectedItem.type === "station" && (
+        <StationHeader
+          stations={stationData}
+          routes={routeData}
+          selectedItem={selectedItem} 
+          setSelectedItem={setSelectedItem}
+          setSearchParams={setSearchParams}
         />
       )}
       <VectorMap
@@ -115,8 +150,8 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
         stations={stations}
         routes={routes}
         states={states}
-        selectedRoute={selectedRoute}
-        setSelectedRoute={setSelectedRoute}
+        selectedItem={selectedItem} 
+        setSelectedItem={setSelectedItem}
       />
     </div>
   );

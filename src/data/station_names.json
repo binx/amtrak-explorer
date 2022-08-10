@@ -1,0 +1,2162 @@
+[
+    {
+        "station_code": "ABE",
+        "station_name": "Aberdeen, MD"
+    },
+    {
+        "station_code": "ABQ",
+        "station_name": "Albuquerque, NM"
+    },
+    {
+        "station_code": "ACA",
+        "station_name": "Antioch-Pittsburg, CA"
+    },
+    {
+        "station_code": "ACD",
+        "station_name": "Arcadia, MO"
+    },
+    {
+        "station_code": "ADM",
+        "station_name": "Ardmore, OK"
+    },
+    {
+        "station_code": "AKY",
+        "station_name": "Ashland, KY"
+    },
+    {
+        "station_code": "ALB",
+        "station_name": "Albany-Rensselaer, NY"
+    },
+    {
+        "station_code": "ALC",
+        "station_name": "Alliance, OH"
+    },
+    {
+        "station_code": "ALD",
+        "station_name": "Alderson, WV"
+    },
+    {
+        "station_code": "ALI",
+        "station_name": "Albion, MI"
+    },
+    {
+        "station_code": "ALN",
+        "station_name": "Alton, IL"
+    },
+    {
+        "station_code": "ALP",
+        "station_name": "Alpine, TX"
+    },
+    {
+        "station_code": "ALT",
+        "station_name": "Altoona, PA"
+    },
+    {
+        "station_code": "ALX",
+        "station_name": "Alexandria, VA"
+    },
+    {
+        "station_code": "ALY",
+        "station_name": "Albany, OR"
+    },
+    {
+        "station_code": "AMS",
+        "station_name": "Amsterdam, NY"
+    },
+    {
+        "station_code": "ANA",
+        "station_name": "Anaheim, CA"
+    },
+    {
+        "station_code": "ARB",
+        "station_name": "Ann Arbor, MI"
+    },
+    {
+        "station_code": "ARD",
+        "station_name": "Ardmore, PA"
+    },
+    {
+        "station_code": "ARK",
+        "station_name": "Arkadelphia, AR"
+    },
+    {
+        "station_code": "ARN",
+        "station_name": "Auburn, CA"
+    },
+    {
+        "station_code": "ASD",
+        "station_name": "Ashland, VA"
+    },
+    {
+        "station_code": "AST",
+        "station_name": "Aldershot, ON"
+    },
+    {
+        "station_code": "ATL",
+        "station_name": "Atlanta, GA"
+    },
+    {
+        "station_code": "ATN",
+        "station_name": "Anniston, AL"
+    },
+    {
+        "station_code": "AUS",
+        "station_name": "Austin, TX"
+    },
+    {
+        "station_code": "BAL",
+        "station_name": "Baltimore, MD"
+    },
+    {
+        "station_code": "BAM",
+        "station_name": "Bangor, MI"
+    },
+    {
+        "station_code": "BAR",
+        "station_name": "Barstow, CA"
+    },
+    {
+        "station_code": "BBY",
+        "station_name": "Boston Back Bay, MA"
+    },
+    {
+        "station_code": "BCV",
+        "station_name": "Burke Centre, VA"
+    },
+    {
+        "station_code": "BEL",
+        "station_name": "Bellingham, WA"
+    },
+    {
+        "station_code": "BEN",
+        "station_name": "Benson, AZ"
+    },
+    {
+        "station_code": "BER",
+        "station_name": "Berlin, CT"
+    },
+    {
+        "station_code": "BFD",
+        "station_name": "Bakersfield, CA"
+    },
+    {
+        "station_code": "BFX",
+        "station_name": "Buffalo–Exchange Street, NY"
+    },
+    {
+        "station_code": "BHM",
+        "station_name": "Birmingham, AL"
+    },
+    {
+        "station_code": "BKY",
+        "station_name": "Berkeley, CA"
+    },
+    {
+        "station_code": "BLF",
+        "station_name": "Bellows Falls, VT"
+    },
+    {
+        "station_code": "BMT",
+        "station_name": "Beaumont, TX"
+    },
+    {
+        "station_code": "BNC",
+        "station_name": "Burlington, NC"
+    },
+    {
+        "station_code": "BNG",
+        "station_name": "Bingen-White Salmon, WA"
+    },
+    {
+        "station_code": "BNL",
+        "station_name": "Bloomington-Normal, IL"
+    },
+    {
+        "station_code": "BNN",
+        "station_name": "Bennington, VT"
+    },
+    {
+        "station_code": "BON",
+        "station_name": "Boston North, MA"
+    },
+    {
+        "station_code": "BOS",
+        "station_name": "Boston South, MA"
+    },
+    {
+        "station_code": "BRA",
+        "station_name": "Brattleboro, VT"
+    },
+    {
+        "station_code": "BRH",
+        "station_name": "Brookhaven, MS"
+    },
+    {
+        "station_code": "BRK",
+        "station_name": "Brunswick, ME"
+    },
+    {
+        "station_code": "BRL",
+        "station_name": "Burlington, IA"
+    },
+    {
+        "station_code": "BRO",
+        "station_name": "Browning, MT"
+    },
+    {
+        "station_code": "BRP",
+        "station_name": "Bridgeport, CT"
+    },
+    {
+        "station_code": "BTL",
+        "station_name": "Battle Creek, MI"
+    },
+    {
+        "station_code": "BUF",
+        "station_name": "Buffalo–Depew, NY"
+    },
+    {
+        "station_code": "BUR",
+        "station_name": "Burbank, CA"
+    },
+    {
+        "station_code": "BWI",
+        "station_name": "BWI Marshall Airport, MD"
+    },
+    {
+        "station_code": "BYN",
+        "station_name": "Bryan, OH"
+    },
+    {
+        "station_code": "CAM",
+        "station_name": "Camden, SC"
+    },
+    {
+        "station_code": "CBR",
+        "station_name": "Cleburne, TX"
+    },
+    {
+        "station_code": "CBS",
+        "station_name": "Columbus, WI"
+    },
+    {
+        "station_code": "CDL",
+        "station_name": "Carbondale, IL"
+    },
+    {
+        "station_code": "CEN",
+        "station_name": "Centralia, IL"
+    },
+    {
+        "station_code": "CHI",
+        "station_name": "Chicago, IL"
+    },
+    {
+        "station_code": "CHM",
+        "station_name": "Champaign-Urbana, IL"
+    },
+    {
+        "station_code": "CHS",
+        "station_name": "Charleston, SC"
+    },
+    {
+        "station_code": "CHW",
+        "station_name": "Charleston, WV"
+    },
+    {
+        "station_code": "CIC",
+        "station_name": "Chico, CA"
+    },
+    {
+        "station_code": "CIN",
+        "station_name": "Cincinnati, OH"
+    },
+    {
+        "station_code": "CLA",
+        "station_name": "Claremont, NH"
+    },
+    {
+        "station_code": "CLB",
+        "station_name": "Columbia, SC"
+    },
+    {
+        "station_code": "CLE",
+        "station_name": "Cleveland, OH"
+    },
+    {
+        "station_code": "CLF",
+        "station_name": "Clifton Forge, VA"
+    },
+    {
+        "station_code": "CLP",
+        "station_name": "Culpeper, VA"
+    },
+    {
+        "station_code": "CLT",
+        "station_name": "Charlotte, NC"
+    },
+    {
+        "station_code": "CML",
+        "station_name": "Camarillo, CA"
+    },
+    {
+        "station_code": "CMO",
+        "station_name": "Chemult, OR"
+    },
+    {
+        "station_code": "CNL",
+        "station_name": "Col Allensworth State Park, CA"
+    },
+    {
+        "station_code": "CNV",
+        "station_name": "Castleton, VT"
+    },
+    {
+        "station_code": "COC",
+        "station_name": "Corcoran, CA"
+    },
+    {
+        "station_code": "COI",
+        "station_name": "Connersville, IN"
+    },
+    {
+        "station_code": "COT",
+        "station_name": "Coatesville, PA"
+    },
+    {
+        "station_code": "COV",
+        "station_name": "Connellsville, PA"
+    },
+    {
+        "station_code": "COX",
+        "station_name": "Colfax, CA"
+    },
+    {
+        "station_code": "CPN",
+        "station_name": "Carpinteria, CA"
+    },
+    {
+        "station_code": "CRF",
+        "station_name": "Crawfordsville, IN"
+    },
+    {
+        "station_code": "CRN",
+        "station_name": "Creston, IA"
+    },
+    {
+        "station_code": "CRT",
+        "station_name": "Croton-Harmon, NY"
+    },
+    {
+        "station_code": "CRV",
+        "station_name": "Carlinville, IL"
+    },
+    {
+        "station_code": "CSN",
+        "station_name": "Clemson, SC"
+    },
+    {
+        "station_code": "CTL",
+        "station_name": "Centralia, WA"
+    },
+    {
+        "station_code": "CUM",
+        "station_name": "Cumberland, MD"
+    },
+    {
+        "station_code": "CUT",
+        "station_name": "Cut Bank, MT"
+    },
+    {
+        "station_code": "CVS",
+        "station_name": "Charlottesville, VA"
+    },
+    {
+        "station_code": "CWH",
+        "station_name": "Cornwells Heights, PA"
+    },
+    {
+        "station_code": "CWT",
+        "station_name": "Chatsworth, CA"
+    },
+    {
+        "station_code": "CYN",
+        "station_name": "Cary, NC"
+    },
+    {
+        "station_code": "DAL",
+        "station_name": "Dallas, TX"
+    },
+    {
+        "station_code": "DAN",
+        "station_name": "Danville, VA"
+    },
+    {
+        "station_code": "DAV",
+        "station_name": "Davis, CA"
+    },
+    {
+        "station_code": "DDG",
+        "station_name": "Dodge City, KS"
+    },
+    {
+        "station_code": "DEM",
+        "station_name": "Deming, NM"
+    },
+    {
+        "station_code": "DEN",
+        "station_name": "Denver, CO"
+    },
+    {
+        "station_code": "DER",
+        "station_name": "Dearborn, MI"
+    },
+    {
+        "station_code": "DET",
+        "station_name": "Detroit, MI"
+    },
+    {
+        "station_code": "DFB",
+        "station_name": "Deerfield Beach, FL"
+    },
+    {
+        "station_code": "DHM",
+        "station_name": "Durham, NH"
+    },
+    {
+        "station_code": "DIL",
+        "station_name": "Dillon, SC"
+    },
+    {
+        "station_code": "DLB",
+        "station_name": "Delray Beach, FL"
+    },
+    {
+        "station_code": "DLD",
+        "station_name": "DeLand, FL"
+    },
+    {
+        "station_code": "DLK",
+        "station_name": "Detroit Lakes, MN"
+    },
+    {
+        "station_code": "DNC",
+        "station_name": "Durham, NC"
+    },
+    {
+        "station_code": "DNK",
+        "station_name": "Denmark, SC"
+    },
+    {
+        "station_code": "DOA",
+        "station_name": "Dowagiac, MI"
+    },
+    {
+        "station_code": "DOV",
+        "station_name": "Dover, NH"
+    },
+    {
+        "station_code": "DOW",
+        "station_name": "Downingtown, PA"
+    },
+    {
+        "station_code": "DQN",
+        "station_name": "Du Quoin, IL"
+    },
+    {
+        "station_code": "DRD",
+        "station_name": "Durand, MI"
+    },
+    {
+        "station_code": "DRT",
+        "station_name": "Del Rio, TX"
+    },
+    {
+        "station_code": "DUN",
+        "station_name": "Dunsmuir, CA"
+    },
+    {
+        "station_code": "DVL",
+        "station_name": "Devils Lake, ND"
+    },
+    {
+        "station_code": "DWT",
+        "station_name": "Dwight, IL"
+    },
+    {
+        "station_code": "DYE",
+        "station_name": "Dyer, IN"
+    },
+    {
+        "station_code": "EDM",
+        "station_name": "Edmonds, WA"
+    },
+    {
+        "station_code": "EFG",
+        "station_name": "Effingham, IL"
+    },
+    {
+        "station_code": "EKH",
+        "station_name": "Elkhart, IN"
+    },
+    {
+        "station_code": "ELK",
+        "station_name": "Elko, NV"
+    },
+    {
+        "station_code": "ELP",
+        "station_name": "El Paso, TX"
+    },
+    {
+        "station_code": "ELT",
+        "station_name": "Elizabethtown, PA"
+    },
+    {
+        "station_code": "ELY",
+        "station_name": "Elyria, OH"
+    },
+    {
+        "station_code": "EMY",
+        "station_name": "Emeryville, CA"
+    },
+    {
+        "station_code": "EPH",
+        "station_name": "Ephrata, WA"
+    },
+    {
+        "station_code": "ERI",
+        "station_name": "Erie, PA"
+    },
+    {
+        "station_code": "ESM",
+        "station_name": "Essex, MT"
+    },
+    {
+        "station_code": "ESX",
+        "station_name": "Essex Junction-Burlington, VT"
+    },
+    {
+        "station_code": "EUG",
+        "station_name": "Eugene, OR"
+    },
+    {
+        "station_code": "EVR",
+        "station_name": "Everett, WA"
+    },
+    {
+        "station_code": "EWR",
+        "station_name": "Newark Liberty International Airport, NJ"
+    },
+    {
+        "station_code": "EXR",
+        "station_name": "Exeter, NH"
+    },
+    {
+        "station_code": "EXT",
+        "station_name": "Exton, PA"
+    },
+    {
+        "station_code": "FAR",
+        "station_name": "Fargo, ND"
+    },
+    {
+        "station_code": "FAY",
+        "station_name": "Fayetteville, NC"
+    },
+    {
+        "station_code": "FBG",
+        "station_name": "Fredericksburg, VA"
+    },
+    {
+        "station_code": "FED",
+        "station_name": "Fort Edward-Glens Falls, NY"
+    },
+    {
+        "station_code": "FFV",
+        "station_name": "Fairfield-Vacaville, CA"
+    },
+    {
+        "station_code": "FLG",
+        "station_name": "Flagstaff, AZ"
+    },
+    {
+        "station_code": "FLN",
+        "station_name": "Flint, MI"
+    },
+    {
+        "station_code": "FLO",
+        "station_name": "Florence, SC"
+    },
+    {
+        "station_code": "FMD",
+        "station_name": "Fort Madison, IA"
+    },
+    {
+        "station_code": "FMG",
+        "station_name": "Fort Morgan, CO"
+    },
+    {
+        "station_code": "FMT",
+        "station_name": "Fremont, CA"
+    },
+    {
+        "station_code": "FNO",
+        "station_name": "Fresno, CA"
+    },
+    {
+        "station_code": "FRA",
+        "station_name": "Framingham, MA"
+    },
+    {
+        "station_code": "FRE",
+        "station_name": "Freeport, ME"
+    },
+    {
+        "station_code": "FTC",
+        "station_name": "Ticonderoga, NY"
+    },
+    {
+        "station_code": "FTL",
+        "station_name": "Fort Lauderdale, FL"
+    },
+    {
+        "station_code": "FTN",
+        "station_name": "Fulton, KY"
+    },
+    {
+        "station_code": "FTW",
+        "station_name": "Fort Worth, TX"
+    },
+    {
+        "station_code": "FUL",
+        "station_name": "Fullerton, CA"
+    },
+    {
+        "station_code": "GAC",
+        "station_name": "Santa Clara – Great America, CA"
+    },
+    {
+        "station_code": "GAS",
+        "station_name": "Gastonia, NC"
+    },
+    {
+        "station_code": "GBB",
+        "station_name": "Galesburg, IL"
+    },
+    {
+        "station_code": "GCK",
+        "station_name": "Garden City, KS"
+    },
+    {
+        "station_code": "GCN",
+        "station_name": "Grand Canyon Village, AZ"
+    },
+    {
+        "station_code": "GDL",
+        "station_name": "Glendale, CA"
+    },
+    {
+        "station_code": "GFD",
+        "station_name": "Greenfield, MA"
+    },
+    {
+        "station_code": "GFK",
+        "station_name": "Grand Forks, ND"
+    },
+    {
+        "station_code": "GGW",
+        "station_name": "Glasgow, MT"
+    },
+    {
+        "station_code": "GJT",
+        "station_name": "Grand Junction, CO"
+    },
+    {
+        "station_code": "GLE",
+        "station_name": "Gainesville, TX"
+    },
+    {
+        "station_code": "GLM",
+        "station_name": "Gilman, IL"
+    },
+    {
+        "station_code": "GLN",
+        "station_name": "Glenview, IL"
+    },
+    {
+        "station_code": "GLP",
+        "station_name": "Gallup, NM"
+    },
+    {
+        "station_code": "GMS",
+        "station_name": "Grimsby, ON"
+    },
+    {
+        "station_code": "GNB",
+        "station_name": "Greensburg, PA"
+    },
+    {
+        "station_code": "GNS",
+        "station_name": "Gainesville, GA"
+    },
+    {
+        "station_code": "GPK",
+        "station_name": "East Glacier Park, MT"
+    },
+    {
+        "station_code": "GRA",
+        "station_name": "Granby, CO"
+    },
+    {
+        "station_code": "GRI",
+        "station_name": "Green River, UT"
+    },
+    {
+        "station_code": "GRO",
+        "station_name": "Greensboro, NC"
+    },
+    {
+        "station_code": "GRR",
+        "station_name": "Grand Rapids, MI"
+    },
+    {
+        "station_code": "GRV",
+        "station_name": "Greenville, SC"
+    },
+    {
+        "station_code": "GSC",
+        "station_name": "Glenwood Springs, CO"
+    },
+    {
+        "station_code": "GTA",
+        "station_name": "Goleta, CA"
+    },
+    {
+        "station_code": "GUA",
+        "station_name": "Guadalupe, CA"
+    },
+    {
+        "station_code": "GVB",
+        "station_name": "Grover Beach, CA"
+    },
+    {
+        "station_code": "GWD",
+        "station_name": "Greenwood, MS"
+    },
+    {
+        "station_code": "HAM",
+        "station_name": "Hamlet, NC"
+    },
+    {
+        "station_code": "HAR",
+        "station_name": "Harrisburg, PA"
+    },
+    {
+        "station_code": "HAS",
+        "station_name": "Hastings, NE"
+    },
+    {
+        "station_code": "HAV",
+        "station_name": "Havre, MT"
+    },
+    {
+        "station_code": "HAY",
+        "station_name": "Hayward, CA"
+    },
+    {
+        "station_code": "HAZ",
+        "station_name": "Hazlehurst, MS"
+    },
+    {
+        "station_code": "HBG",
+        "station_name": "Hattiesburg, MS"
+    },
+    {
+        "station_code": "HEM",
+        "station_name": "Hermann, MO"
+    },
+    {
+        "station_code": "HER",
+        "station_name": "Helper, UT"
+    },
+    {
+        "station_code": "HFD",
+        "station_name": "Hartford, CT"
+    },
+    {
+        "station_code": "HFY",
+        "station_name": "Harpers Ferry, WV"
+    },
+    {
+        "station_code": "HGD",
+        "station_name": "Huntingdon, PA"
+    },
+    {
+        "station_code": "HHL",
+        "station_name": "Haverhill, MA"
+    },
+    {
+        "station_code": "HIN",
+        "station_name": "Hinton, WV"
+    },
+    {
+        "station_code": "HLD",
+        "station_name": "Holdrege, NE"
+    },
+    {
+        "station_code": "HLK",
+        "station_name": "Holyoke, MA"
+    },
+    {
+        "station_code": "HMD",
+        "station_name": "Hammond, LA"
+    },
+    {
+        "station_code": "HMI",
+        "station_name": "Hammond-Whiting, IN"
+    },
+    {
+        "station_code": "HMW",
+        "station_name": "Homewood, IL"
+    },
+    {
+        "station_code": "HNF",
+        "station_name": "Hanford, CA"
+    },
+    {
+        "station_code": "HOL",
+        "station_name": "Hollywood, FL"
+    },
+    {
+        "station_code": "HOM",
+        "station_name": "Holland, MI"
+    },
+    {
+        "station_code": "HOP",
+        "station_name": "Hope, AR"
+    },
+    {
+        "station_code": "HOS",
+        "station_name": "Houston, TX"
+    },
+    {
+        "station_code": "HPT",
+        "station_name": "High Point, NC"
+    },
+    {
+        "station_code": "HUD",
+        "station_name": "Hudson, NY"
+    },
+    {
+        "station_code": "HUN",
+        "station_name": "Huntington, WV"
+    },
+    {
+        "station_code": "HUT",
+        "station_name": "Hutchinson, KS"
+    },
+    {
+        "station_code": "IDP",
+        "station_name": "Independence, MO"
+    },
+    {
+        "station_code": "IND",
+        "station_name": "Indianapolis, IN"
+    },
+    {
+        "station_code": "IRV",
+        "station_name": "Irvine, CA"
+    },
+    {
+        "station_code": "JAN",
+        "station_name": "Jackson, MS"
+    },
+    {
+        "station_code": "JAX",
+        "station_name": "Jacksonville, FL"
+    },
+    {
+        "station_code": "JEF",
+        "station_name": "Jefferson City, MO"
+    },
+    {
+        "station_code": "JOL",
+        "station_name": "Joliet, IL"
+    },
+    {
+        "station_code": "JSP",
+        "station_name": "Jesup, GA"
+    },
+    {
+        "station_code": "JST",
+        "station_name": "Johnstown, PA"
+    },
+    {
+        "station_code": "JXN",
+        "station_name": "Jackson, MI"
+    },
+    {
+        "station_code": "KAL",
+        "station_name": "Kalamazoo, MI"
+    },
+    {
+        "station_code": "KAN",
+        "station_name": "Kannapolis, NC"
+    },
+    {
+        "station_code": "KCY",
+        "station_name": "Kansas City, MO"
+    },
+    {
+        "station_code": "KEE",
+        "station_name": "Kewanee, IL"
+    },
+    {
+        "station_code": "KEL",
+        "station_name": "Kelso-Longview, WA"
+    },
+    {
+        "station_code": "KFS",
+        "station_name": "Klamath Falls, OR"
+    },
+    {
+        "station_code": "KIN",
+        "station_name": "Kingston, RI"
+    },
+    {
+        "station_code": "KIS",
+        "station_name": "Kissimmee, FL"
+    },
+    {
+        "station_code": "KKI",
+        "station_name": "Kankakee, IL"
+    },
+    {
+        "station_code": "KNG",
+        "station_name": "Kingman, AZ"
+    },
+    {
+        "station_code": "KTR",
+        "station_name": "Kingstree, SC"
+    },
+    {
+        "station_code": "KWD",
+        "station_name": "Kirkwood, MO"
+    },
+    {
+        "station_code": "LAB",
+        "station_name": "Latrobe, PA"
+    },
+    {
+        "station_code": "LAF",
+        "station_name": "Lafayette, IN"
+    },
+    {
+        "station_code": "LAG",
+        "station_name": "La Grange, IL"
+    },
+    {
+        "station_code": "LAJ",
+        "station_name": "La Junta, CO"
+    },
+    {
+        "station_code": "LAK",
+        "station_name": "Lakeland, FL"
+    },
+    {
+        "station_code": "LAP",
+        "station_name": "La Plata, MO"
+    },
+    {
+        "station_code": "LAU",
+        "station_name": "Laurel, MS"
+    },
+    {
+        "station_code": "LAX",
+        "station_name": "Los Angeles, CA"
+    },
+    {
+        "station_code": "LCH",
+        "station_name": "Lake Charles, LA"
+    },
+    {
+        "station_code": "LCN",
+        "station_name": "Lincoln, IL"
+    },
+    {
+        "station_code": "LDB",
+        "station_name": "Lordsburg, NM"
+    },
+    {
+        "station_code": "LEE",
+        "station_name": "Lee's Summit, MO"
+    },
+    {
+        "station_code": "LEW",
+        "station_name": "Lewistown, PA"
+    },
+    {
+        "station_code": "LEX",
+        "station_name": "Lexington Barbeque Festival, NC"
+    },
+    {
+        "station_code": "LFT",
+        "station_name": "Lafayette, LA"
+    },
+    {
+        "station_code": "LIB",
+        "station_name": "Libby, MT"
+    },
+    {
+        "station_code": "LKL",
+        "station_name": "Lakeland, FL"
+    },
+    {
+        "station_code": "LMR",
+        "station_name": "Lamar, CO"
+    },
+    {
+        "station_code": "LMY",
+        "station_name": "Lamy, NM"
+    },
+    {
+        "station_code": "LNC",
+        "station_name": "Lancaster, PA"
+    },
+    {
+        "station_code": "LNK",
+        "station_name": "Lincoln, NE"
+    },
+    {
+        "station_code": "LNS",
+        "station_name": "East Lansing, MI"
+    },
+    {
+        "station_code": "LOD",
+        "station_name": "Lodi, CA"
+    },
+    {
+        "station_code": "LOR",
+        "station_name": "Lorton, VA"
+    },
+    {
+        "station_code": "LPE",
+        "station_name": "Lapeer, MI"
+    },
+    {
+        "station_code": "LPS",
+        "station_name": "Lompoc-Surf, CA"
+    },
+    {
+        "station_code": "LRC",
+        "station_name": "Lawrence, KS"
+    },
+    {
+        "station_code": "LRK",
+        "station_name": "Little Rock, AR"
+    },
+    {
+        "station_code": "LSE",
+        "station_name": "La Crosse, WI"
+    },
+    {
+        "station_code": "LSV",
+        "station_name": "Las Vegas, NM"
+    },
+    {
+        "station_code": "LTM",
+        "station_name": "Lathrop-Manteca, CA"
+    },
+    {
+        "station_code": "LVW",
+        "station_name": "Longview, TX"
+    },
+    {
+        "station_code": "LWA",
+        "station_name": "Leavenworth, WA"
+    },
+    {
+        "station_code": "LYH",
+        "station_name": "Lynchburg, VA"
+    },
+    {
+        "station_code": "MAC",
+        "station_name": "Macomb, IL"
+    },
+    {
+        "station_code": "MAL",
+        "station_name": "Malta, MT"
+    },
+    {
+        "station_code": "MAT",
+        "station_name": "Mattoon, IL"
+    },
+    {
+        "station_code": "MAY",
+        "station_name": "Maysville, KY"
+    },
+    {
+        "station_code": "MCB",
+        "station_name": "McComb, MS"
+    },
+    {
+        "station_code": "MCD",
+        "station_name": "Merced, CA"
+    },
+    {
+        "station_code": "MCG",
+        "station_name": "McGregor, TX"
+    },
+    {
+        "station_code": "MCI",
+        "station_name": "Michigan City, IN"
+    },
+    {
+        "station_code": "MCK",
+        "station_name": "McCook, NE"
+    },
+    {
+        "station_code": "MDN",
+        "station_name": "Meriden, CT"
+    },
+    {
+        "station_code": "MDR",
+        "station_name": "Madera, CA"
+    },
+    {
+        "station_code": "MDT",
+        "station_name": "Mendota, IL"
+    },
+    {
+        "station_code": "MEI",
+        "station_name": "Meridian, MS"
+    },
+    {
+        "station_code": "MEM",
+        "station_name": "Memphis, TN"
+    },
+    {
+        "station_code": "MET",
+        "station_name": "Metropark, NJ"
+    },
+    {
+        "station_code": "MHL",
+        "station_name": "Marshall, TX"
+    },
+    {
+        "station_code": "MIA",
+        "station_name": "Miami, FL"
+    },
+    {
+        "station_code": "MID",
+        "station_name": "Middletown, PA"
+    },
+    {
+        "station_code": "MIN",
+        "station_name": "Mineola, TX"
+    },
+    {
+        "station_code": "MJY",
+        "station_name": "Mount Joy, PA"
+    },
+    {
+        "station_code": "MKA",
+        "station_name": "Milwaukee Airport-Trains, WI"
+    },
+    {
+        "station_code": "MKE",
+        "station_name": "Milwaukee-Downtown, WI"
+    },
+    {
+        "station_code": "MKS",
+        "station_name": "Marks, MS"
+    },
+    {
+        "station_code": "MNG",
+        "station_name": "Montgomery, WV"
+    },
+    {
+        "station_code": "MOD",
+        "station_name": "Modesto, CA"
+    },
+    {
+        "station_code": "MOT",
+        "station_name": "Minot, ND"
+    },
+    {
+        "station_code": "MPK",
+        "station_name": "Moorpark, CA"
+    },
+    {
+        "station_code": "MPR",
+        "station_name": "Montpelier-Berlin, VT"
+    },
+    {
+        "station_code": "MRB",
+        "station_name": "Martinsburg, WV"
+    },
+    {
+        "station_code": "MRC",
+        "station_name": "Maricopa, AZ"
+    },
+    {
+        "station_code": "MSP",
+        "station_name": "St. Paul-Minneapolis, MN"
+    },
+    {
+        "station_code": "MSS",
+        "station_name": "Manassas, VA"
+    },
+    {
+        "station_code": "MTP",
+        "station_name": "Mount Pleasant, IA"
+    },
+    {
+        "station_code": "MTR",
+        "station_name": "Montreal, QC"
+    },
+    {
+        "station_code": "MTZ",
+        "station_name": "Martinez, CA"
+    },
+    {
+        "station_code": "MVN",
+        "station_name": "Malvern, AR"
+    },
+    {
+        "station_code": "MVW",
+        "station_name": "Mount Vernon, WA"
+    },
+    {
+        "station_code": "MYS",
+        "station_name": "Mystic, CT"
+    },
+    {
+        "station_code": "NBK",
+        "station_name": "New Brunswick, NJ"
+    },
+    {
+        "station_code": "NBN",
+        "station_name": "Newbern-Dyersburg, TN"
+    },
+    {
+        "station_code": "NBU",
+        "station_name": "New Buffalo, MI"
+    },
+    {
+        "station_code": "NCR",
+        "station_name": "New Carrollton, MD"
+    },
+    {
+        "station_code": "NDL",
+        "station_name": "Needles, CA"
+    },
+    {
+        "station_code": "NEW",
+        "station_name": "Newton, KS"
+    },
+    {
+        "station_code": "NFK",
+        "station_name": "Norfolk, VA"
+    },
+    {
+        "station_code": "NFL",
+        "station_name": "Niagara Falls, NY"
+    },
+    {
+        "station_code": "NFS",
+        "station_name": "Niagara Falls, ON"
+    },
+    {
+        "station_code": "NHT",
+        "station_name": "Northampton, MA"
+    },
+    {
+        "station_code": "NHV",
+        "station_name": "New Haven Union, CT"
+    },
+    {
+        "station_code": "NIB",
+        "station_name": "New Iberia, LA"
+    },
+    {
+        "station_code": "NLC",
+        "station_name": "New London, CT"
+    },
+    {
+        "station_code": "NLS",
+        "station_name": "Niles, MI"
+    },
+    {
+        "station_code": "NOL",
+        "station_name": "New Orleans, LA"
+    },
+    {
+        "station_code": "NOR",
+        "station_name": "Norman, OK"
+    },
+    {
+        "station_code": "NPN",
+        "station_name": "Newport News, VA"
+    },
+    {
+        "station_code": "NPV",
+        "station_name": "Naperville, IL"
+    },
+    {
+        "station_code": "NRK",
+        "station_name": "Newark, DE"
+    },
+    {
+        "station_code": "NRO",
+        "station_name": "New Rochelle, NY"
+    },
+    {
+        "station_code": "NSF",
+        "station_name": "North Carolina State Fair, NC"
+    },
+    {
+        "station_code": "NWK",
+        "station_name": "Newark Penn, NJ"
+    },
+    {
+        "station_code": "NYF",
+        "station_name": "New York State Fair, NY"
+    },
+    {
+        "station_code": "NYP",
+        "station_name": "New York, NY"
+    },
+    {
+        "station_code": "OAC",
+        "station_name": "Oakland Coliseum, CA"
+    },
+    {
+        "station_code": "OKC",
+        "station_name": "Oklahoma City, OK"
+    },
+    {
+        "station_code": "OKE",
+        "station_name": "Okeechobee, FL"
+    },
+    {
+        "station_code": "OKJ",
+        "station_name": "Oakland–Jack London Square, CA"
+    },
+    {
+        "station_code": "OKL",
+        "station_name": "Oakville, ON"
+    },
+    {
+        "station_code": "OLT",
+        "station_name": "San Diego Old Town, CA"
+    },
+    {
+        "station_code": "OLW",
+        "station_name": "Olympia-Lacey, WA"
+    },
+    {
+        "station_code": "OMA",
+        "station_name": "Omaha, NE"
+    },
+    {
+        "station_code": "ONA",
+        "station_name": "Ontario, CA"
+    },
+    {
+        "station_code": "ORB",
+        "station_name": "Old Orchard Beach, ME"
+    },
+    {
+        "station_code": "ORC",
+        "station_name": "Oregon City, OR"
+    },
+    {
+        "station_code": "ORL",
+        "station_name": "Orlando, FL"
+    },
+    {
+        "station_code": "OSB",
+        "station_name": "Old Saybrook, CT"
+    },
+    {
+        "station_code": "OSC",
+        "station_name": "Osceola, IA"
+    },
+    {
+        "station_code": "OSD",
+        "station_name": "Oceanside, CA"
+    },
+    {
+        "station_code": "OTM",
+        "station_name": "Ottumwa, IA"
+    },
+    {
+        "station_code": "OXN",
+        "station_name": "Oxnard, CA"
+    },
+    {
+        "station_code": "PAK",
+        "station_name": "Palatka, FL"
+    },
+    {
+        "station_code": "PAO",
+        "station_name": "Paoli, PA"
+    },
+    {
+        "station_code": "PAR",
+        "station_name": "Parkesburg, PA"
+    },
+    {
+        "station_code": "PBF",
+        "station_name": "Poplar Bluff, MO"
+    },
+    {
+        "station_code": "PCT",
+        "station_name": "Princeton, IL"
+    },
+    {
+        "station_code": "PDX",
+        "station_name": "Portland, OR"
+    },
+    {
+        "station_code": "PGH",
+        "station_name": "Pittsburgh, PA"
+    },
+    {
+        "station_code": "PHL",
+        "station_name": "Philadelphia, PA"
+    },
+    {
+        "station_code": "PHN",
+        "station_name": "North Philadelphia, PA"
+    },
+    {
+        "station_code": "PIC",
+        "station_name": "Picayune, MS"
+    },
+    {
+        "station_code": "PIT",
+        "station_name": "Pittsfield, MA"
+    },
+    {
+        "station_code": "PJC",
+        "station_name": "Princeton Junction, NJ"
+    },
+    {
+        "station_code": "PLB",
+        "station_name": "Plattsburgh, NY"
+    },
+    {
+        "station_code": "PLO",
+        "station_name": "Plano, IL"
+    },
+    {
+        "station_code": "PLS",
+        "station_name": "Pleasanton, CA"
+    },
+    {
+        "station_code": "PNT",
+        "station_name": "Pontiac, MI"
+    },
+    {
+        "station_code": "POG",
+        "station_name": "Portage, WI"
+    },
+    {
+        "station_code": "POH",
+        "station_name": "Port Henry, NY"
+    },
+    {
+        "station_code": "PON",
+        "station_name": "Pontiac, IL"
+    },
+    {
+        "station_code": "POR",
+        "station_name": "Portland, ME"
+    },
+    {
+        "station_code": "POS",
+        "station_name": "Pomona, CA"
+    },
+    {
+        "station_code": "POU",
+        "station_name": "Poughkeepsie, NY"
+    },
+    {
+        "station_code": "PRB",
+        "station_name": "Paso Robles, CA"
+    },
+    {
+        "station_code": "PRC",
+        "station_name": "Prince, WV"
+    },
+    {
+        "station_code": "PRK",
+        "station_name": "Port Kent, NY"
+    },
+    {
+        "station_code": "PRO",
+        "station_name": "Provo, UT"
+    },
+    {
+        "station_code": "PSC",
+        "station_name": "Pasco, WA"
+    },
+    {
+        "station_code": "PSN",
+        "station_name": "Palm Springs, CA"
+    },
+    {
+        "station_code": "PTB",
+        "station_name": "Petersburg, VA"
+    },
+    {
+        "station_code": "PTH",
+        "station_name": "Port Huron, MI"
+    },
+    {
+        "station_code": "PUR",
+        "station_name": "Purcell, OK"
+    },
+    {
+        "station_code": "PVD",
+        "station_name": "Providence, RI"
+    },
+    {
+        "station_code": "PVL",
+        "station_name": "Pauls Valley, OK"
+    },
+    {
+        "station_code": "QAN",
+        "station_name": "Quantico, VA"
+    },
+    {
+        "station_code": "QCY",
+        "station_name": "Quincy, IL"
+    },
+    {
+        "station_code": "RAT",
+        "station_name": "Raton, NM"
+    },
+    {
+        "station_code": "RDD",
+        "station_name": "Redding, CA"
+    },
+    {
+        "station_code": "RDW",
+        "station_name": "Red Wing, MN"
+    },
+    {
+        "station_code": "REN",
+        "station_name": "Rensselaer, IN"
+    },
+    {
+        "station_code": "RGH",
+        "station_name": "Raleigh, NC"
+    },
+    {
+        "station_code": "RHI",
+        "station_name": "Rhinecliff, NY"
+    },
+    {
+        "station_code": "RIC",
+        "station_name": "Richmond, CA"
+    },
+    {
+        "station_code": "RIV",
+        "station_name": "Riverside, CA"
+    },
+    {
+        "station_code": "RKV",
+        "station_name": "Rockville, MD"
+    },
+    {
+        "station_code": "RLN",
+        "station_name": "Rocklin, CA"
+    },
+    {
+        "station_code": "RMT",
+        "station_name": "Rocky Mount, NC"
+    },
+    {
+        "station_code": "RNK",
+        "station_name": "Roanoke, VA"
+    },
+    {
+        "station_code": "RNO",
+        "station_name": "Reno, NV"
+    },
+    {
+        "station_code": "ROC",
+        "station_name": "Rochester, NY"
+    },
+    {
+        "station_code": "ROM",
+        "station_name": "Rome, NY"
+    },
+    {
+        "station_code": "ROY",
+        "station_name": "Royal Oak, MI"
+    },
+    {
+        "station_code": "RPH",
+        "station_name": "Randolph, VT"
+    },
+    {
+        "station_code": "RSP",
+        "station_name": "Rouses Point, NY"
+    },
+    {
+        "station_code": "RSV",
+        "station_name": "Roseville, CA"
+    },
+    {
+        "station_code": "RTE",
+        "station_name": "Route 128, MA"
+    },
+    {
+        "station_code": "RTL",
+        "station_name": "Rantoul, IL"
+    },
+    {
+        "station_code": "RUD",
+        "station_name": "Rutland, VT"
+    },
+    {
+        "station_code": "RUG",
+        "station_name": "Rugby, ND"
+    },
+    {
+        "station_code": "RVM",
+        "station_name": "Richmond, VA"
+    },
+    {
+        "station_code": "RVR",
+        "station_name": "Richmond Staples Mill Road, VA"
+    },
+    {
+        "station_code": "SAB",
+        "station_name": "St. Albans, VT"
+    },
+    {
+        "station_code": "SAC",
+        "station_name": "Sacramento, CA"
+    },
+    {
+        "station_code": "SAL",
+        "station_name": "Salisbury, NC"
+    },
+    {
+        "station_code": "SAN",
+        "station_name": "San Diego Santa Fe Depot, CA"
+    },
+    {
+        "station_code": "SAO",
+        "station_name": "Saco, ME"
+    },
+    {
+        "station_code": "SAR",
+        "station_name": "Saratoga Springs, NY"
+    },
+    {
+        "station_code": "SAS",
+        "station_name": "San Antonio, TX"
+    },
+    {
+        "station_code": "SAV",
+        "station_name": "Savannah, GA"
+    },
+    {
+        "station_code": "SAY",
+        "station_name": "Sandy, OR"
+    },
+    {
+        "station_code": "SBA",
+        "station_name": "Santa Barbara, CA"
+    },
+    {
+        "station_code": "SBG",
+        "station_name": "Sebring, FL"
+    },
+    {
+        "station_code": "SBY",
+        "station_name": "Shelby, MT"
+    },
+    {
+        "station_code": "SCA",
+        "station_name": "St. Catharines, ON"
+    },
+    {
+        "station_code": "SCC",
+        "station_name": "Santa Clara, CA"
+    },
+    {
+        "station_code": "SCD",
+        "station_name": "St. Cloud, MN"
+    },
+    {
+        "station_code": "SCH",
+        "station_name": "Schriever, LA"
+    },
+    {
+        "station_code": "SDL",
+        "station_name": "Slidell, LA"
+    },
+    {
+        "station_code": "SDY",
+        "station_name": "Schenectady, NY"
+    },
+    {
+        "station_code": "SEA",
+        "station_name": "Seattle, WA"
+    },
+    {
+        "station_code": "SED",
+        "station_name": "Sedalia, MO"
+    },
+    {
+        "station_code": "SFA",
+        "station_name": "Sanford, FL"
+    },
+    {
+        "station_code": "SIM",
+        "station_name": "Simi Valley, CA"
+    },
+    {
+        "station_code": "SJC",
+        "station_name": "San Jose, CA"
+    },
+    {
+        "station_code": "SJM",
+        "station_name": "St. Joseph-Benton Harbor, MI"
+    },
+    {
+        "station_code": "SKN",
+        "station_name": "Stockton San Joaquin Street, CA"
+    },
+    {
+        "station_code": "SKT",
+        "station_name": "Stockton Downtown, CA"
+    },
+    {
+        "station_code": "SKY",
+        "station_name": "Sandusky, OH"
+    },
+    {
+        "station_code": "SLC",
+        "station_name": "Salt Lake City, UT"
+    },
+    {
+        "station_code": "SLM",
+        "station_name": "Salem, OR"
+    },
+    {
+        "station_code": "SLO",
+        "station_name": "San Luis Obispo, CA"
+    },
+    {
+        "station_code": "SLQ",
+        "station_name": "St-Lambert, QC"
+    },
+    {
+        "station_code": "SMC",
+        "station_name": "San Marcos, TX"
+    },
+    {
+        "station_code": "SMT",
+        "station_name": "Summit, IL"
+    },
+    {
+        "station_code": "SNA",
+        "station_name": "Santa Ana, CA"
+    },
+    {
+        "station_code": "SNB",
+        "station_name": "San Bernardino, CA"
+    },
+    {
+        "station_code": "SNC",
+        "station_name": "San Juan Capistrano, CA"
+    },
+    {
+        "station_code": "SND",
+        "station_name": "Sanderson, TX"
+    },
+    {
+        "station_code": "SNP",
+        "station_name": "San Clemente Pier, CA"
+    },
+    {
+        "station_code": "SNS",
+        "station_name": "Salinas, CA"
+    },
+    {
+        "station_code": "SOB",
+        "station_name": "South Bend, IN"
+    },
+    {
+        "station_code": "SOL",
+        "station_name": "Solana Beach, CA"
+    },
+    {
+        "station_code": "SOP",
+        "station_name": "Southern Pines, NC"
+    },
+    {
+        "station_code": "SPB",
+        "station_name": "Spartanburg, SC"
+    },
+    {
+        "station_code": "SPG",
+        "station_name": "Springfield, MA"
+    },
+    {
+        "station_code": "SPI",
+        "station_name": "Springfield, IL"
+    },
+    {
+        "station_code": "SPK",
+        "station_name": "Spokane, WA"
+    },
+    {
+        "station_code": "SPL",
+        "station_name": "Staples, MN"
+    },
+    {
+        "station_code": "SPM",
+        "station_name": "South Shore-South Portsmouth, KY"
+    },
+    {
+        "station_code": "SPP",
+        "station_name": "Scappoose, OR"
+    },
+    {
+        "station_code": "SPT",
+        "station_name": "Sandpoint, ID"
+    },
+    {
+        "station_code": "SSM",
+        "station_name": "Selma-Smithfield, NC"
+    },
+    {
+        "station_code": "STA",
+        "station_name": "Staunton, VA"
+    },
+    {
+        "station_code": "STL",
+        "station_name": "St. Louis, MO"
+    },
+    {
+        "station_code": "STM",
+        "station_name": "Stamford, CT"
+    },
+    {
+        "station_code": "STN",
+        "station_name": "Stanley, ND"
+    },
+    {
+        "station_code": "STS",
+        "station_name": "New Haven State Street, CT"
+    },
+    {
+        "station_code": "STW",
+        "station_name": "Stanwood, WA"
+    },
+    {
+        "station_code": "SUI",
+        "station_name": "Suisun-Fairfield, CA"
+    },
+    {
+        "station_code": "SVT",
+        "station_name": "Sturtevant, WI"
+    },
+    {
+        "station_code": "SYR",
+        "station_name": "Syracuse, NY"
+    },
+    {
+        "station_code": "TAC",
+        "station_name": "Tacoma, WA"
+    },
+    {
+        "station_code": "TAY",
+        "station_name": "Taylor, TX"
+    },
+    {
+        "station_code": "TCA",
+        "station_name": "Toccoa, GA"
+    },
+    {
+        "station_code": "TCL",
+        "station_name": "Tuscaloosa, AL"
+    },
+    {
+        "station_code": "THN",
+        "station_name": "Thurmond, WV"
+    },
+    {
+        "station_code": "TOH",
+        "station_name": "Tomah, WI"
+    },
+    {
+        "station_code": "TOL",
+        "station_name": "Toledo, OH"
+    },
+    {
+        "station_code": "TOP",
+        "station_name": "Topeka, KS"
+    },
+    {
+        "station_code": "TPA",
+        "station_name": "Tampa, FL"
+    },
+    {
+        "station_code": "TPL",
+        "station_name": "Temple, TX"
+    },
+    {
+        "station_code": "TRC",
+        "station_name": "Tracy, CA"
+    },
+    {
+        "station_code": "TRE",
+        "station_name": "Trenton, NJ"
+    },
+    {
+        "station_code": "TRI",
+        "station_name": "Trinidad, CO"
+    },
+    {
+        "station_code": "TRK",
+        "station_name": "Turlock-Denair, CA"
+    },
+    {
+        "station_code": "TRM",
+        "station_name": "Troy, MI"
+    },
+    {
+        "station_code": "TRU",
+        "station_name": "Truckee, CA"
+    },
+    {
+        "station_code": "TUK",
+        "station_name": "Tukwila, WA"
+    },
+    {
+        "station_code": "TUS",
+        "station_name": "Tucson, AZ"
+    },
+    {
+        "station_code": "TWO",
+        "station_name": "Toronto, ON"
+    },
+    {
+        "station_code": "TXA",
+        "station_name": "Texarkana, AR"
+    },
+    {
+        "station_code": "TYR",
+        "station_name": "Tyrone, PA"
+    },
+    {
+        "station_code": "UCA",
+        "station_name": "Utica, NY"
+    },
+    {
+        "station_code": "VAC",
+        "station_name": "Vancouver, BC"
+    },
+    {
+        "station_code": "VAN",
+        "station_name": "Vancouver, WA"
+    },
+    {
+        "station_code": "VAS",
+        "station_name": "Livermore, CA"
+    },
+    {
+        "station_code": "VEC",
+        "station_name": "Ventura, CA"
+    },
+    {
+        "station_code": "VNC",
+        "station_name": "Van Nuys, CA"
+    },
+    {
+        "station_code": "VRV",
+        "station_name": "Victorville, CA"
+    },
+    {
+        "station_code": "WAB",
+        "station_name": "Waterbury-Stowe, VT"
+    },
+    {
+        "station_code": "WAC",
+        "station_name": "Wasco, CA"
+    },
+    {
+        "station_code": "WAH",
+        "station_name": "Washington, MO"
+    },
+    {
+        "station_code": "WAR",
+        "station_name": "Warrensburg, MO"
+    },
+    {
+        "station_code": "WAS",
+        "station_name": "Washington, DC"
+    },
+    {
+        "station_code": "WBG",
+        "station_name": "Williamsburg, VA"
+    },
+    {
+        "station_code": "WDB",
+        "station_name": "Woodbridge, VA"
+    },
+    {
+        "station_code": "WDL",
+        "station_name": "Wisconsin Dells, WI"
+    },
+    {
+        "station_code": "WEM",
+        "station_name": "Wells, ME"
+    },
+    {
+        "station_code": "WEN",
+        "station_name": "Wenatchee, WA"
+    },
+    {
+        "station_code": "WFD",
+        "station_name": "Wallingford, CT"
+    },
+    {
+        "station_code": "WFH",
+        "station_name": "Whitefish, MT"
+    },
+    {
+        "station_code": "WGL",
+        "station_name": "West Glacier, MT"
+    },
+    {
+        "station_code": "WHL",
+        "station_name": "Whitehall, NY"
+    },
+    {
+        "station_code": "WIH",
+        "station_name": "Wishram, WA"
+    },
+    {
+        "station_code": "WIL",
+        "station_name": "Wilmington, DE"
+    },
+    {
+        "station_code": "WIN",
+        "station_name": "Winona, MN"
+    },
+    {
+        "station_code": "WIP",
+        "station_name": "Fraser-Winter Park, CO"
+    },
+    {
+        "station_code": "WLN",
+        "station_name": "Wilson, NC"
+    },
+    {
+        "station_code": "WLO",
+        "station_name": "Winslow, AZ"
+    },
+    {
+        "station_code": "WLY",
+        "station_name": "Westerly, RI"
+    },
+    {
+        "station_code": "WMA",
+        "station_name": "Williams, AZ"
+    },
+    {
+        "station_code": "WND",
+        "station_name": "Windsor, CT"
+    },
+    {
+        "station_code": "WNL",
+        "station_name": "Windsor Locks, CT"
+    },
+    {
+        "station_code": "WNM",
+        "station_name": "Windsor-Mt. Ascutney, VT"
+    },
+    {
+        "station_code": "WNN",
+        "station_name": "Winnemucca, NV"
+    },
+    {
+        "station_code": "WNR",
+        "station_name": "Walnut Ridge, AR"
+    },
+    {
+        "station_code": "WOB",
+        "station_name": "Woburn, MA"
+    },
+    {
+        "station_code": "WOR",
+        "station_name": "Worcester, MA"
+    },
+    {
+        "station_code": "WPB",
+        "station_name": "West Palm Beach, FL"
+    },
+    {
+        "station_code": "WPK",
+        "station_name": "Winter Park, FL"
+    },
+    {
+        "station_code": "WPR",
+        "station_name": "Winter Park, CO"
+    },
+    {
+        "station_code": "WPT",
+        "station_name": "Wolf Point, MT"
+    },
+    {
+        "station_code": "WRJ",
+        "station_name": "White River Junction, VT"
+    },
+    {
+        "station_code": "WSP",
+        "station_name": "Westport, NY"
+    },
+    {
+        "station_code": "WSS",
+        "station_name": "White Sulphur Springs, WV"
+    },
+    {
+        "station_code": "WTH",
+        "station_name": "Winter Haven, FL"
+    },
+    {
+        "station_code": "WTI",
+        "station_name": "Waterloo, IN"
+    },
+    {
+        "station_code": "WTN",
+        "station_name": "Williston, ND"
+    },
+    {
+        "station_code": "YAZ",
+        "station_name": "Yazoo City, MS"
+    },
+    {
+        "station_code": "YEM",
+        "station_name": "Yemassee, SC"
+    },
+    {
+        "station_code": "YNY",
+        "station_name": "Yonkers, NY"
+    },
+    {
+        "station_code": "YUM",
+        "station_name": "Yuma, AZ"
+    }
+]

@@ -14,8 +14,16 @@ const RoutePath = styled.path`
   fill: none;
   stroke-linecap: round;
   cursor: pointer;
-  stroke-width: ${props => props.hasSelection ? (props.selected ? 5 : 3.5) : 2};
-  opacity: ${props => props.hasSelection ? (props.selected ? 1 : .2) : 1};
+  stroke-width: ${props => 
+    (props.hasRouteSelection || props.hasStationSelection )
+    ? (props.selected ? 5 : 3.5) 
+    : 2
+  };
+  opacity: ${props => {
+    if (props.hasRouteSelection) return (props.selected ? 1 : .2);
+    else if (props.hasStationSelection) return 2;
+    else return 1;
+  }};
 `;
 const StatePath = styled.path`
   fill: none;
@@ -31,14 +39,34 @@ const Circle = styled.circle`
   &:hover { fill: white; }
 `;
 
-function MapSVG({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute, hoverStation, setHoverStation, setClickStation }) {
+function MapSVG({
+  states, routes, stations, width, height, margin, 
+  selectedItem,
+  setSelectedItem,
+  hoverStation,
+  setHoverStation,
+  setClickStation
+}) {
   const isSmall = window.innerWidth < 800;
-  const circleColor = selectedRoute && routes.find(r => r.name === selectedRoute).color;
+  
+  let circleColor = "#888";
+  if (selectedItem && selectedItem.type === "route")
+    circleColor = routes.find(r => r.name === selectedItem.value).color;
 
   const sortedRoutes = routes.sort((a,b) => {
-    if (a.name === selectedRoute) return 1;
+    if (a.name === selectedItem.value) return 1;
     else return -1;
-  })
+  });
+
+  let triangleStation;
+  if (selectedItem && selectedItem.value) {
+    const station = stations
+      .find(s => s.properties.station_code === selectedItem.value);
+    if (station && station.point) {
+      const p = station.point;
+      triangleStation = `M${p[0]},${p[1]} ${p[0]-15},${p[1]-30} ${p[0]+15},${p[1]-30}Z`
+    }
+  }
 
   return (
     <SVG width={width} height={height} >
@@ -57,7 +85,7 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
               strokeWidth="10"
               fill="none"
               style={{ cursor: "pointer" }}
-              onClick={() => setSelectedRoute(d.name)}
+              onClick={() => selectedItem({ type: "route", value: d.name })}
             />
           ))}
         </g>
@@ -68,9 +96,10 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
               d={d.d}
               className={d.name} 
               stroke={d.color} 
-              hasSelection={!!selectedRoute}
-              selected={d.name === selectedRoute}
-              onClick={() => setSelectedRoute(d.name)}
+              hasRouteSelection={(selectedItem && selectedItem.type === "route")}
+              hasStationSelection={(selectedItem && selectedItem.type === "station")}
+              selected={d.name === selectedItem.value}
+              onClick={() => setSelectedItem({ type: "route", value: d.name })}
             />
           ))}
         </g>
@@ -90,6 +119,9 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
             />
           ))}
         </g>
+        {triangleStation && (
+          <path d={triangleStation} fill="white" strokeWidth="3" stroke="black" />
+        )}
       </g>
     </SVG>
   );

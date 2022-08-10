@@ -5,16 +5,21 @@ import HoverStation from "./HoverStation";
 import ClickStation from "./ClickStation";
 import StationList from "../stations/StationList";
 
-function VectorMap({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute }) {
+function VectorMap({
+    states, routes, stations,
+    width, height, margin,
+    selectedItem, setSelectedItem
+  }) {
 
   const [hoverStation, setHoverStation] = useState();
   const [clickStation, setClickStation] = useState();
 
   useEffect(() => {
     setClickStation();
-  }, [selectedRoute]);
+  }, [selectedItem]);
 
-  const highlightColor = selectedRoute && routes.find(r => r.name === selectedRoute).color;
+  const highlightColor = selectedItem && selectedItem.type === "route"
+    && routes.find(r => r.name === selectedItem.value).color;
 
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }}>
@@ -26,8 +31,8 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
           stations={stations}
           routes={routes}
           states={states}
-          selectedRoute={selectedRoute}
-          setSelectedRoute={setSelectedRoute}
+          selectedItem={selectedItem}
+          setSelectedItem={setSelectedItem}
           hoverStation={hoverStation}
           setHoverStation={setHoverStation}
           setClickStation={setClickStation}
@@ -40,15 +45,15 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
             station={clickStation}
             margin={margin} height={height} 
             setClickStation={setClickStation}
-            setSelectedRoute={setSelectedRoute}
-            selectedRoute={selectedRoute}
+            selectedItem={selectedItem}
+            setSelectedItem={setSelectedItem}
           />
         )}
       </div>
-      { !!stations.length && (
+      { selectedItem && selectedItem.type === "route" && !!stations.length && (
         <StationList
           stations={stations}
-          selectedRoute={selectedRoute}
+          selectedItem={selectedItem}
           hoverStation={hoverStation}
           color={highlightColor}
           setHoverStation={setHoverStation}

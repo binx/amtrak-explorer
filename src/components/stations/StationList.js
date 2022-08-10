@@ -32,7 +32,7 @@ const Spacer = styled.div`
   align-items: center;
 `;
 
-function StationList({ stations, selectedRoute, hoverStation, color, setHoverStation, setClickStation }) {
+function StationList({ stations, selectedItem, hoverStation, color, setHoverStation, setClickStation }) {
 
   const [stationList, setStationList] = useState([]);
 
@@ -61,7 +61,7 @@ function StationList({ stations, selectedRoute, hoverStation, color, setHoverSta
     }
 
     const selectedStations = orderedStations
-      .find(s => s.route === selectedRoute);
+      .find(s => s.route === selectedItem.value);
       
     let newStationList = [];
     selectedStations.segments.forEach(s => parseObj(s))

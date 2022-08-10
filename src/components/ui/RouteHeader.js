@@ -58,18 +58,18 @@ const Circle = styled.div`
   margin-right: 5px;
 `;
 
-function RouteHeader({ selectedRoute, setSelectedRoute, setSearchParams, color }) {
+function RouteHeader({ selectedItem, setSelectedItem, setSearchParams, color }) {
   const resetRoute = () => {
-    setSelectedRoute();
+    setSelectedItem();
     setSearchParams({});
   }
   // eslint-disable-next-line
-  const href = `https://www.amtrak.com/${selectedRoute.replace(/[\/|\s]/g, "-")}-train`;
+  const href = `https://www.amtrak.com/${selectedItem.value.replace(/[\/|\s]/g, "-")}-train`;
 
   return (
     <Wrapper color={color}>
       <Flex>
-      <h2>{selectedRoute}</h2>
+      <h2>{selectedItem.value}</h2>
       <a target="_blank" rel="noreferrer" href={href}>
         view on amtrak.com<span>⇱</span>
       </a>

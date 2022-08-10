@@ -29,17 +29,13 @@ const Tagline = styled.div`
   font-size: 12px;
 `;
 
-const Header = ({ selectedRoute, setSelectedRoute, setSearchParams }) => (
+const Header = ({ setSelectedItem }) => (
   <Wrapper>
     <H1Wrapper>
       <h1>amtrak explorer</h1>
       <Tagline>explore the amtrakverse</Tagline>
     </H1Wrapper>
-    <Searchbar
-      selectedRoute={selectedRoute}
-      setSelectedRoute={setSelectedRoute}
-      setSearchParams={setSearchParams}
-    />
+    <Searchbar setSelectedItem={setSelectedItem} />
   </Wrapper>
 );
 

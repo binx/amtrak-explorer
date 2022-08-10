@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useSearchParams } from "react-router-dom";
 
-import Header from "./Header";
+import Header from "./ui/Header";
 import MapContainer from "./map/MapContainer";
 
 const Wrapper = styled.div`
@@ -29,24 +29,27 @@ const DataFootnote = styled.div`
 `;
 
 function AmtrakMap() {
-  const [selectedRoute, setSelectedRoute] = useState();
   const [searchParams, setSearchParams] = useSearchParams();
 
+  const [selectedItem, setSelectedItem] = useState();
+
   useEffect(() => {
-    if (selectedRoute)
-      setSearchParams({ route: selectedRoute });
-  }, [selectedRoute, setSearchParams]);
+    if (!selectedItem) return;
+
+    if (selectedItem.type === "route") {
+      setSearchParams({ route: selectedItem.value });
+    } else if (selectedItem.type === "station") {
+      setSearchParams({ station: selectedItem.value });
+    }
+  }, [selectedItem, setSearchParams]);
 
   return (
     <div>
-      <Header
-        selectedRoute={selectedRoute}
-        setSelectedRoute={setSelectedRoute}
-      />
+      <Header setSelectedItem={setSelectedItem} />
       <Wrapper>
         <MapContainer
-          selectedRoute={selectedRoute}
-          setSelectedRoute={setSelectedRoute}
+          selectedItem={selectedItem}
+          setSelectedItem={setSelectedItem}
           searchParams={searchParams}
           setSearchParams={setSearchParams}
         />

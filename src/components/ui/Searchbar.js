@@ -4,7 +4,8 @@ import { debounce } from "lodash";
 
 import { TextInput } from "grommet";
 
-import routeList from "../data/route_names.json";
+import routeList from "../../data/route_names.json";
+import stationList from "../../data/station_names.json";
 
 const Wrapper = styled.div`
   @media only screen and (min-width: 900px) {
@@ -21,7 +22,7 @@ const RouteSelect = styled(TextInput)`
   }
 `;
 
-function Searchbar({ selectedRoute, setSelectedRoute }) {
+function Searchbar({ setSelectedItem }) {
   const [value, setValue] = useState("");
   const [displayOptions, setDisplayOptions] = useState([]);
 
@@ -33,9 +34,20 @@ function Searchbar({ selectedRoute, setSelectedRoute }) {
 
   const searchOptions = text => {
     const lower = text.toLowerCase();
-    const newOptions = routeList.filter(r => (
+
+    const routeMatches = routeList.filter(r => (
       r.toLowerCase().indexOf(lower) !== -1
-    )).map(r => ({ value: r, label: r }));
+    )).map(r => ({ value: r, label: r, type: "route" }));
+
+    const stationMatches = stationList.filter(r => (
+      r.station_name.toLowerCase().indexOf(lower) !== -1
+    )).map(r => ({
+      value: r.station_code,
+      label: r.station_name,
+      type: "station"
+    }));
+
+    const newOptions = [...routeMatches, ...stationMatches];
     
     setDisplayOptions(newOptions);
   }
@@ -53,7 +65,7 @@ function Searchbar({ selectedRoute, setSelectedRoute }) {
         onChange={e => setValue(e.target.value)}
         suggestions={displayOptions}
         onSuggestionSelect={e => {
-          setSelectedRoute(e.suggestion.value)
+          setSelectedItem({ type: e.suggestion.type, value: e.suggestion.value });
         }}
       />
     </Wrapper>
