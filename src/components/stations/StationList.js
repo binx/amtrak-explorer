@@ -38,7 +38,7 @@ function StationList({ stations, selectedRoute, hoverStation, color, setHoverSta
 
   useEffect(() => {
     const getStations = list => (
-      list.map(d => stations.find(s => s.properties.stationnam === d))
+      list.map(d => stations.find(s => s.properties.station_name === d))
     );
 
     // flattened list for rendering
@@ -86,11 +86,11 @@ function StationList({ stations, selectedRoute, hoverStation, color, setHoverSta
                 onMouseEnter={() => setHoverStation(d)}
                 onMouseLeave={() => setHoverStation()}
                 onClick={() => setClickStation(d)}
-                hovered={hoverStation && hoverStation.properties.code === d.properties.code} 
+                hovered={hoverStation && hoverStation.properties.station_code === d.properties.station_code} 
                 color={color}
               >
                 <Spacer depth={segment.depth} />
-                <span>{d && d.properties.stationnam}</span>
+                <span>{d && d.properties.station_name}</span>
               </Flex>
             ))}
           </div>

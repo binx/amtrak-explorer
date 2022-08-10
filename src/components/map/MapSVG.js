@@ -82,8 +82,8 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
               r={isSmall ? 4 : 6}
               strokeWidth={isSmall ? 1 : 2}
               color={circleColor}
-              hasConnection={d.routes.length > 1}
-              hovered={hoverStation && hoverStation.properties.code === d.properties.code}
+              hasConnection={d.properties.routes.length > 1}
+              hovered={hoverStation && hoverStation.properties.station_code === d.properties.station_code}
               onMouseEnter={() => setHoverStation(d)}
               onMouseLeave={() => setHoverStation()}
               onClick={() => setClickStation(d)}

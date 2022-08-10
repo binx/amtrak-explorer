@@ -29,20 +29,18 @@ const Tagline = styled.div`
   font-size: 12px;
 `;
 
-function Header({ selectedRoute, setSelectedRoute, setSearchParams }) {
-  return (
-    <Wrapper>
-      <H1Wrapper>
-        <h1>amtrak explorer</h1>
-        <Tagline>explore the amtrakverse</Tagline>
-      </H1Wrapper>
-      <Searchbar
-        selectedRoute={selectedRoute}
-        setSelectedRoute={setSelectedRoute}
-        setSearchParams={setSearchParams}
-      />
-    </Wrapper>
-  );
-}
+const Header = ({ selectedRoute, setSelectedRoute, setSearchParams }) => (
+  <Wrapper>
+    <H1Wrapper>
+      <h1>amtrak explorer</h1>
+      <Tagline>explore the amtrakverse</Tagline>
+    </H1Wrapper>
+    <Searchbar
+      selectedRoute={selectedRoute}
+      setSelectedRoute={setSelectedRoute}
+      setSearchParams={setSearchParams}
+    />
+  </Wrapper>
+);
 
 export default Header;

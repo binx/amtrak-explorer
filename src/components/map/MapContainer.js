@@ -4,7 +4,6 @@ import * as d3 from "d3-geo";
 import geoJSON from "../../data/Amtrak_Routes-simplified.geojson";
 import stationJSON from "../../data/Amtrak_Stations.geojson";
 import statesJSON from "../../data/us-states.geojson";
-import stationList from "../../data/stations.json";
 
 import RouteHeader from "./RouteHeader";
 import VectorMap from "./VectorMap";
@@ -34,11 +33,7 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
 
     fetch(stationJSON).then(response => response.json())
       .then(stations => {
-        const trainsOnly = stations.features
-          .filter(s => s.properties.stntype === "TRAIN");
-
-        console.log(trainsOnly.length, stations.features.length)
-        setStationData(trainsOnly)
+        setStationData(stations.features)
       });
 
     fetch(geoJSON).then(response => response.json())
@@ -56,6 +51,7 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
 
   useEffect(() => {
     if (!stateData.length || !stationData.length || !routeData.length) return;
+
     // try to get everything loaded before selecting a route
     const route = searchParams.get("route");
     if (route) setSelectedRoute(route);
@@ -91,19 +87,10 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
 
     /* begin station code */
 
-    const stationsOnRoute = [...stationList].filter(s => (
-      s.routes.indexOf(selectedRoute) !== -1
-    ));
-    const stationCodes = stationsOnRoute.map(s => s.station_code);
-
     const newStations = [...stationData].filter(s => {
-      if (stationCodes.indexOf(s.properties.code) !== -1) return true;
-      else return false;
+      return s.properties.routes.indexOf(selectedRoute) !== -1;
     }).map(s => {
-      const index = stationCodes.indexOf(s.properties.code);
-
       s.point = projection(s.geometry.coordinates);
-      s.routes = stationsOnRoute[index].routes;
       return s;
     })
     setStations(newStations);

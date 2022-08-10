@@ -93,14 +93,14 @@ function StationLineVis({ stationList, color }) {
         })
       }
 
-      s.stations.forEach((stat, j) => {
+      s.stations.forEach((station, j) => {
         const newStation = {
           x: width*(s.depth - 1),
           y: top + (j*height) + height/2 + (spacerHeight)
         }
-        if (!stat) return;
+        if (!station) return;
         // display differently if there's a connection
-        if (stat.routes.length > 1)
+        if (station.properties.routes.length > 1)
           newCircles.push(newStation)
         else
           newLocals.push(newStation)

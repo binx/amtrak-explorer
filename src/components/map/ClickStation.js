@@ -74,13 +74,13 @@ const ClickStation = ({ station, margin, height, setClickStation, setSelectedRou
     }}
   >
     <Title>
-      {station.properties.stationnam}
+      {station.properties.station_name}
       <Close onClick={() => setClickStation()} />
     </Title>
     <Type>{station.properties.statype}</Type>
 
     <StationList>
-      {station.routes.map((d,i) => (
+      {station.properties.routes.map((d,i) => (
         <li key={`line${i}`} onClick={() => setSelectedRoute(d)}>{d}</li>
       ))}
     </StationList>

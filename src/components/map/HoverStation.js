@@ -13,7 +13,7 @@ const HoverStation = ({ hoverStation, margin }) => (
       left: `${hoverStation.point[0] + margin + 10}px`
     }}
   >
-    {hoverStation.properties.stationnam}
+    {hoverStation.properties.station_name}
   </Wrapper>
 );
 
