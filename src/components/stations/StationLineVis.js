@@ -21,7 +21,7 @@ const SVG = styled.svg`
   }
 `;
 
-function LineVis({ stationList, color }) {
+function StationLineVis({ stationList, color }) {
   const [lines, setLines] = useState([]);
   const [connectors, setConnectors] = useState([]);
   const [circles, setCircles] = useState([]);
@@ -139,4 +139,4 @@ function LineVis({ stationList, color }) {
   );
 }
 
-export default LineVis;
+export default StationLineVis;

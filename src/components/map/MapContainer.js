@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import * as d3 from "d3-geo";
 
-import geoJSON from "./data/Amtrak_Routes-simplified.geojson";
-import stationJSON from "./data/Amtrak_Stations.geojson";
-import statesJSON from "./data/us-states.geojson";
-import stationList from "./data/stations.json";
+import geoJSON from "../../data/Amtrak_Routes-simplified.geojson";
+import stationJSON from "../../data/Amtrak_Stations.geojson";
+import statesJSON from "../../data/us-states.geojson";
+import stationList from "../../data/stations.json";
 
 import VectorMap from "./VectorMap";
 
@@ -27,7 +27,7 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
   useEffect(() => {
     const div = containerRef.current;
     const w = window.innerWidth > 800 ? div.clientWidth - 280 : div.clientWidth;
-    const h = w * .75;
+    const h = w * .7;
     setWidth(w);
     setHeight(h);
 

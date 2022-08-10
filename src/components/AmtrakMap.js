@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useSearchParams } from "react-router-dom";
 
 import RouteUI from "./RouteUI";
-import MapContainer from "./MapContainer";
+import MapContainer from "./map/MapContainer";
 
 const Wrapper = styled.div`
   margin: 40px;

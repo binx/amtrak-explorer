@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import MapSVG from "./MapSVG";
 import HoverStation from "./HoverStation";
 import ClickStation from "./ClickStation";
-import StationList from "./StationList";
+import StationList from "../stations/StationList";
 
 function VectorMap({ states, routes, stations, width, height, margin, selectedRoute, setSelectedRoute }) {
 

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const SVG = styled.svg`
   border: 1px solid white;
+  border-radius: 4px;
   margin: 0 20px 0 0;
   flex-shrink: 0;
   
@@ -9,7 +10,7 @@ const SVG = styled.svg`
     margin: 0 0 20px 0;
   }
 `;
-const Path = styled.path`
+const RoutePath = styled.path`
   fill: none;
   stroke-linecap: round;
   cursor: pointer;
@@ -62,7 +63,7 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
         </g>
         <g>
           {routes.map((d,i) => (
-            <Path
+            <RoutePath
               key={`route${i}`}
               d={d.d}
               className={d.name} 
@@ -75,7 +76,8 @@ function MapSVG({ states, routes, stations, width, height, margin, selectedRoute
         </g>
         <g>
           {stations.map((d,i) => (
-            <Circle key={`station${i}`}
+            <Circle
+              key={`station${i}`}
               cx={d.point[0]} cy={d.point[1]}
               r={isSmall ? 4 : 6}
               strokeWidth={isSmall ? 1 : 2}

@@ -6,6 +6,9 @@ const Wrapper = styled.div`
   padding: 10px;
   background: white; 
   color: black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 
   &:after {
     content: '';
@@ -63,30 +66,28 @@ const StationList = styled.ul`
 `;
 
 
-function ClickStation({ station, margin, height, setClickStation, setSelectedRoute }) {
-  return ( 
-    <Wrapper
-      style={{
-        bottom: `${height - station.point[1] - margin + 23}px`,
-        left: `${station.point[0] + margin - 9}px`
-      }}
-    >
-      <Title>
-        {station.properties.stationnam}
-        <Close onClick={() => setClickStation()} />
-      </Title>
-      <Type>{station.properties.statype}</Type>
+const ClickStation = ({ station, margin, height, setClickStation, setSelectedRoute }) => ( 
+  <Wrapper
+    style={{
+      bottom: `${height - station.point[1] - margin + 23}px`,
+      left: `${station.point[0] + margin - 9}px`
+    }}
+  >
+    <Title>
+      {station.properties.stationnam}
+      <Close onClick={() => setClickStation()} />
+    </Title>
+    <Type>{station.properties.statype}</Type>
 
-      <StationList>
-        {station.routes.map((d,i) => (
-          <li key={`line${i}`} onClick={() => setSelectedRoute(d)}>{d}</li>
-        ))}
-      </StationList>
+    <StationList>
+      {station.routes.map((d,i) => (
+        <li key={`line${i}`} onClick={() => setSelectedRoute(d)}>{d}</li>
+      ))}
+    </StationList>
 
-      <Line>{station.properties.address1}</Line>
-      <Line>{station.properties.zipcode}</Line>
-    </Wrapper>
-  );
-}
+    <Line>{station.properties.address1}</Line>
+    <Line>{station.properties.zipcode}</Line>
+  </Wrapper>
+);
 
 export default ClickStation;
