@@ -13,6 +13,10 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0;
+    @media only screen and (max-width: 900px) {
+      width: 100%;
+    }
   }
   a {
     font-size: 14px;
@@ -25,8 +29,8 @@ const Wrapper = styled.div`
       margin-left: 8px;
       font-size: 22px;
     }
-    @media only screen and (max-width: 400px) {
-      margin: 20px 0 0 0;
+    @media only screen and (max-width: 900px) {
+      margin: 10px 0 20px 0;
     }
   }
 `;
@@ -43,6 +47,7 @@ const Legend = styled.div`
 const Flex = styled.div`
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 `;
 const Circle = styled.div`
   border: 3px solid white;
@@ -62,12 +67,12 @@ function RouteHeader({ selectedRoute, setSelectedRoute, setSearchParams, color }
 
   return (
     <Wrapper color={color}>
-      <h2>
-        {selectedRoute}
-        <a target="_blank" rel="noreferrer" href={href}>
-          view on amtrak.com<span>⇱</span>
-        </a>
-      </h2>
+      <Flex>
+      <h2>{selectedRoute}</h2>
+      <a target="_blank" rel="noreferrer" href={href}>
+        view on amtrak.com<span>⇱</span>
+      </a>
+      </Flex>
       <Flex>
         <ResetButton onClick={resetRoute} 
           outline label="reset map" color={color}
