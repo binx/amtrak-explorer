@@ -36,6 +36,8 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearch
       .then(stations => {
         const trainsOnly = stations.features
           .filter(s => s.properties.stntype === "TRAIN");
+
+        console.log(trainsOnly.length, stations.features.length)
         setStationData(trainsOnly)
       });
 

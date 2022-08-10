@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-import RouteUI from "./RouteUI";
+import Searchbar from "./Searchbar";
 
 const Wrapper = styled.div`
-  background: #111;
+  background: #181818;
   padding: 20px 40px;
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@ function Header({ selectedRoute, setSelectedRoute, setSearchParams }) {
         <h1>amtrak explorer</h1>
         <Tagline>explore the amtrakverse</Tagline>
       </H1Wrapper>
-      <RouteUI
+      <Searchbar
         selectedRoute={selectedRoute}
         setSelectedRoute={setSelectedRoute}
         setSearchParams={setSearchParams}

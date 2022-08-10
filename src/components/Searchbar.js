@@ -1,24 +1,27 @@
 import { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
+import { debounce } from "lodash";
 
 import { TextInput } from "grommet";
-import debounce from "lodash.debounce";
 
 import routeList from "../data/route_names.json";
 
 const Wrapper = styled.div`
+  @media only screen and (min-width: 900px) {
+    > div { width: auto; }
+  }
 `;
 const RouteSelect = styled(TextInput)`
   border-color: white;
   @media only screen and (min-width: 900px) {
-    width: 500px;
+    width: 600px;
   }
   @media only screen and (max-width: 900px) {
     margin-top: 20px;
   }
 `;
 
-function RouteUI({ selectedRoute, setSelectedRoute }) {
+function Searchbar({ selectedRoute, setSelectedRoute }) {
   const [value, setValue] = useState("");
   const [displayOptions, setDisplayOptions] = useState([]);
 
@@ -32,18 +35,15 @@ function RouteUI({ selectedRoute, setSelectedRoute }) {
     const lower = text.toLowerCase();
     const newOptions = routeList.filter(r => (
       r.toLowerCase().indexOf(lower) !== -1
-    )).map(r => (
-      { value: r, label: r }
-    ))
+    )).map(r => ({ value: r, label: r }));
+    
     setDisplayOptions(newOptions);
   }
 
-  const throttled = useRef(debounce(text => {
-    searchOptions(text);
-  }, 200))
+  const throttled = useRef(debounce(text => searchOptions(text)), 200);
   useEffect(() => {
-    throttled.current(value);
-  }, [value])
+    throttled.current(value)
+  }, [value]);
 
   return (
     <Wrapper>
@@ -60,4 +60,4 @@ function RouteUI({ selectedRoute, setSelectedRoute }) {
   );
 }
 
-export default RouteUI;
+export default Searchbar;

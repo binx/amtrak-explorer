@@ -43,6 +43,7 @@ const ResetButton = styled(Button)`
 const Legend = styled.div`
   font-size: 14px;
   width: 265px;
+  color: #8b8b8b;
 `;
 const Flex = styled.div`
   display: flex;
