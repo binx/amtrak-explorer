@@ -7,21 +7,21 @@
                 "depth": 1,
                 "stations":
                 [
-                    "Washington, DC",
-                    "BWI Marshall Airport, MD",
-                    "Baltimore, MD",
-                    "Wilmington, DE",
-                    "Philadelphia, PA",
-                    "Trenton, NJ",
-                    "Metropark, NJ",
-                    "Newark Penn, NJ",
-                    "New York, NY",
-                    "Stamford, CT",
-                    "New Haven Union, CT",
-                    "Providence, RI",
-                    "Route 128, MA",
+                    "Boston South, MA",
                     "Boston Back Bay, MA",
-                    "Boston South, MA"
+                    "Route 128, MA",
+                    "Providence, RI",
+                    "New Haven Union, CT",
+                    "Stamford, CT",
+                    "New York, NY",
+                    "Newark Penn, NJ",
+                    "Metropark, NJ",
+                    "Trenton, NJ",
+                    "Philadelphia, PA",
+                    "Wilmington, DE",
+                    "Baltimore, MD",
+                    "BWI Marshall Airport, MD",
+                    "Washington, DC"
                 ]
             }
         ]

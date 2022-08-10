@@ -6,9 +6,10 @@ import stationJSON from "../../data/Amtrak_Stations.geojson";
 import statesJSON from "../../data/us-states.geojson";
 import stationList from "../../data/stations.json";
 
+import RouteHeader from "./RouteHeader";
 import VectorMap from "./VectorMap";
 
-function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
+function MapContainer({ selectedRoute, setSelectedRoute, searchParams, setSearchParams }) {
   const margin = window.innerWidth > 800 ? 50 : 20;
   const colors = ["#DFFF00", "#FFBF00", "#FF7F50", "#DE3163", "#9FE2BF", "#40E0D0", "#6495ED", "#CCCCFF"];
 
@@ -109,7 +110,15 @@ function MapContainer({ selectedRoute, setSelectedRoute, searchParams }) {
   }, [stateData, routeData, stationData, selectedRoute]);
 
   return (
-    <div style={{ display: "flex", flexWrap: "wrap" }} ref={containerRef}>
+    <div ref={containerRef}>
+      { selectedRoute && (
+        <RouteHeader
+          selectedRoute={selectedRoute} 
+          setSelectedRoute={setSelectedRoute}
+          setSearchParams={setSearchParams}
+          color={routes.find(r => r.name === selectedRoute).color}
+        />
+      )}
       <VectorMap
         width={width}
         height={height}

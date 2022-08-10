@@ -26,7 +26,7 @@ const StatePath = styled.path`
 const Circle = styled.circle`
   fill: ${props => props.hovered ? "white" : "#222"};
   stroke: ${props => (props.hasConnection ? "white" : props.color)};
-  stroke-width: 2;
+  stroke-width: 3;
   cursor: pointer;
   &:hover { fill: white; }
 `;

@@ -17,7 +17,7 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
   const highlightColor = selectedRoute && routes.find(r => r.name === selectedRoute).color;
 
   return (
-    <>
+    <div style={{ display: "flex", flexWrap: "wrap" }}>
       <div style={{ position: "relative", height }}>
         <MapSVG 
           width={width}
@@ -55,7 +55,7 @@ function VectorMap({ states, routes, stations, width, height, margin, selectedRo
           setClickStation={setClickStation}
         />
       )}
-    </>
+    </div>
   );
 }
 

@@ -1,31 +1,24 @@
 import { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 
-import { TextInput, Button } from "grommet";
+import { TextInput } from "grommet";
 import debounce from "lodash.debounce";
 
 import routeList from "../data/route_names.json";
 
 const Wrapper = styled.div`
-  display: flex;
-  margin-bottom: 20px;
-  > div { width: auto; }
 `;
 const RouteSelect = styled(TextInput)`
   border-color: white;
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 900px) {
     width: 500px;
   }
-`;
-const ResetButton = styled(Button)`
-  margin-left: 40px;
-  @media only screen and (max-width: 600px) {
-    margin-left: 20px;
-    padding: 4px 16px
+  @media only screen and (max-width: 900px) {
+    margin-top: 20px;
   }
 `;
 
-function RouteUI({ selectedRoute, setSelectedRoute, setSearchParams }) {
+function RouteUI({ selectedRoute, setSelectedRoute }) {
   const [value, setValue] = useState("");
   const [displayOptions, setDisplayOptions] = useState([]);
 
@@ -35,10 +28,6 @@ function RouteUI({ selectedRoute, setSelectedRoute, setSearchParams }) {
   }
   useEffect(resetOptionList, []);
 
-  const resetRoute = () => {
-    setSelectedRoute();
-    setSearchParams({});
-  }
   const searchOptions = text => {
     const lower = text.toLowerCase();
     const newOptions = routeList.filter(r => (
@@ -67,7 +56,6 @@ function RouteUI({ selectedRoute, setSelectedRoute, setSearchParams }) {
           setSelectedRoute(e.suggestion.value)
         }}
       />
-      <ResetButton onClick={resetRoute} primary label="reset"/>
     </Wrapper>
   );
 }
