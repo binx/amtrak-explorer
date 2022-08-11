@@ -137,7 +137,6 @@ function MapContainer({
       { selectedItem && selectedItem.type === "station" && (
         <StationHeader
           stations={stationData}
-          routes={routeData}
           selectedItem={selectedItem} 
           setSelectedItem={setSelectedItem}
           setSearchParams={setSearchParams}

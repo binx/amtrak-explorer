@@ -59,12 +59,12 @@ function MapSVG({
   });
 
   let triangleStation;
-  if (selectedItem && selectedItem.value) {
+  if (selectedItem && selectedItem.type === "station") {
     const station = stations
       .find(s => s.properties.station_code === selectedItem.value);
     if (station && station.point) {
       const p = station.point;
-      triangleStation = `M${p[0]},${p[1]} ${p[0]-15},${p[1]-30} ${p[0]+15},${p[1]-30}Z`
+      triangleStation = `M${p[0]},${p[1]} ${p[0]-18},${p[1]-35} ${p[0]+18},${p[1]-35}Z`
     }
   }
 
@@ -115,12 +115,17 @@ function MapSVG({
               hovered={hoverStation && hoverStation.properties.station_code === d.properties.station_code}
               onMouseEnter={() => setHoverStation(d)}
               onMouseLeave={() => setHoverStation()}
-              onClick={() => setClickStation(d)}
+              onClick={() => {
+                if (selectedItem && selectedItem.type === "station")
+                  setSelectedItem({ type: "station", value: d.properties.station_code })
+                else
+                  setClickStation(d)
+              }}
             />
           ))}
         </g>
         {triangleStation && (
-          <path d={triangleStation} fill="white" strokeWidth="3" stroke="black" />
+          <path d={triangleStation} fill="white" strokeWidth="3" stroke="#222" />
         )}
       </g>
     </SVG>

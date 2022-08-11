@@ -60,7 +60,7 @@ function Searchbar({ setSelectedItem }) {
   return (
     <Wrapper>
       <RouteSelect
-        placeholder="search for a route"
+        placeholder="search for a route or station"
         value={value}
         onChange={e => setValue(e.target.value)}
         suggestions={displayOptions}

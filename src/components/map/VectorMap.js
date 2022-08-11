@@ -3,7 +3,9 @@ import { useState, useEffect } from "react";
 import MapSVG from "./MapSVG";
 import HoverStation from "./HoverStation";
 import ClickStation from "./ClickStation";
+
 import StationList from "../stations/StationList";
+import RouteList from "../stations/RouteList";
 
 function VectorMap({
     states, routes, stations,
@@ -58,6 +60,13 @@ function VectorMap({
           color={highlightColor}
           setHoverStation={setHoverStation}
           setClickStation={setClickStation}
+        />
+      )}
+      { selectedItem && selectedItem.type === "station" && (
+        <RouteList
+          station={stations.find(s => s.properties.station_code === selectedItem.value)}
+          routes={routes}
+          setSelectedItem={setSelectedItem}
         />
       )}
     </div>

@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 
 import { Button } from "grommet";
-import trainSVG from "./train.svg";
 
 const Wrapper = styled.div`
   display: flex;
@@ -48,44 +47,14 @@ const Flex = styled.div`
   align-items: center;
   flex-wrap: wrap;
 `;
-const RouteName = styled.div`
-  display: flex;
-  align-items: center;
-  margin: 0 30px 20px 0;
-  span {
-    cursor: pointer;
-    &:hover { text-decoration: underline; }
-  }
-`;
-const Train = styled.div`
-  background-color: ${props => props.color};
-  mask: url(${trainSVG}) no-repeat 50% 50%;
-  mask-size: contain;
-  width: 25px;
-  height: 25px;
-  margin-right: 5px;
-
-  @media only screen and (max-width: 600px) {
-    width: 20px;
-    height: 20px;
-  }
-`;
 
 function StationHeader({ stations, routes, selectedItem, setSelectedItem, setSearchParams }) {
   const [station, setStation] = useState();
-  const [routeColors, setRouteColors] = useState([]);
 
   useEffect(() => {
     const newStation = stations.find(s => s.properties.station_code === selectedItem.value);
     setStation(newStation);
-
-    const newRouteColors = routes
-      .filter(r => newStation.properties.routes.indexOf(r.properties.NAME) !== -1)
-      .map(r => (
-        { color: r.color, name: r.properties.NAME }
-      ));
-    setRouteColors(newRouteColors);
-  }, [stations, routes, selectedItem]);
+  }, [stations, selectedItem]);
 
   const resetStation = () => {
     setSelectedItem();
@@ -97,32 +66,20 @@ function StationHeader({ stations, routes, selectedItem, setSelectedItem, setSea
   if (!station) return null;
 
   return (
-    <div>
-      <Wrapper>
-        <Flex>
-          <h2>{station.properties.station_name}</h2>
-          <a target="_blank" rel="noreferrer" href={href}>
-            view on amtrak.com<span>⇱</span>
-          </a>
-        </Flex>
-        <Flex>
-          <ResetButton onClick={resetStation} 
-            outline label="reset map"
-            size="small"
-          />
-        </Flex>
-      </Wrapper>
+    <Wrapper>
       <Flex>
-        { routeColors.map((r,i) => (
-          <RouteName key={`route${i}`} style={{ color: r.color }}>
-            <Train color={r.color} />
-            <span
-              onClick={() => setSelectedItem({ type: "route", value: r.name})}
-            >{r.name}</span>
-          </RouteName>
-        ))}
+        <h2>{station.properties.station_name}</h2>
+        <a target="_blank" rel="noreferrer" href={href}>
+          view on amtrak.com<span>⇱</span>
+        </a>
       </Flex>
-    </div>
+      <Flex>
+        <ResetButton onClick={resetStation} 
+          outline label="reset map"
+          size="small"
+        />
+      </Flex>
+    </Wrapper>
   );
 }
 

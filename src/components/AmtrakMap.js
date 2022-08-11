@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   }
 `;
 const Footer = styled.div`
-  margin-top: 40px;
+  margin-top: 80px;
   font-family: monospace;
   a { color: white; }
   @media only screen and (max-width: 800px) {
