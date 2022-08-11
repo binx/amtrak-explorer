@@ -4474,30 +4474,6 @@
         "type": "Feature",
         "properties":
         {
-            "address1": "2 North Village Loop",
-            "address2": " ",
-            "city": "Grand Canyon Village",
-            "routes": [],
-            "station_code": "GCN",
-            "state": "AZ",
-            "station_name": "Grand Canyon Village, AZ",
-            "station_type": "Station Building (with waiting room)",
-            "zipcode": "86023"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -112.13685625,
-                36.05687245800004
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
             "address1": "400 West Cerritos Avenue",
             "address2": " ",
             "city": "Glendale",
@@ -7300,30 +7276,7 @@
             ]
         }
     },
-    {
-        "type": "Feature",
-        "properties":
-        {
-            "address1": "17800 Shideler Parkway",
-            "address2": " ",
-            "city": "Manteca",
-            "routes": [],
-            "station_code": "LTM",
-            "state": "CA",
-            "station_name": "Lathrop-Manteca, CA",
-            "station_type": "Platform with Shelter",
-            "zipcode": "95330"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -121.26367104199994,
-                37.79836503000007
-            ]
-        }
-    },
+
     {
         "type": "Feature",
         "properties":
@@ -7600,30 +7553,6 @@
         "type": "Feature",
         "properties":
         {
-            "address1": "100 Washington Street",
-            "address2": " ",
-            "city": "Michigan City",
-            "routes": [],
-            "station_code": "MCI",
-            "state": "IN",
-            "station_name": "Michigan City, IN",
-            "station_type": "Platform only (no shelter)",
-            "zipcode": "46360"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -86.90539051999997,
-                41.72111086600006
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
             "address1": "101 Norris Avenue",
             "address2": " ",
             "city": "McCook",
@@ -7673,30 +7602,6 @@
             [
                 -72.80067911099997,
                 41.53939345900005
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
-            "address1": "18770 Road 26",
-            "address2": " ",
-            "city": "Madera",
-            "routes": [],
-            "station_code": "MDR",
-            "state": "CA",
-            "station_name": "Madera, CA",
-            "station_type": "Platform with Shelter",
-            "zipcode": "93638"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -120.07499276799996,
-                37.02247604400003
             ]
         }
     },
@@ -9293,30 +9198,6 @@
         "type": "Feature",
         "properties":
         {
-            "address1": "6600 Yelm Highway SE",
-            "address2": " ",
-            "city": "Lacey",
-            "routes": [],
-            "station_code": "OLW",
-            "state": "WA",
-            "station_name": "Olympia-Lacey, WA",
-            "station_type": "Station Building (with waiting room)",
-            "zipcode": "98513"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -122.79407382299996,
-                46.99127853500005
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
             "address1": "1003 South 9th Street",
             "address2": " ",
             "city": "Omaha",
@@ -9977,30 +9858,6 @@
             [
                 -88.53827799399994,
                 41.66239176500005
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
-            "address1": "4950 Pleasanton Avenue",
-            "address2": " ",
-            "city": "Pleasanton",
-            "routes": [],
-            "station_code": "PLS",
-            "state": "CA",
-            "station_name": "Pleasanton, CA",
-            "station_type": "Platform with Shelter",
-            "zipcode": "94566"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -121.88265212099998,
-                37.658156974000065
             ]
         }
     },
@@ -11473,30 +11330,6 @@
         "type": "Feature",
         "properties":
         {
-            "address1": "37601 Highway 26",
-            "address2": " ",
-            "city": "Sandy",
-            "routes": [],
-            "station_code": "SAY",
-            "state": "OR",
-            "station_name": "Sandy, OR",
-            "station_type": "Curbside Bus Stop only (no shelter)",
-            "zipcode": "97055"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -122.27626439499994,
-                45.40067350000004
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
             "address1": "209 State Street",
             "address2": " ",
             "city": "Santa Barbara",
@@ -12568,30 +12401,6 @@
         "type": "Feature",
         "properties":
         {
-            "address1": "33559 NE Prairie Street",
-            "address2": " ",
-            "city": "Scappoose",
-            "routes": [],
-            "station_code": "SPP",
-            "state": "OR",
-            "station_name": "Scappoose, OR",
-            "station_type": "Curbside Bus Stop only (no shelter)",
-            "zipcode": "97056"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -122.87683956399997,
-                45.75839145800006
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
             "address1": "450 Railroad Avenue",
             "address2": " ",
             "city": "Sandpoint",
@@ -13169,30 +12978,6 @@
         "type": "Feature",
         "properties":
         {
-            "address1": "4800 Tracy Boulevard",
-            "address2": " ",
-            "city": "Tracy",
-            "routes": [],
-            "station_code": "TRC",
-            "state": "CA",
-            "station_name": "Tracy, CA",
-            "station_type": "Platform with Shelter",
-            "zipcode": "95377"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -121.43398305599999,
-                37.69621600900007
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
             "address1": "72 South Clinton Avenue",
             "address2": " ",
             "city": "Trenton",
@@ -13550,30 +13335,6 @@
             [
                 -122.68655850599998,
                 45.62890647000006
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
-            "address1": "575 South Vasco Road",
-            "address2": " ",
-            "city": "Livermore",
-            "routes": [],
-            "station_code": "VAS",
-            "state": "CA",
-            "station_name": "Livermore, CA",
-            "station_type": "Platform with Shelter",
-            "zipcode": "94550"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -121.71835909999999,
-                37.69699098800004
             ]
         }
     },
@@ -14245,30 +14006,6 @@
         "type": "Feature",
         "properties":
         {
-            "address1": "233 North Grand Canyon Blvd",
-            "address2": " ",
-            "city": "Williams",
-            "routes": [],
-            "station_code": "WMA",
-            "state": "AZ",
-            "station_name": "Williams, AZ",
-            "station_type": "Station Building (with waiting room)",
-            "zipcode": "86046"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -112.19011718699994,
-                35.25195535100005
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
             "address1": "41 Central Street",
             "address2": " ",
             "city": "Windsor",
@@ -14481,58 +14218,6 @@
             [
                 -80.06218666699993,
                 26.712558926000042
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
-            "address1": "148 West Morse Boulevard",
-            "address2": " ",
-            "city": "Winter Park",
-            "routes": [],
-            "station_code": "WPK",
-            "state": "FL",
-            "station_name": "Winter Park, FL",
-            "station_type": "Station Building (with waiting room)",
-            "zipcode": "32789",
-            "routes":
-            [
-                "Silver Service/Palmetto"
-            ]
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -81.35199610299998,
-                28.597104357000035
-            ]
-        }
-    },
-    {
-        "type": "Feature",
-        "properties":
-        {
-            "address1": "85 Parsenn Road",
-            "address2": " ",
-            "city": "Winter Park",
-            "routes": [],
-            "station_code": "WPR",
-            "state": "CO",
-            "station_name": "Winter Park, CO",
-            "station_type": "Platform with Shelter",
-            "zipcode": "80402"
-        },
-        "geometry":
-        {
-            "type": "Point",
-            "coordinates":
-            [
-                -105.76325530299994,
-                39.88759038500007
             ]
         }
     },

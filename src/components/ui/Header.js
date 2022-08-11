@@ -19,6 +19,7 @@ const Wrapper = styled.div`
   }
 `;
 const H1Wrapper = styled.div`
+  cursor: pointer;
   h1 { margin-bottom: 20px; }
 `;
 const Tagline = styled.div`
@@ -29,9 +30,12 @@ const Tagline = styled.div`
   font-size: 12px;
 `;
 
-const Header = ({ setSelectedItem }) => (
+const Header = ({ setSelectedItem, setSearchParams }) => (
   <Wrapper>
-    <H1Wrapper>
+    <H1Wrapper onClick={() => {
+      setSelectedItem();
+      setSearchParams({});
+    }}>
       <h1>amtrak explorer</h1>
       <Tagline>explore the amtrakverse</Tagline>
     </H1Wrapper>

@@ -85,7 +85,7 @@ function MapSVG({
               strokeWidth="10"
               fill="none"
               style={{ cursor: "pointer" }}
-              onClick={() => selectedItem({ type: "route", value: d.name })}
+              onClick={() => setSelectedItem({ type: "route", value: d.name })}
             />
           ))}
         </g>

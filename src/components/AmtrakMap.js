@@ -45,7 +45,7 @@ function AmtrakMap() {
 
   return (
     <div>
-      <Header setSelectedItem={setSelectedItem} />
+      <Header setSelectedItem={setSelectedItem} setSearchParams={setSearchParams} />
       <Wrapper>
         <MapContainer
           selectedItem={selectedItem}
