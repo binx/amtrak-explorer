@@ -14,6 +14,7 @@ function VectorMap({
   }) {
 
   const [hoverStation, setHoverStation] = useState();
+  const [hoverRoute, setHoverRoute] = useState();
   const [clickStation, setClickStation] = useState();
 
   useEffect(() => {
@@ -38,6 +39,7 @@ function VectorMap({
           hoverStation={hoverStation}
           setHoverStation={setHoverStation}
           setClickStation={setClickStation}
+          hoverRoute={hoverRoute}
         />
         { hoverStation && (
           <HoverStation hoverStation={hoverStation} margin={margin} />
@@ -67,6 +69,7 @@ function VectorMap({
           station={stations.find(s => s.properties.station_code === selectedItem.value)}
           routes={routes}
           setSelectedItem={setSelectedItem}
+          setHoverRoute={setHoverRoute}
         />
       )}
     </div>

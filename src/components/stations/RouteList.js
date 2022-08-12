@@ -34,7 +34,7 @@ const Train = styled.div`
   }
 `;
 
-function RouteList({ station, routes, setSelectedItem }) {
+function RouteList({ station, routes, setSelectedItem, setHoverRoute }) {
   const [routeColors, setRouteColors] = useState([]);
 
   useEffect(() => {
@@ -52,6 +52,8 @@ function RouteList({ station, routes, setSelectedItem }) {
           <Train color={r.color} />
           <span
             onClick={() => setSelectedItem({ type: "route", value: r.name})}
+            onMouseEnter={() => setHoverRoute(r.name)}
+            onMouseLeave={() => setHoverRoute()}
           >{r.name}</span>
         </RouteName>
       ))}

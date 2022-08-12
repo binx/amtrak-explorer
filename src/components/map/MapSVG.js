@@ -45,7 +45,8 @@ function MapSVG({
   setSelectedItem,
   hoverStation,
   setHoverStation,
-  setClickStation
+  setClickStation,
+  hoverRoute
 }) {
   const isSmall = window.innerWidth < 800;
   
@@ -55,6 +56,7 @@ function MapSVG({
 
   const sortedRoutes = routes.sort((a,b) => {
     if (selectedItem && a.name === selectedItem.value) return 1;
+    else if (hoverRoute && a.name === hoverRoute) return 1;
     else return -1;
   });
 
@@ -96,9 +98,9 @@ function MapSVG({
               d={d.d}
               className={d.name} 
               stroke={d.color} 
-              hasRouteSelection={(selectedItem && selectedItem.type === "route")}
+              hasRouteSelection={(selectedItem && selectedItem.type === "route") || hoverRoute}
               hasStationSelection={(selectedItem && selectedItem.type === "station")}
-              selected={selectedItem && d.name === selectedItem.value}
+              selected={(selectedItem && d.name === selectedItem.value) || hoverRoute === d.name}
               onClick={() => setSelectedItem({ type: "route", value: d.name })}
             />
           ))}
