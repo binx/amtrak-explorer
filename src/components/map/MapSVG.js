@@ -17,6 +17,10 @@ const StatePath = styled.path`
   stroke: #888;
   stroke-dasharray: 2 2;
   stroke-width: 1;
+  @media only screen and (max-width: 600px) {
+    stroke-width: .5;
+    stroke-dasharray: 1 1;
+  }
 `;
 const Circle = styled.circle`
   fill: ${props => props.hovered ? "white" : "#222"};
@@ -74,6 +78,7 @@ function MapSVG({
           ))}
         </g>
         <DisplayRoutes
+          isSmall={isSmall}
           routes={routes}
           visType={visType}
           selectedItem={selectedItem}

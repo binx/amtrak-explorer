@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 
 import { scaleLog, scaleLinear } from "d3-scale";
-import { extent } from "d3-array";
+import { getScaleInfo } from "../util";
 
 const RoutePath = styled.path`
   fill: none;
@@ -10,17 +10,18 @@ const RoutePath = styled.path`
   cursor: pointer;
 `;
 
-function DisplayRoutes({ routes, visType, selectedItem, setSelectedItem, hoverRoute }) {
+function DisplayRoutes({
+  isSmall, routes, visType, selectedItem, setSelectedItem, hoverRoute
+}) {
   const [sortedRoutes, setSortedRoutes] = useState([]);
 
   useEffect(() => {
-    const typeExtent = extent(routes, d => d[visType]);
-    let scale;
+    const scaleInfo = getScaleInfo(visType, routes);
+    const scale = scaleInfo.scaleType &&
+      (scaleInfo.scaleType === "scaleLinear" ? scaleLinear() : scaleLog());
 
-    if (visType === "passengers" || visType === "weekly_trips")
-      scale = scaleLog().domain(typeExtent).range(["#6495ED", "#DE3163"]);
-    else if (visType === "normalized")
-      scale = scaleLinear().domain(typeExtent).range(["#6495ED", "#DE3163"]);
+    if (scale)
+      scale.domain(scaleInfo.extent).range(scaleInfo.colorRange);
 
     const newSortedRoutes = routes.map(r => {
       r.visColor = scale ? scale(r[visType]) : r.routeColor;
@@ -28,7 +29,7 @@ function DisplayRoutes({ routes, visType, selectedItem, setSelectedItem, hoverRo
     }).sort((a,b) => {
       if (selectedItem && a.name === selectedItem.value) return 1;
       else if (hoverRoute && a.name === hoverRoute) return 1;
-      else return (a[visType] - b[visType])/typeExtent[1];
+      else return (a[visType] - b[visType])/scaleInfo.extent[1];
     })
 
     setSortedRoutes(newSortedRoutes);
@@ -53,14 +54,16 @@ function DisplayRoutes({ routes, visType, selectedItem, setSelectedItem, hoverRo
         if (hasRouteSelection)
           opacity = isSelected ? 1 : .2;
 
-        const color = visType !== "default" ? d.visColor : d.routeColor;
+        const color = (visType !== "default" && !hasRouteSelection)
+          ? d.visColor : d.routeColor;
+          
         return (
           <RoutePath
             key={`route${i}`}
             d={d.d}
             className={d.name} 
             stroke={color}
-            strokeWidth={lineWidth}
+            strokeWidth={isSmall ? lineWidth/2 : lineWidth}
             opacity={opacity}
             onClick={() => setSelectedItem({ type: "route", value: d.name })}
           />
