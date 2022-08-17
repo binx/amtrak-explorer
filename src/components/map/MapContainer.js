@@ -4,6 +4,7 @@ import * as d3 from "d3-geo";
 import geoJSON from "../../data/Amtrak_Routes-simplified.geojson";
 import stationJSON from "../../data/Amtrak_Stations.geojson";
 import statesJSON from "../../data/us-states.geojson";
+import ridershipData from "../../data/amtrak_ridership.json";
 
 import RouteHeader from "../ui/RouteHeader";
 import StationHeader from "../ui/StationHeader";
@@ -45,9 +46,18 @@ function MapContainer({
     fetch(geoJSON).then(response => response.json())
       .then(data => {
         const newRouteDate = data.features.map((d,i) => {
-          d.color = colors[i%colors.length];
+          d.routeColor = colors[i%colors.length];
+          
+          const ridershipDatum = ridershipData
+            .find(route => route.name === d.properties.NAME);
+
+          d.passengers = ridershipDatum.passengers;
+          d.weekly_trips = ridershipDatum.weekly_trips;
+          d.normalized = ridershipDatum.weekly_trips ? ridershipDatum.passengers/ridershipDatum.weekly_trips : null;
+
           return d;
-        })
+        });
+
         setRouteData(newRouteDate);
       });
 
@@ -96,7 +106,10 @@ function MapContainer({
 
     const newRoutes = routeData.map((r,i) => ({
       name: r.properties.NAME,
-      color: r.color,
+      routeColor: r.routeColor,
+      passengers: r.passengers,
+      weekly_trips: r.weekly_trips,
+      normalized: r.normalized,
       d: path(r)
     }));
     setRoutes(newRoutes);
@@ -131,7 +144,7 @@ function MapContainer({
           selectedItem={selectedItem} 
           setSelectedItem={setSelectedItem}
           setSearchParams={setSearchParams}
-          color={routes.find(r => r.name === selectedItem.value).color}
+          color={routes.find(r => r.name === selectedItem.value).routeColor}
         />
       )}
       { selectedItem && selectedItem.type === "station" && (

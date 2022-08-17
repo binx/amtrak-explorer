@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import DisplayRoutes from "./DisplayRoutes";
+
 const SVG = styled.svg`
   border: 1px solid white;
   border-radius: 4px;
@@ -9,21 +11,6 @@ const SVG = styled.svg`
   @media only screen and (max-width: 600px) {
     margin: 0 0 20px 0;
   }
-`;
-const RoutePath = styled.path`
-  fill: none;
-  stroke-linecap: round;
-  cursor: pointer;
-  stroke-width: ${props => 
-    (props.hasRouteSelection || props.hasStationSelection )
-    ? (props.selected ? 5 : 3.5) 
-    : 2
-  };
-  opacity: ${props => {
-    if (props.hasRouteSelection) return (props.selected ? 1 : .2);
-    else if (props.hasStationSelection) return 2;
-    else return 1;
-  }};
 `;
 const StatePath = styled.path`
   fill: none;
@@ -46,19 +33,14 @@ function MapSVG({
   hoverStation,
   setHoverStation,
   setClickStation,
-  hoverRoute
+  hoverRoute,
+  visType
 }) {
   const isSmall = window.innerWidth < 800;
   
   let circleColor = "#888";
   if (selectedItem && selectedItem.type === "route")
-    circleColor = routes.find(r => r.name === selectedItem.value).color;
-
-  const sortedRoutes = routes.sort((a,b) => {
-    if (selectedItem && a.name === selectedItem.value) return 1;
-    else if (hoverRoute && a.name === hoverRoute) return 1;
-    else return -1;
-  });
+    circleColor = routes.find(r => r.name === selectedItem.value).routeColor;
 
   let triangleStation;
   if (selectedItem && selectedItem.type === "station") {
@@ -79,7 +61,7 @@ function MapSVG({
           ))}
         </g>
         <g>
-          {sortedRoutes.map((d,i) => (
+          {routes.map((d,i) => (
             <path
               key={`routeBehind${i}`}
               d={d.d}
@@ -91,20 +73,13 @@ function MapSVG({
             />
           ))}
         </g>
-        <g>
-          {routes.map((d,i) => (
-            <RoutePath
-              key={`route${i}`}
-              d={d.d}
-              className={d.name} 
-              stroke={d.color} 
-              hasRouteSelection={(selectedItem && selectedItem.type === "route") || hoverRoute}
-              hasStationSelection={(selectedItem && selectedItem.type === "station")}
-              selected={(selectedItem && d.name === selectedItem.value) || hoverRoute === d.name}
-              onClick={() => setSelectedItem({ type: "route", value: d.name })}
-            />
-          ))}
-        </g>
+        <DisplayRoutes
+          routes={routes}
+          visType={visType}
+          selectedItem={selectedItem}
+          setSelectedItem={setSelectedItem}
+          hoverRoute={hoverRoute}
+        />
         <g>
           {stations.map((d,i) => (
             <Circle

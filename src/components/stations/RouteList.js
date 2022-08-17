@@ -14,11 +14,9 @@ const Flex = styled.div`
 const RouteName = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  span {
-    cursor: pointer;
-    &:hover { text-decoration: underline; }
-  }
+  padding: 10px 0;
+  cursor: pointer;
+  &:hover span { text-decoration: underline; }
 `;
 const Train = styled.div`
   background-color: ${props => props.color};
@@ -48,13 +46,13 @@ function RouteList({ station, routes, setSelectedItem, setHoverRoute }) {
   return (
     <Flex>
       { routeColors.map((r,i) => (
-        <RouteName key={`route${i}`} style={{ color: r.color }}>
-          <Train color={r.color} />
-          <span
-            onClick={() => setSelectedItem({ type: "route", value: r.name})}
-            onMouseEnter={() => setHoverRoute(r.name)}
-            onMouseLeave={() => setHoverRoute()}
-          >{r.name}</span>
+        <RouteName key={`route${i}`} style={{ color: r.routeColor }}
+          onClick={() => setSelectedItem({ type: "route", value: r.name})}
+          onMouseEnter={() => setHoverRoute(r.name)}
+          onMouseLeave={() => setHoverRoute()}
+        >
+          <Train color={r.routeColor} />
+          <span>{r.name}</span>
         </RouteName>
       ))}
     </Flex>

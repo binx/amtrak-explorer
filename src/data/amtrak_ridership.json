@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Acela",
+        "weekly_trips": 93,
+        "passengers": 897600
+    },
+    {
+        "name": "Adirondack",
+        "weekly_trips": null,
+        "passengers": 117490
+    },
+    {
+        "name": "Cascades",
+        "weekly_trips": 35,
+        "passengers": 181500
+    },
+    {
+        "name": "Auto Train",
+        "weekly_trips": 7,
+        "passengers": 199400
+    },
+    {
+        "name": "Blue Water",
+        "weekly_trips": 7,
+        "passengers": 98700
+    },
+    {
+        "name": "California Zephyr",
+        "weekly_trips": 7,
+        "passengers": 184700
+    },
+    {
+        "name": "Capitol Corridor",
+        "weekly_trips": 102,
+        "passengers": 354400
+    },
+    {
+        "name": "Capitol Limited",
+        "weekly_trips": 7,
+        "passengers": 96900
+    },
+    {
+        "name": "Cardinal",
+        "weekly_trips": 3,
+        "passengers": 69100
+    },
+    {
+        "name": "Carolinian",
+        "weekly_trips": 7,
+        "passengers": 194700
+    },
+    {
+        "name": "City of New Orleans",
+        "weekly_trips": 5,
+        "passengers": 100800
+    },
+    {
+        "name": "Coast Starlight",
+        "weekly_trips": 7,
+        "passengers": 189600
+    },
+    {
+        "name": "Crescent",
+        "weekly_trips": 5,
+        "passengers": 114300
+    },
+    {
+        "name": "Downeaster",
+        "weekly_trips": 35,
+        "passengers": 205700
+    },
+    {
+        "name": "Empire Builder",
+        "weekly_trips": 7,
+        "passengers": 220700
+    },
+    {
+        "name": "Empire Service",
+        "weekly_trips": 59,
+        "passengers": 613200
+    },
+    {
+        "name": "Ethan Allen Express",
+        "weekly_trips": 7,
+        "passengers": 12500
+    },
+    {
+        "name": "Hartford Line",
+        "weekly_trips": 39,
+        "passengers": 192600
+    },
+    {
+        "name": "Heartland Flyer",
+        "weekly_trips": 7,
+        "passengers": 42300
+    },
+    {
+        "name": "Hiawatha",
+        "weekly_trips": 48,
+        "passengers": 241600
+    },
+    {
+        "name": "Saluki",
+        "weekly_trips": 14,
+        "passengers": 150100
+    },
+    {
+        "name": "Illinois Zephyr",
+        "weekly_trips": 14,
+        "passengers": 78200
+    },
+    {
+        "name": "Keystone Service",
+        "weekly_trips": 79,
+        "passengers": 394300
+    },
+    {
+        "name": "Lake Shore Limited",
+        "weekly_trips": 7,
+        "passengers": 195900
+    },
+    {
+        "name": "Lincoln Service",
+        "weekly_trips": 28,
+        "passengers": 261200
+    },
+    {
+        "name": "Maple Leaf",
+        "weekly_trips": 7,
+        "passengers": 245100
+    },
+    {
+        "name": "Missouri River Runner",
+        "weekly_trips": 7,
+        "passengers": 77200
+    },
+    {
+        "name": "Northeast Regional",
+        "weekly_trips": 120,
+        "passengers": 3960000
+    },
+    {
+        "name": "Pacific Surfliner",
+        "weekly_trips": 89,
+        "passengers": 841000
+    },
+    {
+        "name": "Pennsylvanian",
+        "weekly_trips": 7,
+        "passengers": 128500
+    },
+    {
+        "name": "Pere Marquette",
+        "weekly_trips": 7,
+        "passengers": 52400
+    },
+    {
+        "name": "Piedmont",
+        "weekly_trips": 21,
+        "passengers": 92200
+    },
+    {
+        "name": "San Joaquins",
+        "weekly_trips": 49,
+        "passengers": 434100
+    },
+    {
+        "name": "Silver Service/Palmetto",
+        "weekly_trips": 14,
+        "passengers": 334900
+    },
+    {
+        "name": "Southwest Chief",
+        "weekly_trips": 7,
+        "passengers": 135900
+    },
+    {
+        "name": "Sunset Limited",
+        "weekly_trips": 3,
+        "passengers": 57600
+    },
+    {
+        "name": "Texas Eagle",
+        "weekly_trips": 7,
+        "passengers": 151400
+    },
+    {
+        "name": "Vermonter",
+        "weekly_trips": 7,
+        "passengers": 18600
+    },
+    {
+        "name": "Wolverine",
+        "weekly_trips": 21,
+        "passengers": 153900
+    }
+]

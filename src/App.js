@@ -14,6 +14,16 @@ const theme = {
       brand: "#48D5C6"
     }
   },
+  radioButton: {
+    border: {
+      color: "#888"
+    },
+    hover: {
+      border: {
+        color: "#ccc"
+      }
+    }
+  }
 };
 
 function App() {
