@@ -14,8 +14,8 @@ function DisplayStations({
   stations,
   selectedItem,
   setSelectedItem,
-  hoverStation,
-  setHoverStation,
+  hoverLabel,
+  setHoverLabel,
   setClickStation
 }) {  
   let circleColor = "#888";
@@ -32,9 +32,14 @@ function DisplayStations({
           strokeWidth={isSmall ? 1 : 2}
           color={circleColor}
           hasConnection={d.properties.routes.length > 1}
-          hovered={hoverStation && hoverStation.properties.station_code === d.properties.station_code}
-          onMouseEnter={() => setHoverStation(d)}
-          onMouseLeave={() => setHoverStation()}
+          hovered={hoverLabel && hoverLabel.value === d.properties.station_name}
+          onMouseEnter={() => (
+            setHoverLabel({
+              point: d.point,
+              value: d.properties.station_name
+            })
+          )}
+          onMouseLeave={() => setHoverLabel()}
           onClick={() => {
             if (selectedItem && selectedItem.type === "station")
               setSelectedItem({ type: "station", value: d.properties.station_code })

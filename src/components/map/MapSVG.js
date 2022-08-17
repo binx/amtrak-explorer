@@ -28,8 +28,8 @@ function MapSVG({
   states, routes, stations, width, height, margin, 
   selectedItem,
   setSelectedItem,
-  hoverStation,
-  setHoverStation,
+  hoverLabel,
+  setHoverLabel,
   setClickStation,
   hoverRoute,
   visType
@@ -54,33 +54,22 @@ function MapSVG({
             <StatePath d={d.d} key={`state${i}`} />
           ))}
         </g>
-        <g>
-          {routes.map((d,i) => (
-            <path
-              key={`routeBehind${i}`}
-              d={d.d}
-              stroke="transparent"
-              strokeWidth="10"
-              fill="none"
-              style={{ cursor: "pointer" }}
-              onClick={() => setSelectedItem({ type: "route", value: d.name })}
-            />
-          ))}
-        </g>
         <DisplayRoutes
           isSmall={isSmall}
+          margin={margin}
           routes={routes}
           visType={visType}
           selectedItem={selectedItem}
           setSelectedItem={setSelectedItem}
           hoverRoute={hoverRoute}
+          setHoverLabel={setHoverLabel}
         />
         <DisplayStations
           isSmall={isSmall}
           routes={routes}
           stations={stations}
-          hoverStation={hoverStation}
-          setHoverStation={setHoverStation}
+          hoverLabel={hoverLabel}
+          setHoverLabel={setHoverLabel}
           setClickStation={setClickStation}
           selectedItem={selectedItem}
           setSelectedItem={setSelectedItem}

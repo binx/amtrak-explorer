@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import MapSVG from "./MapSVG";
-import HoverStation from "./HoverStation";
+import HoverLabel from "./HoverLabel";
 import ClickStation from "./ClickStation";
 
 import DefaultMapVis from "./DefaultMapVis";
@@ -14,9 +14,9 @@ function VectorMap({
     selectedItem, setSelectedItem
   }) {
 
-  const [hoverStation, setHoverStation] = useState();
-  const [hoverRoute, setHoverRoute] = useState();
+  const [hoverLabel, setHoverLabel] = useState();
   const [clickStation, setClickStation] = useState();
+  const [hoverRoute, setHoverRoute] = useState();
 
   const [visType, setVisType] = useState("default");
 
@@ -39,14 +39,14 @@ function VectorMap({
           states={states}
           selectedItem={selectedItem}
           setSelectedItem={setSelectedItem}
-          hoverStation={hoverStation}
-          setHoverStation={setHoverStation}
+          hoverLabel={hoverLabel}
+          setHoverLabel={setHoverLabel}
           setClickStation={setClickStation}
           hoverRoute={hoverRoute}
           visType={visType}
         />
-        { hoverStation && (
-          <HoverStation hoverStation={hoverStation} margin={margin} />
+        { hoverLabel && (
+          <HoverLabel hoverLabel={hoverLabel} margin={margin} />
         )}
         { clickStation && (
           <ClickStation
@@ -64,9 +64,9 @@ function VectorMap({
             <StationList
               stations={stations}
               selectedItem={selectedItem}
-              hoverStation={hoverStation}
+              hoverLabel={hoverLabel}
               color={highlightColor}
-              setHoverStation={setHoverStation}
+              setHoverLabel={setHoverLabel}
               setClickStation={setClickStation}
             />
           )}

@@ -32,7 +32,9 @@ const Spacer = styled.div`
   align-items: center;
 `;
 
-function StationList({ stations, selectedItem, hoverStation, color, setHoverStation, setClickStation }) {
+function StationList({
+  stations, selectedItem, hoverLabel, color, setHoverLabel, setClickStation
+}) {
 
   const [stationList, setStationList] = useState([]);
 
@@ -83,10 +85,15 @@ function StationList({ stations, selectedItem, hoverStation, color, setHoverStat
             )}
             { segment.stations.map((d,i) => (
               <Flex key={`station${i}`}
-                onMouseEnter={() => setHoverStation(d)}
-                onMouseLeave={() => setHoverStation()}
+                onMouseEnter={() => (
+                  setHoverLabel({
+                    point: d.point,
+                    value: d.properties.station_name
+                  })
+                )}
+                onMouseLeave={() => setHoverLabel()}
                 onClick={() => setClickStation(d)}
-                hovered={hoverStation && hoverStation.properties.station_code === d.properties.station_code} 
+                hovered={hoverLabel && hoverLabel.value === d.properties.station_name} 
                 color={color}
               >
                 <Spacer depth={segment.depth} />

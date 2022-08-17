@@ -11,7 +11,14 @@ const RoutePath = styled.path`
 `;
 
 function DisplayRoutes({
-  isSmall, routes, visType, selectedItem, setSelectedItem, hoverRoute
+  isSmall,
+  margin,
+  routes,
+  visType, 
+  selectedItem,
+  setSelectedItem,
+  hoverRoute,
+  setHoverLabel
 }) {
   const [sortedRoutes, setSortedRoutes] = useState([]);
 
@@ -37,39 +44,68 @@ function DisplayRoutes({
   }, [routes, visType, selectedItem, hoverRoute]);
 
   return (
-    <g>
-      {sortedRoutes.map((d,i) => {
-        const hasRouteSelection = (selectedItem && selectedItem.type === "route") || hoverRoute;
-        const hasStationSelection = (selectedItem && selectedItem.type === "station")
-        const isSelected = (selectedItem && d.name === selectedItem.value) || hoverRoute === d.name;
-
-        let lineWidth = 2;
-        let opacity = 1;
-
-        if (visType !== "default") {
-          lineWidth = 4;
-        } else if (hasRouteSelection || hasStationSelection ) {
-          lineWidth = isSelected ? 5 : 3.5;
-        }
-        if (hasRouteSelection)
-          opacity = isSelected ? 1 : .2;
-
-        const color = (visType !== "default" && !hasRouteSelection)
-          ? d.visColor : d.routeColor;
-          
-        return (
-          <RoutePath
-            key={`route${i}`}
+    <>
+      <g>
+        {routes.map((d,i) => (
+          <path
+            key={`routeBehind${i}`}
             d={d.d}
-            className={d.name} 
-            stroke={color}
-            strokeWidth={isSmall ? lineWidth/2 : lineWidth}
-            opacity={opacity}
+            stroke="transparent"
+            strokeWidth="10"
+            fill="none"
+            style={{ cursor: "pointer" }}
             onClick={() => setSelectedItem({ type: "route", value: d.name })}
+            onMouseEnter={e => {
+            !selectedItem && setHoverLabel({
+                point: [e.nativeEvent.offsetX - margin, e.nativeEvent.offsetY - 40],
+                value: d.name
+              })
+            }}
+            onMouseLeave={() => setHoverLabel()}
           />
-        );
-      })}
-    </g>
+        ))}
+      </g>
+      <g>
+        {sortedRoutes.map((d,i) => {
+          const hasRouteSelection = (selectedItem && selectedItem.type === "route") || hoverRoute;
+          const hasStationSelection = (selectedItem && selectedItem.type === "station")
+          const isSelected = (selectedItem && d.name === selectedItem.value) || hoverRoute === d.name;
+
+          let lineWidth = 2;
+          let opacity = 1;
+
+          if (visType !== "default") {
+            lineWidth = 4;
+          } else if (hasRouteSelection || hasStationSelection ) {
+            lineWidth = isSelected ? 5 : 3.5;
+          }
+          if (hasRouteSelection)
+            opacity = isSelected ? 1 : .2;
+
+          const color = (visType !== "default" && !hasRouteSelection)
+            ? d.visColor : d.routeColor;
+            
+          return (
+            <RoutePath
+              key={`route${i}`}
+              d={d.d}
+              className={d.name} 
+              stroke={color}
+              strokeWidth={isSmall ? lineWidth/2 : lineWidth}
+              opacity={opacity}
+              onClick={() => setSelectedItem({ type: "route", value: d.name })}
+              onMouseEnter={e => {
+                !selectedItem && setHoverLabel({
+                  point: [e.nativeEvent.offsetX - margin, e.nativeEvent.offsetY - 40],
+                  value: d.name
+                })
+              }}
+              onMouseLeave={() => setHoverLabel()}
+            />
+          );
+        })}
+      </g>
+    </>
   );
 }
 

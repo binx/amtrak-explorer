@@ -23,10 +23,9 @@ const DataFootnote = styled.div`
   font-size: 12px;
   margin-top: 20px;
   max-width: 400px;
+  
   div { margin-top: 10px; }
-
   a { color: white; text-decoration-color: #888; }
-
   ul { padding-left: 20px; }
 `;
 
