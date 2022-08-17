@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Circle = styled.circle`
   fill: ${props => props.hovered ? "white" : "#222"};
   stroke: ${props => (props.hasConnection ? "white" : props.color)};
-  stroke-width: 3;
   cursor: pointer;
   &:hover { fill: white; }
 `;
@@ -28,8 +27,8 @@ function DisplayStations({
         <Circle
           key={`station${i}`}
           cx={d.point[0]} cy={d.point[1]}
-          r={isSmall ? 4 : 6}
-          strokeWidth={isSmall ? 1 : 2}
+          r={isSmall ? 3 : 6}
+          strokeWidth={isSmall ? 2 : 3}
           color={circleColor}
           hasConnection={d.properties.routes.length > 1}
           hovered={hoverLabel && hoverLabel.value === d.properties.station_name}

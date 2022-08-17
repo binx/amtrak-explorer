@@ -44,6 +44,9 @@ const Legend = styled.div`
   font-size: 14px;
   width: 265px;
   color: #8b8b8b;
+  @media only screen and (max-width: 415px) {
+    margin-top: 10px;
+  }
 `;
 const Flex = styled.div`
   display: flex;
