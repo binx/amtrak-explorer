@@ -5,15 +5,24 @@ import { RadioButtonGroup } from "grommet";
 
 import { scaleLog, scaleLinear } from "d3-scale";
 import { select } from 'd3-selection';
-import { axisRight } from "d3-axis";
+import { axisLeft } from "d3-axis";
 
 import { getScaleInfo } from "../util";
 
-const H4 = styled.h4`
-  margin-top: .25em;
+const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  @media only screen and (min-width: 900px) {
+    width: 240px;
+  }
   @media only screen and (max-width: 900px) {
     margin-top: 40px;
+    width: 100%;
+    justify-content: space-between;
   }
+`;
+const H4 = styled.h4`
+  margin-top: .25em;
 `;
 const ButtonGroup = styled(RadioButtonGroup)`
   border-color: white;
@@ -21,10 +30,9 @@ const ButtonGroup = styled(RadioButtonGroup)`
 const Flex = styled.div`
   display: flex;
   height: 200px;
-  margin-top: 40px;
 `;
 const LegendColor = styled.div`
-  margin-right: 10px;
+  margin-left: 10px;
   > div { height: 5px; width: 10px; }
 `;
 
@@ -40,7 +48,11 @@ function DefaultMapVis({ visType, setVisType, routes }) {
   const [legendColors, setLegendColors] = useState([]);
 
   useEffect(() => {
-    if (visType === "default") return;
+    if (visType === "default") {
+      setLegendColors([]);
+      select(axisRef.current).selectAll("*").remove();
+      return;
+    }
 
     const height = 200;
 
@@ -50,7 +62,7 @@ function DefaultMapVis({ visType, setVisType, routes }) {
 
     numberScale.domain(scaleInfo.extent).range([height, 0]).nice();
 
-    const axisDefs = axisRight(numberScale).ticks(3);
+    const axisDefs = axisLeft(numberScale).ticks(3);
     select(axisRef.current).call(axisDefs);
 
     const numBoxes = 40;
@@ -76,25 +88,27 @@ function DefaultMapVis({ visType, setVisType, routes }) {
   }, [routes, visType]);
 
   return (
-    <div>
-      <H4>color routes by</H4>
-      <ButtonGroup
-        name="Show Those Routes"
-        options={options}
-        value={visType}
-        onChange={(e) => setVisType(e.target.value)}
-      />
+    <Wrapper>
+      <div>
+        <H4>color routes by</H4>
+        <ButtonGroup
+          name="Show Those Routes"
+          options={options}
+          value={visType}
+          onChange={(e) => setVisType(e.target.value)}
+        />
+      </div>
       <Flex>
+        <svg style={{ overflow: "visible" }} width="40px">
+          <g transform="translate(40,0)" ref={axisRef} />
+        </svg>
         <LegendColor>
           {legendColors.map((l,i) => (
             <div key={`leg${i}`} style={{ backgroundColor: l }} />)
           )}
         </LegendColor>
-        <svg style={{ overflow: "visible" }} width="50px">
-          <g ref={axisRef} />
-        </svg>
       </Flex>
-    </div>
+    </Wrapper>
   );
 }
 
