@@ -11,9 +11,9 @@ import { getScaleInfo } from "../util";
 
 const Wrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
   @media only screen and (min-width: 900px) {
     width: 240px;
+    flex-direction: column;
   }
   @media only screen and (max-width: 900px) {
     margin-top: 40px;
@@ -30,6 +30,9 @@ const ButtonGroup = styled(RadioButtonGroup)`
 const Flex = styled.div`
   display: flex;
   height: 200px;
+  @media only screen and (min-width: 900px) {
+    margin-top: 40px;
+  }
 `;
 const LegendColor = styled.div`
   margin-left: 10px;
