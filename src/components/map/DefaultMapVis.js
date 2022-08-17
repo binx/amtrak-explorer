@@ -43,8 +43,8 @@ function DefaultMapVis({ visType, setVisType, routes }) {
   const options = [
     { label: "name", value: "default" },
     { label: "annual passengers", value: "passengers" },
-    { label: "weekly trips", value: "weekly_trips" },
-    { label: "avg passengers by trip", value: "normalized" },
+    { label: "trips per week", value: "weekly_trips" },
+    // { label: "avg passengers by trip", value: "normalized" },
   ]
 
   const axisRef = useRef();
