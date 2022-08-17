@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import DisplayRoutes from "./DisplayRoutes";
+import DisplayStations from "./DisplayStations";
 
 const SVG = styled.svg`
   border: 1px solid white;
@@ -22,13 +23,6 @@ const StatePath = styled.path`
     stroke-dasharray: 1 1;
   }
 `;
-const Circle = styled.circle`
-  fill: ${props => props.hovered ? "white" : "#222"};
-  stroke: ${props => (props.hasConnection ? "white" : props.color)};
-  stroke-width: 3;
-  cursor: pointer;
-  &:hover { fill: white; }
-`;
 
 function MapSVG({
   states, routes, stations, width, height, margin, 
@@ -41,10 +35,6 @@ function MapSVG({
   visType
 }) {
   const isSmall = window.innerWidth < 800;
-  
-  let circleColor = "#888";
-  if (selectedItem && selectedItem.type === "route")
-    circleColor = routes.find(r => r.name === selectedItem.value).routeColor;
 
   let triangleStation;
   if (selectedItem && selectedItem.type === "station") {
@@ -85,27 +75,16 @@ function MapSVG({
           setSelectedItem={setSelectedItem}
           hoverRoute={hoverRoute}
         />
-        <g>
-          {stations.map((d,i) => (
-            <Circle
-              key={`station${i}`}
-              cx={d.point[0]} cy={d.point[1]}
-              r={isSmall ? 4 : 6}
-              strokeWidth={isSmall ? 1 : 2}
-              color={circleColor}
-              hasConnection={d.properties.routes.length > 1}
-              hovered={hoverStation && hoverStation.properties.station_code === d.properties.station_code}
-              onMouseEnter={() => setHoverStation(d)}
-              onMouseLeave={() => setHoverStation()}
-              onClick={() => {
-                if (selectedItem && selectedItem.type === "station")
-                  setSelectedItem({ type: "station", value: d.properties.station_code })
-                else
-                  setClickStation(d)
-              }}
-            />
-          ))}
-        </g>
+        <DisplayStations
+          isSmall={isSmall}
+          routes={routes}
+          stations={stations}
+          hoverStation={hoverStation}
+          setHoverStation={setHoverStation}
+          setClickStation={setClickStation}
+          selectedItem={selectedItem}
+          setSelectedItem={setSelectedItem}
+        />
         {triangleStation && (
           <path d={triangleStation} fill="white" strokeWidth="3" stroke="#222" />
         )}

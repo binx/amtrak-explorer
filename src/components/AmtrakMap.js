@@ -25,7 +25,9 @@ const DataFootnote = styled.div`
   max-width: 400px;
   div { margin-top: 10px; }
 
-  a { color: white; }
+  a { color: white; text-decoration-color: #888; }
+
+  ul { padding-left: 20px; }
 `;
 
 function AmtrakMap() {
@@ -55,11 +57,15 @@ function AmtrakMap() {
         />
         <Footer>site by <a href="https://rachelbinx.com">rachel binx</a></Footer>
         <DataFootnote>
-          I built this site because I wanted a visual explore tool to understand the amtrak network, to see which trains run to which stations. The data is correlated from several sites to map routes & station names.
+          <div>the repo powering this site can be found <a href="https://github.com/binx/amtrak-explorer">here</a></div>
 
-          <div>station/route correlation from <a href="https://www.wikiwand.com/en/List_of_Amtrak_stations">here</a></div>
-          <div>route geojson from <a href="https://data-usdot.opendata.arcgis.com/datasets/baa5a6c4d4ae4034850e99aaca38cfbb/explore">here</a></div>
-          <div>station lat/lng from <a href="https://github.com/datanews/amtrak-geojson">here</a></div>
+          <div>datasets this site uses:</div>
+          <ul>
+            <li><a href="https://www.wikiwand.com/en/List_of_Amtrak_stations">station/route correlation</a></li>
+            <li><a href="https://data-usdot.opendata.arcgis.com/datasets/baa5a6c4d4ae4034850e99aaca38cfbb/explore">routes geojson</a></li>
+            <li><a href="https://github.com/datanews/amtrak-geojson">station lat/lng</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/List_of_Amtrak_routes">ridership counts</a></li>
+          </ul>
         </DataFootnote>
       </Wrapper>
     </div>
