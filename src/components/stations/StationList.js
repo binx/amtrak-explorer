@@ -40,8 +40,8 @@ function StationList({
 
   useEffect(() => {
     const getStations = list => (
-      list.map(d => stations.find(s => s.properties.station_name === d))
-    );
+      list.map(d => (stations.find(s => s.properties.station_name === d)))
+    )
 
     // flattened list for rendering
     const pushToList = (obj) => {
@@ -50,7 +50,7 @@ function StationList({
         linksUp: obj.linksUp,
         splitsOff: obj.splitsOff,
         endOfLine: obj.endOfLine,
-        stations: getStations(obj.stations)
+        stations: getStations(obj.stations).filter(d => d)
       });
     }
 
@@ -74,6 +74,7 @@ function StationList({
   }, [stations]);
 
 
+  console.log(stationList)
   return (
     <Wrapper>
       <StationLineVis stationList={stationList} color={color} />
